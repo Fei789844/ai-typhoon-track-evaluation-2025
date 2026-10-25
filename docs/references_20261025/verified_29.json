@@ -1,0 +1,430 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2026-10-24T20:16:52Z",
+    "timestamp": 1792873012586,
+    "version": "4.5.0"
+  },
+  "reference-count": 54,
+  "publisher": "Annual Reviews",
+  "issue": "1",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Annu. Rev. Fluid Mech."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2005,
+        1,
+        1
+      ]
+    ]
+  },
+  "abstract": "<jats:p>▪ Abstract  This article reviews our current understanding of the physical mechanisms governing the movement of a tropical cyclone. In a barotropic framework, a tropical cyclone is basically “steered” by the surrounding flow but its movement is modified by the Coriolis force (referred to as the beta effect) and the horizontal vorticity gradient of the surrounding flow. In the presence of vertical wind shear and latent heat release, a tropical cyclone tends to move toward an area with a maximum in the time tendency of potential vorticity, which is mainly contributed by two processes: (a) advection that depends on the structures of the vortex and the environment surrounding the vortex in terms of their flow speed and vorticity gradient (including the beta effect), and (b) heating that results from a coupling between the latent heat released in the clouds and the vertical wind shear.</jats:p>",
+  "DOI": "10.1146/annurev.fluid.37.061903.175702",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2005,
+        1,
+        7
+      ]
+    ],
+    "date-time": "2005-01-07T22:11:46Z",
+    "timestamp": 1105135906000
+  },
+  "page": "99-128",
+  "source": "Crossref",
+  "is-referenced-by-count": 242,
+  "title": [
+    "THE PHYSICS OF TROPICAL CYCLONE MOTION"
+  ],
+  "prefix": "10.1146",
+  "volume": "37",
+  "author": [
+    {
+      "given": "Johnny C.L.",
+      "family": "Chan",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Laboratory for Atmospheric Research, Department of Physics & Materials Science, City University of Hong Kong, Hong Kong, China;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "22",
+  "reference": [
+    {
+      "key": "B1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2153-3490.1960.tb01308.x"
+    },
+    {
+      "key": "B2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1990)047<0542:OEFPOT>2.0.CO;2"
+    },
+    {
+      "key": "B3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(1992)120<0644:ATCACF>2.0.CO;2"
+    },
+    {
+      "key": "B4",
+      "unstructured": "Chan JCL. 1982. On the physical processes responsible for tropical cyclone motion.\n                      Atmos. Sci. Paper No. 358\n                      , Dept. of Atmos. Sci., Colorado State Univ., Ft. Collins, Colorado"
+    },
+    {
+      "key": "B5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1984)041<1036:AOSOTP>2.0.CO;2"
+    },
+    {
+      "key": "B6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(1985)113<0106:IOTSFF>2.0.CO;2"
+    },
+    {
+      "key": "B7",
+      "unstructured": "Chan JCL. 1997. Barotropic dynamics of tropical cyclone motion as inferred from the TCM-90 Final Analysis dataset. In\n                      Preprints, 22nd Conference on Hurricanes and Tropical Meteorology\n                      ,pp.625–26Boston: Amer. Meteorol. Soc."
+    },
+    {
+      "key": "B8",
+      "unstructured": "Chan JCL. 2002. Tropical cyclone motion.\n                      Topic Chairman and Rapporteur Rep. 5th WMO Intl. Workshop on Tropical Cyclones\n                      (\n                      IWTC-V\n                      ), Cairns, Australia, WMO/TD No. 1136, World Meteorol. Organ., Geneva, Switzerland"
+    },
+    {
+      "key": "B9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF01030787"
+    },
+    {
+      "key": "B10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(1982)110<1354:TCMASF>2.0.CO;2"
+    },
+    {
+      "key": "B11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(2002)059<1317:RBPVTA>2.0.CO;2"
+    },
+    {
+      "key": "B12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF01022526"
+    },
+    {
+      "key": "B13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1987)044<1257:AANSOT>2.0.CO;2"
+    },
+    {
+      "key": "B14",
+      "unstructured": "Elsberry RL, ed. 1987.\n                      A Global View of Tropical Cyclones.\n                      ChicagoUniv. Chicago Press.185 pp."
+    },
+    {
+      "key": "B15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0477(1990)071<1305:IETSTC>2.0.CO;2"
+    },
+    {
+      "key": "B16",
+      "unstructured": "Elsberry RL, ed. 1995.\n                      Global Perspectives of Tropical Cyclones\n                      . WMO-/TD No. 693, World Meteorol. Organ.289 pp."
+    },
+    {
+      "key": "B17",
+      "unstructured": "Elsberry RL, Dobos PH, Titley DW. 1993. Extraction of large-scale environmental flow components from the TCM-90 analyses: implication for tropical cyclone motion studies. In\n                      Preprints, 20th Conference on Hurricanes and Tropical Meteorology\n                      , pp.485–488. Boston: Am. Meteorol. Soc."
+    },
+    {
+      "key": "B18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1991)048<0301:IBABVA>2.0.CO;2"
+    },
+    {
+      "key": "B19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1989)046<0975:SAOVSR>2.0.CO;2"
+    },
+    {
+      "key": "B20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(1990)118<2732:DOOTEF>2.0.CO;2"
+    },
+    {
+      "key": "B21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(2000)128<1187:TCTFUA>2.0.CO;2"
+    },
+    {
+      "key": "B22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/met.5060020211"
+    },
+    {
+      "key": "B23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1983)040<0328:TCMEIP>2.0.CO;2"
+    },
+    {
+      "key": "B24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1984)041<0068:TCMACO>2.0.CO;2"
+    },
+    {
+      "key": "B25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(1992)120<2394:CODOFA>2.0.CO;2"
+    },
+    {
+      "key": "B26",
+      "unstructured": "Holton JR. 1992.\n                      An Introduction to Dynamic Meteorology\n                      . 3rd ed., Academic Press.511 pp."
+    },
+    {
+      "key": "B27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1256/smsqj.47001"
+    },
+    {
+      "key": "B28",
+      "unstructured": "JTWC. 1998. Typhoon Rex.\n                      1998 Annual Tropical Cyclone Report.\n                      pp.53–56Guam: Joint Typhoon Warning Cent."
+    },
+    {
+      "key": "B29",
+      "first-page": "93",
+      "volume-title": "Preprints, 19th Conference on Hurricanes and Tropical Meteorology",
+      "author": "Kaplan J",
+      "year": "1991"
+    },
+    {
+      "key": "B30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1957)014<0386:TNPOHM>2.0.CO;2"
+    },
+    {
+      "key": "B31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1960)017<0357:TNPOHM>2.0.CO;2"
+    },
+    {
+      "key": "B32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2153-3490.1963.tb01395.x"
+    },
+    {
+      "key": "B33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0477(1998)079<0305:LTCFPA>2.0.CO;2"
+    },
+    {
+      "key": "B34",
+      "first-page": "II.4.1.",
+      "volume-title": "Operational Techniques for Forecasting Tropical Cyclone Intensity and Movement.",
+      "author": "Neumann CJ",
+      "year": "1979"
+    },
+    {
+      "key": "B35",
+      "first-page": "23",
+      "volume-title": "Preprints, 21st Conference on Hurricanes and Tropical Meteorology",
+      "author": "Ngan KW",
+      "year": "1995"
+    },
+    {
+      "key": "B36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1990)047<1987:DOVAAT>2.0.CO;2"
+    },
+    {
+      "key": "B37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(1991)119<0848:TDOFAI>2.0.CO;2"
+    },
+    {
+      "key": "B38",
+      "first-page": "175",
+      "volume": "7",
+      "author": "Rossby CG",
+      "year": "1948",
+      "journal-title": "J. Mar. Res."
+    },
+    {
+      "key": "B39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1973)030<1544:THICRI>2.0.CO;2"
+    },
+    {
+      "key": "B40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1992)049<0140:HVMAEI>2.0.CO;2"
+    },
+    {
+      "key": "B41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(1999)127<0124:PVAATC>2.0.CO;2"
+    },
+    {
+      "key": "B42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1256/smsqj.50002"
+    },
+    {
+      "key": "B43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1256/smsqj.49205"
+    },
+    {
+      "key": "B44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1256/smsqj.49705"
+    },
+    {
+      "key": "B45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0434(1991)006<0244:TBRBTC>2.0.CO;2"
+    },
+    {
+      "key": "B46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1996)053<3737:TBDOBV>2.0.CO;2"
+    },
+    {
+      "key": "B47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1994)051<1065:NSOTBE>2.0.CO;2"
+    },
+    {
+      "key": "B48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1988)045<1906:LMOASW>2.0.CO;2"
+    },
+    {
+      "key": "B49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1992)049<2015:LMOASW>2.0.CO;2"
+    },
+    {
+      "key": "B50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1993)050<0062:IOABVW>2.0.CO;2"
+    },
+    {
+      "key": "B51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(1995)123<0069:PVDOHM>2.0.CO;2"
+    },
+    {
+      "key": "B52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(1995)123<0093:PVDOHM>2.0.CO;2"
+    },
+    {
+      "key": "B53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0469(1996)053<2264:ANSOTF>2.0.CO;2"
+    },
+    {
+      "key": "B54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0493(2000)128<1899:APVTDA>2.0.CO;2"
+    }
+  ],
+  "container-title": [
+    "Annual Review of Fluid Mechanics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.annualreviews.org/doi/pdf/10.1146/annurev.fluid.37.061903.175702",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        10,
+        11
+      ]
+    ],
+    "date-time": "2021-10-11T22:34:11Z",
+    "timestamp": 1633991651000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.annualreviews.org/doi/10.1146/annurev.fluid.37.061903.175702"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2005,
+        1,
+        1
+      ]
+    ]
+  },
+  "references-count": 54,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2005,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1146/annurev.fluid.37.061903.175702"
+  ],
+  "URL": "https://doi.org/10.1146/annurev.fluid.37.061903.175702",
+  "relation": {},
+  "ISSN": [
+    "0066-4189",
+    "1545-4479"
+  ],
+  "issn-type": [
+    {
+      "value": "0066-4189",
+      "type": "print"
+    },
+    {
+      "value": "1545-4479",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2005,
+        1,
+        1
+      ]
+    ]
+  }
+}

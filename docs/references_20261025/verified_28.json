@@ -1,0 +1,815 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        22
+      ]
+    ],
+    "date-time": "2026-10-22T16:24:58Z",
+    "timestamp": 1792686298731,
+    "version": "4.5.0"
+  },
+  "reference-count": 44,
+  "publisher": "American Meteorological Society",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2024-06-01T00:00:00Z",
+        "timestamp": 1717200000000
+      },
+      "content-version": "unspecified",
+      "delay-in-days": 0,
+      "URL": "http://www.ametsoc.org/PUBSReuseLicenses"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        6
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Data-driven modeling based on machine learning (ML) is showing enormous potential for weather forecasting. Rapid progress has been made with impressive results for some applications. The uptake of ML methods could be a game changer for the incremental progress in traditional numerical weather prediction (NWP) known as the “quiet revolution” of weather forecasting. The computational cost of running a forecast with standard NWP systems greatly hinders the improvements that can be made by increasing model resolution and ensemble sizes. An emerging new generation of ML models, developed using high-quality reanalysis datasets like ERA5 for training, allows forecasts that require much lower computational costs and that are highly competitive in terms of accuracy. Here, we compare for the first time ML-generated forecasts with standard NWP-based forecasts in an operational-like context, initialized from the same initial conditions. Focusing on deterministic forecasts, we apply common forecast verification tools to assess to what extent a data-driven forecast produced with one of the recently developed ML models (PanguWeather) matches the quality and attributes of a forecast from one of the leading global NWP systems (the ECMWF IFS). The results are very promising, with comparable accuracy for both global metrics and extreme events, when verified against both the operational IFS analysis and synoptic observations. Overly smooth forecasts, increasing bias with forecast lead time, and poor performance in predicting tropical cyclone intensity are identified as current drawbacks of ML-based forecasts. A new NWP paradigm is emerging relying on inference from ML models and state-of-the-art analysis and reanalysis datasets for forecast initialization and model training.</jats:p>\n                  <jats:sec>\n                    <jats:title>Significance Statement</jats:title>\n                    <jats:p>We compare the traditional approach of generating weather forecasts with a new approach based on machine learning (ML). The traditional approach is based on resolving physical equations with numerical methods and can be quite expensive to run on supercomputers. ML models are trained on a very large dataset that combines observations and physically based models to derive our best estimate of the state of the atmosphere hour after hour, over the past decades. In this work, we assess the forecast performance with statistical tools and a focus on extreme events. Our results suggest that ML models, which are much less expensive to run than standard methods, could have a promising future in numerical weather prediction. Our study also points out weaknesses and limitations that would require further investigations and future ML model improvements.</jats:p>\n                  </jats:sec>",
+  "DOI": "10.1175/bams-d-23-0162.1",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        29
+      ]
+    ],
+    "date-time": "2024-02-29T11:04:53Z",
+    "timestamp": 1709204693000
+  },
+  "page": "E864-E883",
+  "source": "Crossref",
+  "is-referenced-by-count": 168,
+  "title": [
+    "The Rise of Data-Driven Weather Forecasting: A First Statistical Assessment of Machine Learning–Based Weather Forecasts in an Operational-Like Context"
+  ],
+  "prefix": "10.1175",
+  "volume": "105",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-2914-4203",
+      "authenticated-orcid": true,
+      "given": "Zied",
+      "family": "Ben Bouallègue",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mariana C. A.",
+      "family": "Clare",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Bonn, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Linus",
+      "family": "Magnusson",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Estibaliz",
+      "family": "Gascón",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Bonn, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Michael",
+      "family": "Maier-Gerber",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Bonn, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Martin",
+      "family": "Janoušek",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Bonn, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mark",
+      "family": "Rodwell",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Florian",
+      "family": "Pinault",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Bonn, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jesper S.",
+      "family": "Dramsch",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Bonn, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Simon T. K.",
+      "family": "Lang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Baudouin",
+      "family": "Raoult",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Florence",
+      "family": "Rabier",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Matthieu",
+      "family": "Chevallier",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Irina",
+      "family": "Sandu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Bonn, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter",
+      "family": "Dueben",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Bonn, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Matthew",
+      "family": "Chantry",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Florian",
+      "family": "Pappenberger",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom;"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "12",
+  "reference": [
+    {
+      "key": "bib1",
+      "series-title": "Mon. Wea. Rev.",
+      "first-page": "551",
+      "article-title": "The physical basis of long-range weather forecasts",
+      "volume": "29",
+      "author": "Abbe, C.",
+      "year": "1901",
+      "unstructured": "Abbe, C., 1901: The physical basis of long-range weather forecasts. Mon. Wea. Rev., 29, 551–561."
+    },
+    {
+      "key": "bib2",
+      "series-title": "Nature",
+      "first-page": "47",
+      "article-title": "The quiet revolution of numerical weather prediction",
+      "volume": "525",
+      "author": "Bauer, P.",
+      "year": "2015",
+      "unstructured": "Bauer, P., A. Thorpe, and G. Brunet, 2015: The quiet revolution of numerical weather prediction. Nature, 525, 47–55, https://doi.org/10.1038/nature14956."
+    },
+    {
+      "key": "bib3",
+      "series-title": "Wea. Forecasting",
+      "first-page": "787",
+      "article-title": "On the ROC area of ensemble forecasts for rare events",
+      "volume": "37",
+      "author": "Ben Bouallègue, Z.",
+      "year": "2022",
+      "unstructured": "Ben Bouallègue, Z., and D. S. Richardson, 2022: On the ROC area of ensemble forecasts for rare events. Wea. Forecasting, 37, 787–796, https://doi.org/10.1175/WAF-D-21-0195.1."
+    },
+    {
+      "key": "bib4",
+      "series-title": "Quart. J. Roy. Meteor. Soc.",
+      "first-page": "1741",
+      "article-title": "Monitoring trends in ensemble forecast performance focusing on surface variables and high-impact events",
+      "volume": "145",
+      "author": "Ben Bouallègue, Z.",
+      "year": "2019",
+      "unstructured": "Ben Bouallègue, Z., L. Magnusson, T. Haiden, and D. S. Richardson, 2019: Monitoring trends in ensemble forecast performance focusing on surface variables and high-impact events. Quart. J. Roy. Meteor. Soc., 145, 1741–1755, https://doi.org/10.1002/qj.3523."
+    },
+    {
+      "key": "bib5",
+      "series-title": "Nature",
+      "first-page": "533",
+      "article-title": "Accurate medium-range global weather forecasting with 3D neural networks",
+      "volume": "619",
+      "author": "Bi, K.",
+      "year": "2023",
+      "unstructured": "Bi, K., L. Xie, H. Zhang, X. Chen, X. Gu, and Q. Tian, 2023: Accurate medium-range global weather forecasting with 3D neural networks. Nature, 619, 533–538, https://doi.org/10.1038/s41586-023-06185-3."
+    },
+    {
+      "key": "bib6",
+      "series-title": "Meteor. Z.",
+      "first-page": "1",
+      "article-title": "Das Problem der Wettervorhersage, betrachtet vom Standpunkte der Mechanik und der Physik",
+      "volume": "21",
+      "author": "Bjerknes, V.",
+      "year": "1904",
+      "unstructured": "Bjerknes, V., 1904: Das Problem der Wettervorhersage, betrachtet vom Standpunkte der Mechanik und der Physik. Meteor. Z., 21, 1–7."
+    },
+    {
+      "key": "bib7",
+      "series-title": "Earth Space Sci.",
+      "first-page": "e2023EA002821",
+      "article-title": "Tropical cyclone forecasts in the DIMOSIC project—Medium-range forecast models with common initial conditions",
+      "volume": "10",
+      "author": "Chen, J.-H.",
+      "year": "2023",
+      "unstructured": "Chen, J.-H., L. Zhou, L. Magnusson, R. McTaggart-Cowan, and M. Koehler, 2023: Tropical cyclone forecasts in the DIMOSIC project—Medium-range forecast models with common initial conditions. Earth Space Sci., 10, e2023EA002821, https://doi.org/10.1029/2023EA002821."
+    },
+    {
+      "key": "bib8",
+      "author": "Chen, K.",
+      "year": "2023",
+      "unstructured": "Chen, K., and Coauthors, 2023: FengWu: Pushing the skillful global medium-range weather forecast beyond 10 days lead. arXiv, 2304.02948v1, https://doi.org/10.48550/arXiv.2304.02948."
+    },
+    {
+      "key": "bib9",
+      "series-title": "J. Adv. Model. Earth Syst.",
+      "first-page": "e2020MS002144",
+      "article-title": "Measuring the impact of a new snow model using surface energy budget process relationships",
+      "volume": "12",
+      "author": "Day, J. J.",
+      "year": "2020",
+      "unstructured": "Day, J. J., G. Arduini, I. Sandu, L. Magnusson, A. Beljaars, G. Balsamo, M. Rodwell, and D. Richardson, 2020: Measuring the impact of a new snow model using surface energy budget process relationships. J. Adv. Model. Earth Syst., 12, e2020MS002144, https://doi.org/10.1029/2020MS002144."
+    },
+    {
+      "key": "bib10",
+      "series-title": "Geosci. Model Dev.",
+      "first-page": "6433",
+      "article-title": "Machine learning for numerical weather and climate modelling: A review",
+      "volume": "16",
+      "author": "de Burgh-Day, C. O.",
+      "year": "2023",
+      "unstructured": "de Burgh-Day, C. O., and T. Leeuwenburg, 2023: Machine learning for numerical weather and climate modelling: A review. Geosci. Model Dev., 16, 6433–6477, https://doi.org/10.5194/gmd-16-6433-2023."
+    },
+    {
+      "key": "bib11",
+      "author": "Dosovitskiy, A.",
+      "year": "2020",
+      "unstructured": "Dosovitskiy, A., and Coauthors, 2020: An image is worth 16 × 16 words: Transformers for image recognition at scale. arXiv, 2010.11929v2, https://doi.org/10.48550/arXiv.2010.11929."
+    },
+    {
+      "key": "bib12",
+      "series-title": "Geosci. Model Dev.",
+      "first-page": "3999",
+      "article-title": "Challenges and design choices for global weather and climate models based on machine learning",
+      "volume": "11",
+      "author": "Dueben, P. D.",
+      "year": "2018",
+      "unstructured": "Dueben, P. D., and P. Bauer, 2018: Challenges and design choices for global weather and climate models based on machine learning. Geosci. Model Dev., 11, 3999–4009, https://doi.org/10.5194/gmd-11-3999-2018."
+    },
+    {
+      "key": "bib13",
+      "series-title": "Nature",
+      "first-page": "473",
+      "article-title": "The outlook for AI weather prediction",
+      "volume": "619",
+      "author": "Ebert-Uphoff, I.",
+      "year": "2023",
+      "unstructured": "Ebert-Uphoff, I., and K. Hilburn, 2023: The outlook for AI weather prediction. Nature, 619, 473–474, https://doi.org/10.1038/d41586-023-02084-9."
+    },
+    {
+      "key": "bib14",
+      "author": "Forbes, R.",
+      "year": "2021",
+      "unstructured": "Forbes, R., P. Laloyaux, and M. Rodwell, 2021: IFS upgrade improves moist physics and use of satellite observations. ECMWF Newsletter, No. 169, ECMWF, Reading, United Kingdom, 17–24, https://www.ecmwf.int/en/newsletter/169/meteorology/ifs-upgrade-improves-moist-physics-and-use-satellite-observations."
+    },
+    {
+      "key": "bib15",
+      "series-title": "Tellus",
+      "first-page": "30229",
+      "article-title": "Significance of changes in medium-range forecast scores",
+      "volume": "68A",
+      "author": "Geer, A. J.",
+      "year": "2016",
+      "unstructured": "Geer, A. J., 2016: Significance of changes in medium-range forecast scores. Tellus, 68A, 30229, https://doi.org/10.3402/tellusa.v68.30229."
+    },
+    {
+      "key": "bib16",
+      "series-title": "Quart. J. Roy. Meteor. Soc.",
+      "first-page": "2905",
+      "article-title": "Measuring forecast skill: Is it real or is it the varying climatology?",
+      "volume": "132",
+      "author": "Hamill, T. M.",
+      "year": "2006",
+      "unstructured": "Hamill, T. M., and J. Juras, 2006: Measuring forecast skill: Is it real or is it the varying climatology? Quart. J. Roy. Meteor. Soc., 132, 2905–2923, https://doi.org/10.1256/qj.06.25."
+    },
+    {
+      "key": "bib17",
+      "series-title": "Mon. Wea. Rev.",
+      "first-page": "863",
+      "article-title": "The application of signal detection theory to weather forecasting behavior",
+      "volume": "120",
+      "author": "Harvey, L. O.",
+      "year": "1992",
+      "unstructured": "Harvey, L. O., J. K. Hammond, C. Lusk, and E. Mross, 1992: The application of signal detection theory to weather forecasting behavior. Mon. Wea. Rev., 120, 863–883, https://doi.org/10.1175/1520-0493(1992)120<0863:TAOSDT>2.0.CO;2."
+    },
+    {
+      "key": "bib18",
+      "author": "Hersbach, H.",
+      "year": "2023",
+      "unstructured": "Hersbach, H., 2023: ERA5 reanalysis now available from 1940. ECMWF Newsletter, No. 175, ECMWF, Reading, United Kingdom, 10, https://www.ecmwf.int/en/newsletter/175/news/era5-reanalysis-now-available-1940."
+    },
+    {
+      "key": "bib19",
+      "series-title": "Quart. J. Roy. Meteor. Soc.",
+      "first-page": "1999",
+      "article-title": "The ERA5 global reanalysis",
+      "volume": "146",
+      "author": "Hersbach, H.",
+      "year": "2020",
+      "unstructured": "Hersbach, H., and Coauthors, 2020: The ERA5 global reanalysis. Quart. J. Roy. Meteor. Soc., 146, 1999–2049, https://doi.org/10.1002/qj.3803."
+    },
+    {
+      "key": "bib20",
+      "series-title": "Quart. J. Roy. Meteor. Soc.",
+      "first-page": "504",
+      "article-title": "Global assimilation of air temperature, humidity, wind and pressure from surface stations",
+      "volume": "141",
+      "author": "Ingleby, B.",
+      "year": "2015",
+      "unstructured": "Ingleby, B., 2015: Global assimilation of air temperature, humidity, wind and pressure from surface stations. Quart. J. Roy. Meteor. Soc., 141, 504–517, https://doi.org/10.1002/qj.2372."
+    },
+    {
+      "key": "bib21",
+      "series-title": "Forecast Verification: A Practitioner’s Guide in Atmospheric Science.",
+      "author": "Jolliffe, I. T.",
+      "year": "2011",
+      "unstructured": "Jolliffe, I. T., and D. B. Stephenson, 2011: Forecast Verification: A Practitioner’s Guide in Atmospheric Science.  2nd ed. Academic Press, 627 pp."
+    },
+    {
+      "key": "bib22",
+      "author": "Keisler, R.",
+      "year": "2022",
+      "unstructured": "Keisler, R., 2022: Forecasting global weather with graph neural networks. arXiv, 2202.07575v1, https://doi.org/10.48550/arXiv.2202.07575."
+    },
+    {
+      "key": "bib23",
+      "series-title": "Bull. Amer. Meteor. Soc.",
+      "first-page": "363",
+      "article-title": "The International Best Track Archive for Climate Stewardship (IBTrACS): Unifying tropical cyclone data",
+      "volume": "91",
+      "author": "Knapp, K. R.",
+      "year": "2010",
+      "unstructured": "Knapp, K. R., M. C. Kruk, D. H. Levinson, H. J. Diamond, and C. J. Neumann, 2010: The International Best Track Archive for Climate Stewardship (IBTrACS): Unifying tropical cyclone data. Bull. Amer. Meteor. Soc., 91, 363–376, https://doi.org/10.1175/2009BAMS2755.1."
+    },
+    {
+      "key": "bib24",
+      "author": "Knapp, K. R.",
+      "year": "2018",
+      "unstructured": "Knapp, K. R., H. J. Diamond, J. P. Kossin, M. C. Kruk, and C. J. I. Schreck, 2018: International Best Track Archive for Climate Stewardship (IBTrACS) project, version 4. NOAA NCEI, accessed 1 May 2024, https://doi.org/10.25921/82ty-9e16."
+    },
+    {
+      "key": "bib25",
+      "author": "Lam, R.",
+      "year": "2022",
+      "unstructured": "Lam, R., and Coauthors, 2022: Graphcast: Learning skillful medium-range global weather forecasting. arXiv, 2212.12794v2, https://doi.org/10.48550/arXiv.2212.12794."
+    },
+    {
+      "key": "bib26",
+      "author": "Lang, S.",
+      "year": "2023",
+      "unstructured": "Lang, S., D. Schepers, and M. Rodwell, 2023: IFS upgrade brings many improvements and unifies medium-range resolutions. ECMWF Newsletter, No. 176, ECMWF, Reading, United Kingdom, 11, https://www.ecmwf.int/sites/default/files/elibrary/072023/81380-ifs-upgrade-brings-many-improvements-and-unifies-medium-range-resolutions.pdf."
+    },
+    {
+      "key": "bib27",
+      "series-title": "Quart. J. Roy. Meteor. Soc.",
+      "first-page": "1364",
+      "article-title": "Revision of the stochastically perturbed parametrisations model uncertainty scheme in the integrated forecasting system",
+      "volume": "147",
+      "author": "Lang, S. T. K.",
+      "year": "2021a",
+      "unstructured": "Lang, S. T. K., S.-J. Lock, M. Leutbecher, P. Bechtold, and R. M. Forbes, 2021a: Revision of the stochastically perturbed parametrisations model uncertainty scheme in the integrated forecasting system. Quart. J. Roy. Meteor. Soc., 147, 1364–1381, https://doi.org/10.1002/qj.3978."
+    },
+    {
+      "key": "bib28",
+      "series-title": "Quart. J. Roy. Meteor. Soc.",
+      "first-page": "4358",
+      "article-title": "More accuracy with less precision",
+      "volume": "147",
+      "author": "Lang, S. T. K.",
+      "year": "2021b",
+      "unstructured": "Lang, S. T. K., and Coauthors, 2021b: More accuracy with less precision. Quart. J. Roy. Meteor. Soc., 147, 4358–4370, https://doi.org/10.1002/qj.4181."
+    },
+    {
+      "key": "bib29",
+      "series-title": "J. Comput. Phys.",
+      "first-page": "3515",
+      "article-title": "Ensemble forecasting",
+      "volume": "227",
+      "author": "Leutbecher, M.",
+      "year": "2008",
+      "unstructured": "Leutbecher, M., and T. Palmer, 2008: Ensemble forecasting. J. Comput. Phys., 227, 3515–3539, https://doi.org/10.1016/j.jcp.2007.02.014."
+    },
+    {
+      "key": "bib30",
+      "series-title": "Quart. J. Roy. Meteor. Soc.",
+      "first-page": "707",
+      "article-title": "On the probabilistic skill of dual-resolution ensemble forecasts",
+      "volume": "146",
+      "author": "Leutbecher, M.",
+      "year": "2020",
+      "unstructured": "Leutbecher, M., and Z. Ben Bouallègue, 2020: On the probabilistic skill of dual-resolution ensemble forecasts. Quart. J. Roy. Meteor. Soc., 146, 707–723, https://doi.org/10.1002/qj.3704."
+    },
+    {
+      "key": "bib31",
+      "author": "Magnusson, L.",
+      "year": "2023",
+      "unstructured": "Magnusson, L., 2023: First exploration of forecasts for extreme weather cases with data-driven models at ECMWF. ECMWF Newsletter, No. 176, ECMWF, Reading, United Kingdom, 8–9, https://www.ecmwf.int/en/newsletter/176/news/."
+    },
+    {
+      "key": "bib32",
+      "series-title": "Quart. J. Roy. Meteor. Soc.",
+      "first-page": "2085",
+      "article-title": "Dependence on initial conditions versus model formulations for medium-range forecast error variations",
+      "volume": "145",
+      "author": "Magnusson, L.",
+      "year": "2019",
+      "unstructured": "Magnusson, L., J.-H. Chen, S.-J. Lin, L. Zhou, and X. Chen, 2019: Dependence on initial conditions versus model formulations for medium-range forecast error variations. Quart. J. Roy. Meteor. Soc., 145, 2085–2100, https://doi.org/10.1002/qj.3545."
+    },
+    {
+      "key": "bib33",
+      "author": "Magnusson, L.",
+      "year": "2021",
+      "unstructured": "Magnusson, L., and Coauthors, 2021: Tropical cyclone activities at ECMWF. ECMWF Tech. Memo. 888, 140 pp., https://www.ecmwf.int/en/elibrary/81277-tropical-cyclone-activities-ecmwf."
+    },
+    {
+      "key": "bib34",
+      "series-title": "Mon. Wea. Rev.",
+      "first-page": "2029",
+      "article-title": "Advanced tropical cyclone prediction using the experimental global ECMWF and operational regional COAMPS-TC systems",
+      "volume": "151",
+      "author": "Majumdar, S. J.",
+      "year": "2023",
+      "unstructured": "Majumdar, S. J., L. Magnusson, P. Bechtold, J. R. Bidlot, and J. D. Doyle, 2023: Advanced tropical cyclone prediction using the experimental global ECMWF and operational regional COAMPS-TC systems. Mon. Wea. Rev., 151, 2029–2048, https://doi.org/10.1175/MWR-D-22-0236.1."
+    },
+    {
+      "key": "bib35",
+      "series-title": "Aust. Meteor. Mag.",
+      "first-page": "291",
+      "article-title": "A model for assessment of weather forecasts",
+      "volume": "30",
+      "author": "Mason, I.",
+      "year": "1982",
+      "unstructured": "Mason, I., 1982: A model for assessment of weather forecasts. Aust. Meteor. Mag., 30, 291–303."
+    },
+    {
+      "key": "bib36",
+      "series-title": "Bull. Amer. Meteor. Soc.",
+      "first-page": "2175",
+      "article-title": "Making the black box more transparent: Understanding the physical implications of machine learning",
+      "volume": "100",
+      "author": "McGovern, A.",
+      "year": "2019",
+      "unstructured": "McGovern, A., R. Lagerquist, D. J. Gagne, G. E. Jergensen, K. L. Elmore, C. R. Homeyer, and T. Smith, 2019: Making the black box more transparent: Understanding the physical implications of machine learning. Bull. Amer. Meteor. Soc., 100, 2175–2199, https://doi.org/10.1175/BAMS-D-18-0195.1."
+    },
+    {
+      "key": "bib37",
+      "series-title": "Mon. Wea. Rev.",
+      "first-page": "1330",
+      "article-title": "A general framework for forecast verification",
+      "volume": "115",
+      "author": "Murphy, A. H.",
+      "year": "1987",
+      "unstructured": "Murphy, A. H., and R. L. Winkler, 1987: A general framework for forecast verification. Mon. Wea. Rev., 115, 1330–1338, https://doi.org/10.1175/1520-0493(1987)115<1330:AGFFFV>2.0.CO;2."
+    },
+    {
+      "key": "bib38",
+      "author": "Pathak, J.",
+      "year": "2022",
+      "unstructured": "Pathak, J., and Coauthors, 2022: FourCastNet: A global data-driven high-resolution weather model using adaptive Fourier neural operators. arXiv, 2202.11214v1, https://doi.org/10.48550/arXiv.2202.11214."
+    },
+    {
+      "key": "bib39",
+      "series-title": "J. Adv. Model. Earth Syst.",
+      "first-page": "e2020MS002405",
+      "article-title": "Data-driven medium-range weather prediction with a Resnet pretrained on climate simulations: A new model for WeatherBench",
+      "volume": "13",
+      "author": "Rasp, S.",
+      "year": "2021",
+      "unstructured": "Rasp, S., and N. Thuerey, 2021: Data-driven medium-range weather prediction with a Resnet pretrained on climate simulations: A new model for WeatherBench. J. Adv. Model. Earth Syst., 13, e2020MS002405, https://doi.org/10.1029/2020MS002405."
+    },
+    {
+      "key": "bib40",
+      "author": "Sandu, I.",
+      "year": "2020",
+      "unstructured": "Sandu, I., and Coauthors, 2020: Addressing near-surface forecast biases: Outcomes of the ECMWF project ‘Understanding uncertainties in surface atmosphere exchange’ (USURF). ECMWF Tech. Memo. 875, 43 pp., https://www.ecmwf.int/en/elibrary/81202-addressing-near-surface-forecast-biases-outcomes-ecmwf-project-understanding."
+    },
+    {
+      "key": "bib41",
+      "series-title": "Bull. Amer. Meteor. Soc.",
+      "first-page": "E681",
+      "article-title": "Statistical postprocessing for weather forecasts: Review, challenges, and avenues in a big data world",
+      "volume": "102",
+      "author": "Vannitsem, S.",
+      "year": "2021",
+      "unstructured": "Vannitsem, S., and Coauthors, 2021: Statistical postprocessing for weather forecasts: Review, challenges, and avenues in a big data world. Bull. Amer. Meteor. Soc., 102, E681–E699, https://doi.org/10.1175/BAMS-D-19-0308.1."
+    },
+    {
+      "key": "bib42",
+      "series-title": "J. Adv. Model. Earth Syst.",
+      "first-page": "2680",
+      "article-title": "Can machines learn to predict weather? Using deep learning to predict gridded 500-hpa geopotential height from historical weather data",
+      "volume": "11",
+      "author": "Weyn, J. A.",
+      "year": "2019",
+      "unstructured": "Weyn, J. A., D. R. Durran, and R. Caruana, 2019: Can machines learn to predict weather? Using deep learning to predict gridded 500-hpa geopotential height from historical weather data. J. Adv. Model. Earth Syst., 11, 2680–2693, https://doi.org/10.1029/2019MS001705."
+    },
+    {
+      "key": "bib43",
+      "series-title": "J. Adv. Model. Earth Syst.",
+      "first-page": "e2020MS002109",
+      "article-title": "Improving data-driven global weather prediction using deep convolutional neural networks on a cubed sphere",
+      "volume": "12",
+      "author": "Weyn, J. A.",
+      "year": "2020",
+      "unstructured": "Weyn, J. A., D. R.Durran, and R.Caruana, 2020: Improving data-driven global weather prediction using deep convolutional neural networks on a cubed sphere. J. Adv. Model. Earth Syst., 12, e2020MS002109, https://doi.org/10.1029/2020MS002109."
+    },
+    {
+      "key": "bib44",
+      "series-title": "Statistical Methods in the Atmospheric Sciences.",
+      "author": "Wilks, D. S.",
+      "year": "2006",
+      "unstructured": "Wilks, D. S., 2006: Statistical Methods in the Atmospheric Sciences.  2nd ed. Academic Press, 627 pp."
+    }
+  ],
+  "container-title": [
+    "Bulletin of the American Meteorological Society"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://journals.ametsoc.org/view/journals/bams/105/6/BAMS-D-23-0162.1.xml",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://journals.ametsoc.org/downloadpdf/journals/bams/105/6/BAMS-D-23-0162.1.xml",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "https://journals.ametsoc.org/downloadpdf/journals/bams/105/6/BAMS-D-23-0162.1.xml",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        21
+      ]
+    ],
+    "date-time": "2026-09-21T15:12:24Z",
+    "timestamp": 1790003544000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://journals.ametsoc.org/view/journals/bams/105/6/BAMS-D-23-0162.1.xml"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        6
+      ]
+    ]
+  },
+  "references-count": 44,
+  "journal-issue": {
+    "issue": "6"
+  },
+  "URL": "https://doi.org/10.1175/bams-d-23-0162.1",
+  "relation": {},
+  "ISSN": [
+    "0003-0007",
+    "1520-0477"
+  ],
+  "issn-type": [
+    {
+      "value": "0003-0007",
+      "type": "print"
+    },
+    {
+      "value": "1520-0477",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        6
+      ]
+    ]
+  }
+}

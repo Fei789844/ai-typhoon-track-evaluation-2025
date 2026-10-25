@@ -1,0 +1,1072 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2026-10-24T15:48:37Z",
+    "timestamp": 1792856917169,
+    "version": "4.5.0"
+  },
+  "reference-count": 90,
+  "publisher": "Elsevier BV",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2008,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2008-03-01T00:00:00Z",
+        "timestamp": 1204329600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Journal of Computational Physics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2008,
+        3
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.jcp.2007.02.014",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        2,
+        25
+      ]
+    ],
+    "date-time": "2007-02-25T11:57:35Z",
+    "timestamp": 1172404655000
+  },
+  "page": "3515-3539",
+  "source": "Crossref",
+  "is-referenced-by-count": 717,
+  "title": [
+    "Ensemble forecasting"
+  ],
+  "prefix": "10.1016",
+  "volume": "227",
+  "author": [
+    {
+      "given": "M.",
+      "family": "Leutbecher",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "T.N.",
+      "family": "Palmer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1865",
+      "DOI": "10.1175/MWR2949.1",
+      "article-title": "Roots of ensemble forecasting",
+      "volume": "133",
+      "author": "Lewis",
+      "year": "2005",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.jcp.2006.06.009",
+      "article-title": "Preface to special issue on uncertainty quantification in simulation science",
+      "volume": "217",
+      "author": "Karniadakis",
+      "year": "2006",
+      "journal-title": "J. Comput. Phys."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib3",
+      "doi-asserted-by": "crossref",
+      "first-page": "176",
+      "DOI": "10.1016/j.jcp.2006.02.010",
+      "article-title": "Uncertainty estimation and prediction for interdisciplinary ocean dynamics",
+      "volume": "217",
+      "author": "Lermusiaux",
+      "year": "2006",
+      "journal-title": "J. Comput. Phys."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib4",
+      "doi-asserted-by": "crossref",
+      "first-page": "257",
+      "DOI": "10.2151/jmsj1965.75.1B_257",
+      "article-title": "An introduction to estimation theory",
+      "volume": "75",
+      "author": "Cohn",
+      "year": "1997",
+      "journal-title": "J. Meteor. Soc. Jpn."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib5",
+      "doi-asserted-by": "crossref",
+      "first-page": "3235",
+      "DOI": "10.1256/qj.04.142",
+      "article-title": "On the equivalence between Kalman smoothing and weak-constraint four-dimensional variational data assimilation",
+      "volume": "131",
+      "author": "Fisher",
+      "year": "2005",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib6",
+      "series-title": "Predictability of Weather and Climate",
+      "year": "2006"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib7",
+      "doi-asserted-by": "crossref",
+      "first-page": "505",
+      "DOI": "10.1111/j.2153-3490.1982.tb01839.x",
+      "article-title": "Atmospheric predictability experiments with a large numerical model",
+      "volume": "34",
+      "author": "Lorenz",
+      "year": "1982",
+      "journal-title": "Tellus"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib8",
+      "doi-asserted-by": "crossref",
+      "first-page": "347",
+      "DOI": "10.1175/1520-0469(1997)054<0347:LVAEGP>2.0.CO;2",
+      "article-title": "Lyapunov vectors and error growth patterns in a T21L3 quasigeostrophic model",
+      "volume": "54",
+      "author": "Vannitsem",
+      "year": "1997",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib9",
+      "doi-asserted-by": "crossref",
+      "first-page": "130",
+      "DOI": "10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2",
+      "article-title": "Deterministic nonperiodic flow",
+      "volume": "20",
+      "author": "Lorenz",
+      "year": "1963",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib10",
+      "doi-asserted-by": "crossref",
+      "first-page": "321",
+      "DOI": "10.1111/j.2153-3490.1965.tb01424.x",
+      "article-title": "A study of the predictability of a 28-variable atmospheric model",
+      "volume": "17",
+      "author": "Lorenz",
+      "year": "1965",
+      "journal-title": "Tellus"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib11",
+      "series-title": "The Essence of Chaos",
+      "author": "Lorenz",
+      "year": "1993"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "P. Lynch, The origins of computer weather prediction and climate modelling, J. Comput. Phys., this issue, doi:10.1016/j.jcp.2007.02.034.",
+      "DOI": "10.1016/j.jcp.2007.02.034"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib13",
+      "unstructured": "P. Janssen, Progress in ocean wave forecasting, J. Comput. Phys., this issue."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib14",
+      "doi-asserted-by": "crossref",
+      "first-page": "1434",
+      "DOI": "10.1175/1520-0469(1995)052<1434:TSVSOT>2.0.CO;2",
+      "article-title": "The singular-vector structure of the atmospheric global circulation",
+      "volume": "52",
+      "author": "Buizza",
+      "year": "1995",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib15",
+      "doi-asserted-by": "crossref",
+      "first-page": "1076",
+      "DOI": "10.1175/MWR2905.1",
+      "article-title": "A comparison of the ECMWF, MSC, and NCEP global ensemble prediction systems",
+      "volume": "133",
+      "author": "Buizza",
+      "year": "2005",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib16",
+      "doi-asserted-by": "crossref",
+      "first-page": "409",
+      "DOI": "10.1175/1520-0493(1974)102<0409:TSOMCF>2.0.CO;2",
+      "article-title": "Theoretical skill of Monte Carlo forecasts",
+      "volume": "102",
+      "author": "Leith",
+      "year": "1974",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib17",
+      "unstructured": "M. Rodwell, Comparing and combining deterministic and ensemble forecasts: how to predict rainfall occurrence better, ECMWF newsletter (106) (2006) 17–23, http://www.ecmwf.int/publications/newsletters/pdf/106.pdf."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib18",
+      "doi-asserted-by": "crossref",
+      "first-page": "2131",
+      "DOI": "10.1256/qj.04.71",
+      "article-title": "Evaluation of probabilistic prediction systems for a scalar variable",
+      "volume": "131",
+      "author": "Candille",
+      "year": "2005",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib19",
+      "doi-asserted-by": "crossref",
+      "first-page": "595",
+      "DOI": "10.1175/1520-0450(1973)012<0595:ANVPOT>2.0.CO;2",
+      "article-title": "A new vector partition of the probability score",
+      "volume": "12",
+      "author": "Murphy",
+      "year": "1973",
+      "journal-title": "J. Appl. Meteor."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib20",
+      "doi-asserted-by": "crossref",
+      "first-page": "2473",
+      "DOI": "10.1002/qj.49712757715",
+      "article-title": "Measures of skill and value of ensemble prediction systems, their interrelationship and the effect of ensemble size",
+      "volume": "127",
+      "author": "Richardson",
+      "year": "2001",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib21",
+      "doi-asserted-by": "crossref",
+      "first-page": "1509",
+      "DOI": "10.1175//1520-0493(2003)131<1509:SAIVOT>2.0.CO;2",
+      "article-title": "Spatial and interannual variability of the reliability of ensemble-based probabilistic forecasts: Consequences for calibration",
+      "volume": "131",
+      "author": "Atger",
+      "year": "2003",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib22",
+      "doi-asserted-by": "crossref",
+      "first-page": "1098",
+      "DOI": "10.1175/MWR2904.1",
+      "article-title": "Calibrated probabilistic forecasting using ensemble model output statistics and minimum CRPS estimation",
+      "volume": "133",
+      "author": "Gneiting",
+      "year": "2005",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib23",
+      "doi-asserted-by": "crossref",
+      "first-page": "559",
+      "DOI": "10.1175/1520-0434(2000)015<0559:DOTCRP>2.0.CO;2",
+      "article-title": "Decomposition of the continous ranked probability score for ensemble prediction systems",
+      "volume": "15",
+      "author": "Hersbach",
+      "year": "2000",
+      "journal-title": "Weather Forecast."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib24",
+      "doi-asserted-by": "crossref",
+      "first-page": "3292",
+      "DOI": "10.1175/1520-0493(1998)126<3292:TRBESA>2.0.CO;2",
+      "article-title": "The relationship between ensemble spread and ensemble mean skill",
+      "volume": "126",
+      "author": "Whitaker",
+      "year": "1998",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib25",
+      "unstructured": "O. Talagrand, R. Vautard, B. Strauss, Evaluation of probabilistic prediction systems, in: Proceedings of Workshop on Predictability, ECMWF, Reading, UK, 1997, pp. 1–25."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib26",
+      "doi-asserted-by": "crossref",
+      "first-page": "803",
+      "DOI": "10.1175/1520-0493(1977)105<0803:TVOCCA>2.0.CO;2",
+      "article-title": "The value of climatological, categorical and probabilistic forecasts in the cost-loss situation",
+      "volume": "105",
+      "author": "Murphy",
+      "year": "1977",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib27",
+      "doi-asserted-by": "crossref",
+      "first-page": "649",
+      "DOI": "10.1002/qj.49712656313",
+      "article-title": "Skill and relative economic value of the ECMWF ensemble prediction system",
+      "volume": "126",
+      "author": "Richardson",
+      "year": "2000",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib28",
+      "unstructured": "T. Palmer, R. Buizza, R. Hagedorn, A. Lawrence, M. Leutbecher, L. Smith, Ensemble prediction: a pedagogical perspective, ECMWF newsletter (106) (2006) 10–17."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib29",
+      "doi-asserted-by": "crossref",
+      "first-page": "747",
+      "DOI": "10.1256/0035900021643593",
+      "article-title": "The economic value of ensemble forecasts as a tool for risk assessment: from days to decades",
+      "volume": "128",
+      "author": "Palmer",
+      "year": "2002",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib30",
+      "doi-asserted-by": "crossref",
+      "first-page": "703",
+      "DOI": "10.1175/1520-0493(2004)132<0703:SIAAPA>2.0.CO;2",
+      "article-title": "Scale interactions and atmospheric predictability: An updated perspective",
+      "volume": "132",
+      "author": "Tribbia",
+      "year": "2004",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "issue": "Demeter",
+      "key": "10.1016/j.jcp.2007.02.014_bib31",
+      "doi-asserted-by": "crossref",
+      "first-page": "853",
+      "DOI": "10.1175/BAMS-85-6-853",
+      "article-title": "Development of a European multimodel ensemble system for seasonal-to-interannual prediction",
+      "volume": "85",
+      "author": "Palmer",
+      "year": "2004",
+      "journal-title": "Bull. Am. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib32",
+      "doi-asserted-by": "crossref",
+      "first-page": "35",
+      "DOI": "10.1034/j.1600-0870.2001.01132.x",
+      "article-title": "Targeted ensemble prediction for northern Europe and parts of the north Atlantic ocean",
+      "volume": "53 A",
+      "author": "Frogner",
+      "year": "2001",
+      "journal-title": "Tellus"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib33",
+      "doi-asserted-by": "crossref",
+      "first-page": "111",
+      "DOI": "10.1002/qj.49712757107",
+      "article-title": "A two-time-level semi-Lagrangian global spectral model",
+      "volume": "127",
+      "author": "Temperton",
+      "year": "2001",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib34",
+      "doi-asserted-by": "crossref",
+      "first-page": "1671",
+      "DOI": "10.1002/qj.200212858314",
+      "article-title": "The development and testing of a new two-time-level semi-Lagrangian scheme (SETTLS) in the ECMWF forecast model",
+      "volume": "128",
+      "author": "Hortal",
+      "year": "2002",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib35",
+      "doi-asserted-by": "crossref",
+      "first-page": "1505",
+      "DOI": "10.1256/qj.03.173",
+      "article-title": "A finite-element scheme for the vertical discretization of the semi-Lagrangian version of the ECMWF forecast model",
+      "volume": "130",
+      "author": "Untch",
+      "year": "2004",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib36",
+      "doi-asserted-by": "crossref",
+      "first-page": "647",
+      "DOI": "10.1256/003590002321042135",
+      "article-title": "Some aspects of the improvement in skill of numerical weather prediction",
+      "volume": "128",
+      "author": "Simmons",
+      "year": "2002",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib37",
+      "doi-asserted-by": "crossref",
+      "first-page": "1269",
+      "DOI": "10.1256/qj.02.92",
+      "article-title": "Benefits of increased resolution in the ECMWF ensemble system and comparison with poor-man’s ensembles",
+      "volume": "129",
+      "author": "Buizza",
+      "year": "2003",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib38",
+      "unstructured": "M. Untch, A., M. Miller, R. Buizza, P. Janssen, Towards a global meso-scale model: the high resolution system TL799L91 and TL399L62 EPS, ECMWF newsletter (108) (2006) 6–13, http://www.ecmwf.int/publications/newsletters/pdf/108.pdf."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib39",
+      "unstructured": "R. Buizza, J.-R. Bidlot, N. Wedi, M. Fuentes, M. Hamrud, G. Holt, T.N. Palmer, F. Vitart, The new ECMWF VAREPS (variable resolution ensemble prediction system), Quart. J. Roy. Meteor. Soc., in press. Available at http://www.ecmwf.int/publications/library/ecpublications/_pdf/tm/401-500/tm499_rev.pdf."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib40",
+      "doi-asserted-by": "crossref",
+      "first-page": "1225",
+      "DOI": "10.1175/1520-0493(1996)124<1225:ASSATE>2.0.CO;2",
+      "article-title": "A system simulation approach to ensemble prediction",
+      "volume": "124",
+      "author": "Houtekamer",
+      "year": "1996",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib41",
+      "doi-asserted-by": "crossref",
+      "first-page": "604",
+      "DOI": "10.1175/MWR-2864.1",
+      "article-title": "Atmospheric data assimilation with an ensemble Kalman filter: results with real observations",
+      "volume": "133",
+      "author": "Houtekamer",
+      "year": "2005",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib42",
+      "doi-asserted-by": "crossref",
+      "first-page": "1719",
+      "DOI": "10.1175/1520-0493(1998)126<1719:ASITEK>2.0.CO;2",
+      "article-title": "Analysis scheme in the ensemble Kalman filter",
+      "volume": "126",
+      "author": "Burgers",
+      "year": "1998",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib43",
+      "doi-asserted-by": "crossref",
+      "first-page": "1485",
+      "DOI": "10.1175/1520-0493(2003)131<1485:ESRF>2.0.CO;2",
+      "article-title": "Ensemble square root filters",
+      "volume": "131",
+      "author": "Tippett",
+      "year": "2003",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib44",
+      "doi-asserted-by": "crossref",
+      "first-page": "420",
+      "DOI": "10.1175/1520-0493(2001)129<0420:ASWTET>2.0.CO;2",
+      "article-title": "Adaptive sampling with the ensemble transform Kalman filter. Part I: Theoretical aspects",
+      "volume": "129",
+      "author": "Bishop",
+      "year": "2001",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib45",
+      "doi-asserted-by": "crossref",
+      "first-page": "2317",
+      "DOI": "10.1175/1520-0477(1993)074<2317:EFANTG>2.0.CO;2",
+      "article-title": "Ensemble forecasting at NMC: the generation of perturbations",
+      "volume": "74",
+      "author": "Toth",
+      "year": "1993",
+      "journal-title": "Bull. Am. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib46",
+      "doi-asserted-by": "crossref",
+      "first-page": "3297",
+      "DOI": "10.1175/1520-0493(1997)125<3297:EFANAT>2.0.CO;2",
+      "article-title": "Ensemble forecasting at NCEP and the breeding method",
+      "volume": "125",
+      "author": "Toth",
+      "year": "1997",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib47",
+      "series-title": "Atmospheric Data Analysis",
+      "author": "Daley",
+      "year": "1991"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib48",
+      "doi-asserted-by": "crossref",
+      "first-page": "28",
+      "DOI": "10.1111/j.1600-0870.2006.00159.x",
+      "article-title": "Ensemble transform Kalman filter-based ensemble perturbations in an operational global prediction system at NCEP",
+      "volume": "58A",
+      "author": "Wei",
+      "year": "2006",
+      "journal-title": "Tellus"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib49",
+      "unstructured": "M. Wei, Z. Toth, R. Wobus, Y. Zhu, Initial perturbations based on the ensemble transform (ET) technique in the NCEP global operational forecast system, Tellus, submitted for publication."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib50",
+      "doi-asserted-by": "crossref",
+      "first-page": "2181",
+      "DOI": "10.1175/1520-0493(1995)123<2181:MFEP>2.0.CO;2",
+      "article-title": "Methods for ensemble prediction",
+      "volume": "123",
+      "author": "Houtekamer",
+      "year": "1995",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib51",
+      "doi-asserted-by": "crossref",
+      "first-page": "1835",
+      "DOI": "10.1175/1520-0493(2000)128<1835:ACOPFF>2.0.CO;2",
+      "article-title": "A comparison of probabilistic forecasts from bred, singular-vector, and perturbed observation ensembles",
+      "volume": "128",
+      "author": "Hamill",
+      "year": "2000",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib52",
+      "doi-asserted-by": "crossref",
+      "first-page": "2969",
+      "DOI": "10.1175/1520-0493(1997)125<2969:TIODCO>2.0.CO;2",
+      "article-title": "The impact of dynamical constraints on the selection of initial conditions for ensemble predictions: low-order perfect model results",
+      "volume": "125",
+      "author": "Anderson",
+      "year": "1997",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib53",
+      "doi-asserted-by": "crossref",
+      "first-page": "706",
+      "DOI": "10.1175/1520-0493(2003)131<0706:TSSOOE>2.0.CO;2",
+      "article-title": "The spatial structure of observation errors in atmospheric motion vectors from geostationary satellite data",
+      "volume": "131",
+      "author": "Bormann",
+      "year": "2003",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib54",
+      "doi-asserted-by": "crossref",
+      "first-page": "1367",
+      "DOI": "10.1256/003590002320373337",
+      "article-title": "The interaction between model resolution, observation resolution and observation density in data assimilation: a one-dimensional study",
+      "volume": "128",
+      "author": "Liu",
+      "year": "2002",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib55",
+      "doi-asserted-by": "crossref",
+      "first-page": "3132",
+      "DOI": "10.1175/MWR3020.1",
+      "article-title": "Accounting for the error due to unresolved scales in ensemble data assimilation: a comparison of different approaches",
+      "volume": "133",
+      "author": "Hamill",
+      "year": "2005",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib56",
+      "doi-asserted-by": "crossref",
+      "first-page": "389",
+      "DOI": "10.1256/qj.04.03",
+      "article-title": "Effects of stochastic parametrizations in the Lorenz ’96 system",
+      "volume": "131",
+      "author": "Wilks",
+      "year": "2005",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib57",
+      "doi-asserted-by": "crossref",
+      "first-page": "2887",
+      "DOI": "10.1256/smsqj.56005",
+      "article-title": "Stochastic representation of model uncertainties in the ECMWF ensemble prediction system",
+      "volume": "125",
+      "author": "Buizza",
+      "year": "1999",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib58",
+      "doi-asserted-by": "crossref",
+      "first-page": "147",
+      "DOI": "10.1034/j.1600-0870.1999.00001.x",
+      "article-title": "Influence of physical processes on the tangent-linear approximation",
+      "volume": "51",
+      "author": "Mahfouf",
+      "year": "1999",
+      "journal-title": "Tellus A"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib59",
+      "doi-asserted-by": "crossref",
+      "first-page": "2495",
+      "DOI": "10.1256/qj.03.162",
+      "article-title": "A cloud scheme for data assimilation: description and initial tests",
+      "volume": "130",
+      "author": "Tompkins",
+      "year": "2004",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib60",
+      "doi-asserted-by": "crossref",
+      "first-page": "409",
+      "DOI": "10.1256/qj.04.69",
+      "article-title": "A convection scheme for data assimilation: description and initial tests",
+      "volume": "131",
+      "author": "Lopez",
+      "year": "2005",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib61",
+      "first-page": "321",
+      "article-title": "Short-range evolution of small perturbations in a barotropic model",
+      "volume": "17",
+      "author": "Lacarra",
+      "year": "1988",
+      "journal-title": "Tellus"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib62",
+      "doi-asserted-by": "crossref",
+      "first-page": "3525",
+      "DOI": "10.1175/1520-0469(2001)058<3525:LRDIHA>2.0.CO;2",
+      "article-title": "On the duration of the linear regime: Is 24 hours a long time in weather forecasting?",
+      "volume": "58",
+      "author": "Gilmour",
+      "year": "2001",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib63",
+      "doi-asserted-by": "crossref",
+      "first-page": "3059",
+      "DOI": "10.1256/qj.02.193",
+      "article-title": "Nonlinear growth of singular-vector-based perturbations",
+      "volume": "129",
+      "author": "Reynolds",
+      "year": "2003",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib64",
+      "doi-asserted-by": "crossref",
+      "first-page": "2577",
+      "DOI": "10.1175/1520-0477(1997)078<2577:WIAAM>2.0.CO;2",
+      "article-title": "What is an adjoint model?",
+      "volume": "78",
+      "author": "Errico",
+      "year": "1997",
+      "journal-title": "Bull. Am. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib65",
+      "doi-asserted-by": "crossref",
+      "first-page": "633",
+      "DOI": "10.1175/1520-0469(1998)055<0633:SVMAAO>2.0.CO;2",
+      "article-title": "Singular vectors, metrics, and adaptive observations",
+      "volume": "55",
+      "author": "Palmer",
+      "year": "1998",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib66",
+      "doi-asserted-by": "crossref",
+      "first-page": "286",
+      "DOI": "10.1175/1520-0469(1997)054<0286:OPOFEC>2.0.CO;2",
+      "article-title": "Optimal prediction of forecast error covariances through singular vectors",
+      "volume": "54",
+      "author": "Ehrendorfer",
+      "year": "1997",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib67",
+      "series-title": "Matrix Computations",
+      "author": "Golub",
+      "year": "1996"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib68",
+      "doi-asserted-by": "crossref",
+      "first-page": "87",
+      "DOI": "10.1016/0021-9991(75)90065-0",
+      "article-title": "The iterative calculation of a few of the lowest eigenvalues and corresponding eigenvectors of large real symmetric matrices",
+      "volume": "17",
+      "author": "Davidson",
+      "year": "1975",
+      "journal-title": "J. Comput. Phys."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib69",
+      "doi-asserted-by": "crossref",
+      "first-page": "1695",
+      "DOI": "10.1002/qj.49712454916",
+      "article-title": "Singular vectors and estimates of the analysis-error covariance metric",
+      "volume": "124",
+      "author": "Barkmeijer",
+      "year": "1998",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib70",
+      "unstructured": "M. Leutbecher, Representing initial condition uncertainties with multiple sets of singular vectors optimised for different criteria, Quart. J. Roy. Meteor. Soc., submitted for publication. Available at http://www.ecmwf.int/publications/library/ecpublications/_pdf/tm/501-600/tm519.pdf."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib71",
+      "doi-asserted-by": "crossref",
+      "first-page": "1590",
+      "DOI": "10.1175/1520-0493(2004)132<1590:WIBAEO>2.0.CO;2",
+      "article-title": "Which is better, an ensemble of positive-negative pairs or a centered spherical simplex ensemble?",
+      "volume": "132",
+      "author": "Wang",
+      "year": "2004",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib72",
+      "doi-asserted-by": "crossref",
+      "first-page": "3038",
+      "DOI": "10.1175/MWR3018.1",
+      "article-title": "On ensemble prediction using singular vectors started from forecasts",
+      "volume": "133",
+      "author": "Leutbecher",
+      "year": "2005",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib73",
+      "doi-asserted-by": "crossref",
+      "first-page": "2333",
+      "DOI": "10.1256/smsqj.55817",
+      "article-title": "3D-Var Hessian singular vectors and their potential use in the ECMWF Ensemble Prediction System",
+      "volume": "125",
+      "author": "Barkmeijer",
+      "year": "1999",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib74",
+      "doi-asserted-by": "crossref",
+      "first-page": "429",
+      "DOI": "10.1002/qj.49712051609",
+      "article-title": "Sensitivity of optimal unstable structures",
+      "volume": "120",
+      "author": "Buizza",
+      "year": "1994",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib75",
+      "doi-asserted-by": "crossref",
+      "first-page": "685",
+      "DOI": "10.1002/qj.49712757221",
+      "article-title": "Tropical singular vectors computed with linearized diabatic physics",
+      "volume": "127",
+      "author": "Barkmeijer",
+      "year": "2001",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib76",
+      "doi-asserted-by": "crossref",
+      "first-page": "709",
+      "DOI": "10.1002/qj.49712757222",
+      "article-title": "Ensemble prediction of tropical cyclones using targeted diabatic singular vectors",
+      "volume": "127",
+      "author": "Puri",
+      "year": "2001",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib77",
+      "doi-asserted-by": "crossref",
+      "first-page": "73",
+      "DOI": "10.1002/qj.49712252905",
+      "article-title": "The ECMWF ensemble prediction system: methodology and validation",
+      "volume": "122",
+      "author": "Molteni",
+      "year": "1996",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib78",
+      "doi-asserted-by": "crossref",
+      "first-page": "195",
+      "DOI": "10.1175/1520-0469(2004)061<0195:TIOPPO>2.0.CO;2",
+      "article-title": "The influence of physical processes on extratropical singular vectors",
+      "volume": "61",
+      "author": "Coutinho",
+      "year": "2004",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib79",
+      "doi-asserted-by": "crossref",
+      "first-page": "2877",
+      "DOI": "10.1175/MWR3210.1",
+      "article-title": "The impact of moist singular vectors and horizontal resolution on short-range limited-area ensemble forecasts for two European winter storms",
+      "volume": "134",
+      "author": "Walser",
+      "year": "2006",
+      "journal-title": "Monthly Weather Rev."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib80",
+      "unstructured": "A.R. Lawrence, M. Leutbecher, T.N. Palmer, Comparison of total energy and Hessian singular vectors: implications for observation targeting, Quart. J. Roy. Meteor. Soc., submitted for publication. Available at http://www.ecmwf.int/publications/library/ecpublications/_pdf/tm/501-600/tm517.pdf."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib81",
+      "doi-asserted-by": "crossref",
+      "first-page": "625",
+      "DOI": "10.1256/qj.05.66",
+      "article-title": "Impact of flow-dependent analysis-error covariance norms on extratropical singular vectors",
+      "volume": "132",
+      "author": "Buehner",
+      "year": "2006",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib82",
+      "doi-asserted-by": "crossref",
+      "first-page": "163",
+      "DOI": "10.1146/annurev.earth.33.092203.122552",
+      "article-title": "Representing model uncertainty in weather and climate prediction",
+      "volume": "33",
+      "author": "Palmer",
+      "year": "2005",
+      "journal-title": "Annu. Rev. Earth Planet. Sci."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib83",
+      "doi-asserted-by": "crossref",
+      "first-page": "768",
+      "DOI": "10.1038/nature02771",
+      "article-title": "Quantifying uncertainties in climate change using a large ensemble of global climate model predictions",
+      "volume": "430",
+      "author": "Murphy",
+      "year": "2004",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib84",
+      "doi-asserted-by": "crossref",
+      "first-page": "403",
+      "DOI": "10.1038/nature03301",
+      "article-title": "Uncertainty in predictions of the climate response to rising levels of greenhouse gases",
+      "volume": "433",
+      "author": "Stainforth",
+      "year": "2005",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib85",
+      "doi-asserted-by": "crossref",
+      "first-page": "129",
+      "DOI": "10.1002/qj.23",
+      "article-title": "Using numerical weather prediction to assess climate models",
+      "volume": "133",
+      "author": "Rodwell",
+      "year": "2007",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib86",
+      "first-page": "279",
+      "article-title": "A nonlinear dynamical perspective on model error: a proposal for non-local stochastic-dynamic parametrization in weather and climate prediction models",
+      "volume": "127",
+      "author": "Palmer",
+      "year": "2001",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib87",
+      "doi-asserted-by": "crossref",
+      "first-page": "3079",
+      "DOI": "10.1256/qj.04.106",
+      "article-title": "A kinetic energy backscatter algorithm for use in ensemble prediction systems",
+      "volume": "131",
+      "author": "Shutts",
+      "year": "2005",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib88",
+      "doi-asserted-by": "crossref",
+      "first-page": "L23811",
+      "DOI": "10.1029/2005GL024248",
+      "article-title": "Influence of stochastic parametrization on the frequency of occurrence of North Pacific weather regimes in the ECMWF model",
+      "volume": "32",
+      "author": "Jung",
+      "year": "2005",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib89",
+      "doi-asserted-by": "crossref",
+      "first-page": "187",
+      "DOI": "10.1175/JCLI3954.1",
+      "article-title": "Convective forcing fluctuations in a cloud-resolving model: relevance to the stochastic parameterization problem",
+      "volume": "20",
+      "author": "Shutts",
+      "year": "2007",
+      "journal-title": "J. Clim."
+    },
+    {
+      "key": "10.1016/j.jcp.2007.02.014_bib90",
+      "unstructured": "H. Tennekes, A.P.M. Baede, J.D. Opsteegh, Forecasting forecast skill, in: Proceedings of the workshop on predictability in the medium and extended range, ECMWF, Reading, UK, 1987, pp. 277–302."
+    }
+  ],
+  "container-title": [
+    "Journal of Computational Physics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0021999107000812?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0021999107000812?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2019,
+        4,
+        24
+      ]
+    ],
+    "date-time": "2019-04-24T22:47:49Z",
+    "timestamp": 1556146069000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0021999107000812"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2008,
+        3
+      ]
+    ]
+  },
+  "references-count": 90,
+  "journal-issue": {
+    "issue": "7",
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          3
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "S0021999107000812"
+  ],
+  "URL": "https://doi.org/10.1016/j.jcp.2007.02.014",
+  "relation": {},
+  "ISSN": [
+    "0021-9991"
+  ],
+  "issn-type": [
+    {
+      "value": "0021-9991",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2008,
+        3
+      ]
+    ]
+  }
+}

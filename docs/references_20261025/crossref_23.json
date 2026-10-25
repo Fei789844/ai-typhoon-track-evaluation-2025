@@ -1,0 +1,303 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3840226,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2026-10-14T04:20:12Z",
+          "timestamp": 1791951612091,
+          "version": "4.3.4"
+        },
+        "publisher-location": "San Diego, California, USA",
+        "reference-count": 0,
+        "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "DOI": "10.52202/079017-1316",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              3
+            ]
+          ],
+          "date-time": "2025-11-03T11:20:56Z",
+          "timestamp": 1762168856000
+        },
+        "page": "41577-41648",
+        "source": "Crossref",
+        "is-referenced-by-count": 9,
+        "title": [
+          "Probabilistic Weather Forecasting with Hierarchical Graph Neural Networks"
+        ],
+        "prefix": "10.52202",
+        "author": [
+          {
+            "given": "Joel",
+            "family": "Oskarsson",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tomas",
+            "family": "Landelius",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marc",
+            "family": "Deisenroth",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fredrik",
+            "family": "Lindsten",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "29733",
+        "event": {
+          "name": "Advances in Neural Information Processing Systems 37",
+          "theme": "38th Conference on Neural Information Processing Systems (NeurIPS 2024)",
+          "location": "Vancouver, BC, Canada",
+          "acronym": "NeurIPS 2024",
+          "number": "37",
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                10
+              ]
+            ]
+          },
+          "end": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                15
+              ]
+            ]
+          }
+        },
+        "container-title": [
+          "Advances in Neural Information Processing Systems 37"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              19
+            ]
+          ],
+          "date-time": "2026-06-19T15:37:32Z",
+          "timestamp": 1781883452000
+        },
+        "score": 35.776592,
+        "resource": {
+          "primary": {
+            "URL": "http://www.proceedings.com/079017-1316.html"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.52202/079017-1316",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2025-03-19T04:20:44Z",
+          "timestamp": 1742358044990,
+          "version": "3.40.1"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              18
+            ]
+          ]
+        },
+        "group-title": "oral",
+        "reference-count": 0,
+        "publisher": "Copernicus GmbH",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:p>Accurate ocean forecasting models are crucial for both scientific research and practical application, such as understanding ocean dynamics and efficient ship route planning. While traditional numerical ocean models have proven effective, they require substantial computational resources due to the complexity of solving partial differential equations. In recent years, data-driven weather forecasting models have demonstrated their ability to provide accurate predictions at lower computational costs compared to conventional numerical weather prediction models while their application to ocean forecasting remains limited.&amp;#160;This study explores a data-driven ocean forecasting model for 10-day global forecasting, employing a multi-scale graph neural network (GNN) to capture the multi-scale features of ocean variables while incorporating graph structures that account for land masks. To reflect the effects of atmospheric forcing, surface atmospheric variables are combined with ocean variables and used as GNN&amp;#8217;s node input features. The model was initially trained on paired reanalysis data samples with a 1-day interval to minimize the mean squared error. Subsequently, it was fine-tuned using auto-regressive rollouts across multiple time steps. The forecasting process involves autoregressive steps, where the predicted ocean variables from the previous step and weather forecasting variables provided by an operational center are used as inputs for the next step.Preliminary experiments comparing the proposed model with persistent forecasts showed the skillfulness of the proposed model. Sensitivity experiments were conducted to evaluate the impact of atmospheric forcing by replacing weather forecasting data with climatological data. The evaluation was conducted over a one-year period across the global ocean employing reanalysis data as references. The results showed that using weather forecasting data improved the accuracy of surface ocean variable predictions compared to using climatology.&amp;#160;&amp;#160;Specifically, the RMSE was reduced by 6.6%, 6.2%, and 1.0% for 3-day-ahead, 5-day-ahead, and 10-day-ahead forecasts, respectively, representing the median improvement across the period and variables.&amp;#160;&amp;#160;The improvements varied across variables; for instance, salinity showed a consistent improvement of almost 1% across all lead times, whereas northward velocity showed greater improvements at shorter lead times, such as an improvement of 22% at 3-day-ahead forecasts.The results indicate that it is crucial for data-driven ocean models to incorporate atmospheric forcing, similar to numerical ocean models. These findings suggest that the multi-scale GNN-based ocean forecasting model that integrates atmospheric forcing offers a potential approach for 10-day global ocean forecasting.</jats:p>",
+        "DOI": "10.5194/egusphere-egu25-8030",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              14
+            ]
+          ],
+          "date-time": "2025-03-14T21:32:56Z",
+          "timestamp": 1741987976000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Data-driven Ocean Forecasting Models with Multi-Scale Graph Neural Networks for 10-day Global Forecasting"
+        ],
+        "prefix": "10.5194",
+        "author": [
+          {
+            "given": "Yuta",
+            "family": "Hirabayashi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Daisuke",
+            "family": "Matsuoka",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Konobu",
+            "family": "Kimura",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "3145",
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              18
+            ]
+          ],
+          "date-time": "2025-03-18T09:24:25Z",
+          "timestamp": 1742289865000
+        },
+        "score": 34.545506,
+        "resource": {
+          "primary": {
+            "URL": "https://meetingorganizer.copernicus.org/EGU25/EGU25-8030.html"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              18
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.5194/egusphere-egu25-8030",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              18
+            ]
+          ]
+        },
+        "subtype": "other"
+      }
+    ],
+    "items-per-page": 2,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

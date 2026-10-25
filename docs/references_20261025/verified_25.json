@@ -1,0 +1,928 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2026-10-24T16:02:04Z",
+    "timestamp": 1792857724119,
+    "version": "4.5.0"
+  },
+  "reference-count": 52,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "8027",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            22
+          ]
+        ],
+        "date-time": "2024-07-22T00:00:00Z",
+        "timestamp": 1721606400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            22
+          ]
+        ],
+        "date-time": "2024-07-22T00:00:00Z",
+        "timestamp": 1721606400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Nature"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        29
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    General circulation models (GCMs) are the foundation of weather and climate prediction\n                    <jats:sup>1,2</jats:sup>\n                    . GCMs are physics-based simulators that combine a numerical solver for large-scale dynamics with tuned representations for small-scale processes such as cloud formation. Recently, machine-learning models trained on reanalysis data have achieved comparable or better skill than GCMs for deterministic weather forecasting\n                    <jats:sup>3,4</jats:sup>\n                    . However, these models have not demonstrated improved ensemble forecasts, or shown sufficient stability for long-term weather and climate simulations. Here we present a GCM that combines a differentiable solver for atmospheric dynamics with machine-learning components and show that it can generate forecasts of deterministic weather, ensemble weather and climate on par with the best machine-learning and physics-based methods. NeuralGCM is competitive with machine-learning models for one- to ten-day forecasts, and with the European Centre for Medium-Range Weather Forecasts ensemble prediction for one- to fifteen-day forecasts. With prescribed sea surface temperature, NeuralGCM can accurately track climate metrics for multiple decades, and climate forecasts with 140-kilometre resolution show emergent phenomena such as realistic frequency and trajectories of tropical cyclones. For both weather and climate, our approach offers orders of magnitude computational savings over conventional GCMs, although our model does not extrapolate to substantially different future climates. Our results show that end-to-end deep learning is compatible with tasks performed by conventional GCMs and can enhance the large-scale physical simulations that are essential for understanding and predicting the Earth system.\n                  </jats:p>",
+  "DOI": "10.1038/s41586-024-07744-y",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        7,
+        22
+      ]
+    ],
+    "date-time": "2024-07-22T12:02:40Z",
+    "timestamp": 1721649760000
+  },
+  "page": "1060-1066",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 412,
+  "title": [
+    "Neural general circulation models for weather and climate"
+  ],
+  "prefix": "10.1038",
+  "volume": "632",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-3846-4911",
+      "authenticated-orcid": false,
+      "given": "Dmitrii",
+      "family": "Kochkov",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-7519-0118",
+      "authenticated-orcid": false,
+      "given": "Janni",
+      "family": "Yuval",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ian",
+      "family": "Langmore",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter",
+      "family": "Norgaard",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jamie",
+      "family": "Smith",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Griffin",
+      "family": "Mooers",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Milan",
+      "family": "Klöwer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "James",
+      "family": "Lottes",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Stephan",
+      "family": "Rasp",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-4610-3326",
+      "authenticated-orcid": false,
+      "given": "Peter",
+      "family": "Düben",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Sam",
+      "family": "Hatfield",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter",
+      "family": "Battaglia",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Alvaro",
+      "family": "Sanchez-Gonzalez",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-8730-1927",
+      "authenticated-orcid": false,
+      "given": "Matthew",
+      "family": "Willson",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Michael P.",
+      "family": "Brenner",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5207-0380",
+      "authenticated-orcid": false,
+      "given": "Stephan",
+      "family": "Hoyer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        7,
+        22
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "7744_CR1",
+      "doi-asserted-by": "publisher",
+      "first-page": "47",
+      "DOI": "10.1038/nature14956",
+      "volume": "525",
+      "author": "P Bauer",
+      "year": "2015",
+      "unstructured": "Bauer, P., Thorpe, A. & Brunet, G. The quiet revolution of numerical weather prediction. Nature 525, 47–55 (2015).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "7744_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2202075119",
+      "DOI": "10.1073/pnas.2202075119",
+      "volume": "119",
+      "author": "V Balaji",
+      "year": "2022",
+      "unstructured": "Balaji, V. et al. Are general circulation models obsolete? Proc. Natl Acad. Sci. USA 119, e2202075119 (2022).",
+      "journal-title": "Proc. Natl Acad. Sci. USA"
+    },
+    {
+      "key": "7744_CR3",
+      "doi-asserted-by": "publisher",
+      "first-page": "1416",
+      "DOI": "10.1126/science.adi2336",
+      "volume": "382",
+      "author": "R Lam",
+      "year": "2023",
+      "unstructured": "Lam, R. et al. Learning skillful medium-range global weather forecasting. Science 382, 1416–1421 (2023).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "7744_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "533",
+      "DOI": "10.1038/s41586-023-06185-3",
+      "volume": "619",
+      "author": "K Bi",
+      "year": "2023",
+      "unstructured": "Bi, K. et al. Accurate medium-range global weather forecasting with 3D neural networks. Nature 619, 533–538 (2023).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "7744_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "589",
+      "DOI": "10.1175/BAMS-D-15-00135.1",
+      "volume": "98",
+      "author": "F Hourdin",
+      "year": "2017",
+      "unstructured": "Hourdin, F. et al. The art and science of climate model tuning. Bull. Am. Meteorol. Soc. 98, 589–602 (2017).",
+      "journal-title": "Bull. Am. Meteorol. Soc."
+    },
+    {
+      "key": "7744_CR6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bony, S. & Dufresne, J.-L. Marine boundary layer clouds at the heart of tropical cloud feedback uncertainties in climate models. Geophys. Res. Lett. 32, L20806 (2005).",
+      "DOI": "10.1029/2005GL023851"
+    },
+    {
+      "key": "7744_CR7",
+      "doi-asserted-by": "publisher",
+      "first-page": "677",
+      "DOI": "10.1007/s00382-012-1336-x",
+      "volume": "40",
+      "author": "MJ Webb",
+      "year": "2013",
+      "unstructured": "Webb, M. J., Lambert, F. H. & Gregory, J. M. Origins of differences in climate sensitivity, forcing and feedback in climate models. Clim. Dyn. 40, 677–707 (2013).",
+      "journal-title": "Clim. Dyn."
+    },
+    {
+      "key": "7744_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "37",
+      "DOI": "10.1038/nature12829",
+      "volume": "505",
+      "author": "SC Sherwood",
+      "year": "2014",
+      "unstructured": "Sherwood, S. C., Bony, S. & Dufresne, J.-L. Spread in model climate sensitivity traced to atmospheric convective mixing. Nature 505, 37–42 (2014).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "7744_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "24390",
+      "DOI": "10.1073/pnas.1906691116",
+      "volume": "116",
+      "author": "T Palmer",
+      "year": "2019",
+      "unstructured": "Palmer, T. & Stevens, B. The scientific challenge of understanding and estimating climate change. Proc. Natl Acad. Sci. USA 116, 24390–24395 (2019).",
+      "journal-title": "Proc. Natl Acad. Sci. USA"
+    },
+    {
+      "key": "7744_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "1033",
+      "DOI": "10.1038/nclimate2051",
+      "volume": "3",
+      "author": "EM Fischer",
+      "year": "2013",
+      "unstructured": "Fischer, E. M., Beyerle, U. & Knutti, R. Robust spatially aggregated projections of climate extremes. Nat. Clim. Change 3, 1033–1038 (2013).",
+      "journal-title": "Nat. Clim. Change"
+    },
+    {
+      "key": "7744_CR11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Field, C. B. Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation: Special Report of the Intergovernmental Panel on Climate Change (Cambridge Univ. Press, 2012).",
+      "DOI": "10.1017/CBO9781139177245"
+    },
+    {
+      "key": "7744_CR12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rasp, S. et al. WeatherBench 2: A benchmark for the next generation of data-driven global weather models. J. Adv. Model. Earth Syst. 16, e2023MS004019 (2024).",
+      "DOI": "10.1029/2023MS004019"
+    },
+    {
+      "key": "7744_CR13",
+      "unstructured": "Keisler, R. Forecasting global weather with graph neural networks. Preprint at https://arxiv.org/abs/2202.07575 (2022)."
+    },
+    {
+      "key": "7744_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "1999",
+      "DOI": "10.1002/qj.3803",
+      "volume": "146",
+      "author": "H Hersbach",
+      "year": "2020",
+      "unstructured": "Hersbach, H. et al. The ERA5 global reanalysis. Q. J. R. Meteorol. Soc. 146, 1999–2049 (2020).",
+      "journal-title": "Q. J. R. Meteorol. Soc."
+    },
+    {
+      "key": "7744_CR15",
+      "doi-asserted-by": "publisher",
+      "first-page": "1225",
+      "DOI": "10.1175/BAMS-D-17-0246.1",
+      "volume": "100",
+      "author": "L Zhou",
+      "year": "2019",
+      "unstructured": "Zhou, L. et al. Toward convective-scale prediction within the next generation global prediction system. Bull. Am. Meteorol. Soc. 100, 1225–1243 (2019).",
+      "journal-title": "Bull. Am. Meteorol. Soc."
+    },
+    {
+      "key": "7744_CR16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bonavita, M. On some limitations of current machine learning weather prediction models. Geophys. Res. Lett. 51, e2023GL107377 (2024).",
+      "DOI": "10.1029/2023GL107377"
+    },
+    {
+      "key": "7744_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2020MS002109",
+      "DOI": "10.1029/2020MS002109",
+      "volume": "12",
+      "author": "JA Weyn",
+      "year": "2020",
+      "unstructured": "Weyn, J. A., Durran, D. R. & Caruana, R. Improving data-driven global weather prediction using deep convolutional neural networks on a cubed sphere. J. Adv. Model. Earth Syst. 12, e2020MS002109 (2020).",
+      "journal-title": "J. Adv. Model. Earth Syst."
+    },
+    {
+      "key": "7744_CR18",
+      "unstructured": "Watt-Meyer, O. et al. ACE: a fast, skillful learned global atmospheric model for climate prediction. Preprint at https://arxiv.org/abs/2310.02074 (2023)."
+    },
+    {
+      "key": "7744_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2023GL104174",
+      "DOI": "10.1029/2023GL104174",
+      "volume": "50",
+      "author": "CS Bretherton",
+      "year": "2023",
+      "unstructured": "Bretherton, C. S. Old dog, new trick: reservoir computing advances machine learning for climate modeling. Geophys. Res. Lett. 50, e2023GL104174 (2023).",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "7744_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "195",
+      "DOI": "10.1038/s41586-019-0912-1",
+      "volume": "566",
+      "author": "M Reichstein",
+      "year": "2019",
+      "unstructured": "Reichstein, M. et al. Deep learning and process understanding for data-driven Earth system science. Nature 566, 195–204 (2019).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "7744_CR21",
+      "doi-asserted-by": "publisher",
+      "first-page": "2728",
+      "DOI": "10.1029/2019MS001711",
+      "volume": "11",
+      "author": "ND Brenowitz",
+      "year": "2019",
+      "unstructured": "Brenowitz, N. D. & Bretherton, C. S. Spatially extended tests of a neural network parametrization trained by coarse-graining. J. Adv. Model. Earth Syst. 11, 2728–2744 (2019).",
+      "journal-title": "J. Adv. Model. Earth Syst."
+    },
+    {
+      "key": "7744_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "9684",
+      "DOI": "10.1073/pnas.1810286115",
+      "volume": "115",
+      "author": "S Rasp",
+      "year": "2018",
+      "unstructured": "Rasp, S., Pritchard, M. S. & Gentine, P. Deep learning to represent subgrid processes in climate models. Proc. Natl Acad. Sci. USA 115, 9684–9689 (2018).",
+      "journal-title": "Proc. Natl Acad. Sci. USA"
+    },
+    {
+      "key": "7744_CR23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-020-17142-3",
+      "volume": "11",
+      "author": "J Yuval",
+      "year": "2020",
+      "unstructured": "Yuval, J. & O’Gorman, P. A. Stable machine-learning parameterization of subgrid processes for climate modeling at a range of resolutions. Nat. Commun. 11, 3295 (2020).",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "7744_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2022MS003400",
+      "DOI": "10.1029/2022MS003400",
+      "volume": "15",
+      "author": "A Kwa",
+      "year": "2023",
+      "unstructured": "Kwa, A. et al. Machine-learned climate model corrections from a global storm-resolving model: performance across the annual cycle. J. Adv. Model. Earth Syst. 15, e2022MS003400 (2023).",
+      "journal-title": "J. Adv. Model. Earth Syst."
+    },
+    {
+      "key": "7744_CR25",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2022GL102649",
+      "DOI": "10.1029/2022GL102649",
+      "volume": "50",
+      "author": "T Arcomano",
+      "year": "2023",
+      "unstructured": "Arcomano, T., Szunyogh, I., Wikner, A., Hunt, B. R. & Ott, E. A hybrid atmospheric model incorporating machine learning can capture dynamical processes not captured by its physics-based component. Geophys. Res. Lett. 50, e2022GL102649 (2023).",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "7744_CR26",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2022MS003508",
+      "DOI": "10.1029/2022MS003508",
+      "volume": "15",
+      "author": "Y Han",
+      "year": "2023",
+      "unstructured": "Han, Y., Zhang, G. J. & Wang, Y. An ensemble of neural networks for moist physics processes, its generalizability and stable integration. J. Adv. Model. Earth Syst. 15, e2022MS003508 (2023).",
+      "journal-title": "J. Adv. Model. Earth Syst."
+    },
+    {
+      "key": "7744_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "3123",
+      "DOI": "10.5194/gmd-16-3123-2023",
+      "volume": "16",
+      "author": "M Gelbrecht",
+      "year": "2023",
+      "unstructured": "Gelbrecht, M., White, A., Bathiany, S. & Boers, N. Differentiable programming for Earth system modeling. Geosci. Model Dev. 16, 3123–3135 (2023).",
+      "journal-title": "Geosci. Model Dev."
+    },
+    {
+      "key": "7744_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "359",
+      "DOI": "10.1198/016214506000001437",
+      "volume": "102",
+      "author": "T Gneiting",
+      "year": "2007",
+      "unstructured": "Gneiting, T. & Raftery, A. E. Strictly proper scoring rules, prediction, and estimation. J. Am. Stat. Assoc. 102, 359–378 (2007).",
+      "journal-title": "J. Am. Stat. Assoc."
+    },
+    {
+      "key": "7744_CR29",
+      "doi-asserted-by": "publisher",
+      "first-page": "1708",
+      "DOI": "10.1175/JHM-D-14-0008.1",
+      "volume": "15",
+      "author": "V Fortin",
+      "year": "2014",
+      "unstructured": "Fortin, V., Abaza, M., Anctil, F. & Turcotte, R. Why should ensemble spread match the RMSE of the ensemble mean? J. Hydrometeorol. 15, 1708–1713 (2014).",
+      "journal-title": "J. Hydrometeorol."
+    },
+    {
+      "key": "7744_CR30",
+      "unstructured": "Holton, J. R. An introduction to Dynamic Meteorology 5th edn (Elsevier, 2004)."
+    },
+    {
+      "key": "7744_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2022GL099796",
+      "DOI": "10.1029/2022GL099796",
+      "volume": "49",
+      "author": "K-Y Cheng",
+      "year": "2022",
+      "unstructured": "Cheng, K.-Y. et al. Impact of warmer sea surface temperature on the global pattern of intense convection: insights from a global storm resolving model. Geophys. Res. Lett. 49, e2022GL099796 (2022).",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "7744_CR32",
+      "doi-asserted-by": "publisher",
+      "first-page": "61",
+      "DOI": "10.1186/s40645-019-0304-z",
+      "volume": "6",
+      "author": "B Stevens",
+      "year": "2019",
+      "unstructured": "Stevens, B. et al. DYAMOND: the dynamics of the atmospheric general circulation modeled on non-hydrostatic domains. Prog. Earth Planet. Sci. 6, 61 (2019).",
+      "journal-title": "Prog. Earth Planet. Sci."
+    },
+    {
+      "key": "7744_CR33",
+      "doi-asserted-by": "publisher",
+      "first-page": "5023",
+      "DOI": "10.5194/gmd-14-5023-2021",
+      "volume": "14",
+      "author": "PA Ullrich",
+      "year": "2021",
+      "unstructured": "Ullrich, P. A. et al. TempestExtremes v2.1: a community framework for feature detection, tracking, and analysis in large datasets. Geosc. Model Dev. 14, 5023–5048 (2021).",
+      "journal-title": "Geosc. Model Dev."
+    },
+    {
+      "key": "7744_CR34",
+      "doi-asserted-by": "publisher",
+      "first-page": "1937",
+      "DOI": "10.5194/gmd-9-1937-2016",
+      "volume": "9",
+      "author": "V Eyring",
+      "year": "2016",
+      "unstructured": "Eyring, V. et al. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci. Model Dev. 9, 1937–1958 (2016).",
+      "journal-title": "Geosci. Model Dev."
+    },
+    {
+      "key": "7744_CR35",
+      "doi-asserted-by": "publisher",
+      "first-page": "1040b4",
+      "DOI": "10.1088/1748-9326/ab9af7",
+      "volume": "15",
+      "author": "DM Mitchell",
+      "year": "2020",
+      "unstructured": "Mitchell, D. M., Lo, Y. E., Seviour, W. J., Haimberger, L. & Polvani, L. M. The vertical profile of recent tropical temperature trends: persistent model biases in the context of internal variability. Environ. Res. Lett. 15, 1040b4 (2020).",
+      "journal-title": "Environ. Res. Lett."
+    },
+    {
+      "key": "7744_CR36",
+      "doi-asserted-by": "publisher",
+      "first-page": "687",
+      "DOI": "10.1175/1520-0493(1974)102<0687:AMLSMI>2.0.CO;2",
+      "volume": "102",
+      "author": "W Bourke",
+      "year": "1974",
+      "unstructured": "Bourke, W. A multi-level spectral model. I. Formulation and hemispheric integrations. Mon. Weather Rev. 102, 687–701 (1974).",
+      "journal-title": "Mon. Weather Rev."
+    },
+    {
+      "key": "7744_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "79",
+      "DOI": "10.2151/jmsj.2013-201",
+      "volume": "91",
+      "author": "JJ Ruiz",
+      "year": "2013",
+      "unstructured": "Ruiz, J. J., Pulido, M. & Miyoshi, T. Estimating model parameters with ensemble-based data assimilation: a review. J. Meteorol. Soc. Jpn Ser. II 91, 79–99 (2013).",
+      "journal-title": "J. Meteorol. Soc. Jpn Ser. II"
+    },
+    {
+      "key": "7744_CR38",
+      "doi-asserted-by": "publisher",
+      "first-page": "12",
+      "DOI": "10.1002/2017GL076101",
+      "volume": "44",
+      "author": "T Schneider",
+      "year": "2017",
+      "unstructured": "Schneider, T., Lan, S., Stuart, A. & Teixeira, J. Earth system modeling 2.0: a blueprint for models that learn from observations and targeted high-resolution simulations. Geophys. Res. Lett. 44, 12–396 (2017).",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "7744_CR39",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Schneider, T., Leung, L. R. & Wills, R. C. J. Opinion: Optimizing climate models with process knowledge, resolution, and artificial intelligence. Atmos. Chem. Phys. 24, 7041–7062 (2024).",
+      "DOI": "10.5194/acp-24-7041-2024"
+    },
+    {
+      "key": "7744_CR40",
+      "unstructured": "Sutskever, I., Vinyals, O. & Le, Q. V. Sequence to sequence learning with neural networks. Adv. Neural Inf. Process. Syst. 27, 3104–3112 (2014)."
+    },
+    {
+      "key": "7744_CR41",
+      "doi-asserted-by": "publisher",
+      "first-page": "4587",
+      "DOI": "10.1175/2008JCLI1929.1",
+      "volume": "21",
+      "author": "L Haimberger",
+      "year": "2008",
+      "unstructured": "Haimberger, L., Tavolato, C. & Sperka, S. Toward elimination of the warm bias in historic radiosonde temperature records—some new results from a comprehensive intercomparison of upper-air data. J. Clim. 21, 4587–4606 (2008).",
+      "journal-title": "J. Clim."
+    },
+    {
+      "key": "7744_CR42",
+      "unstructured": "Bradbury, J. et al. JAX: composable transformations of Python+NumPy programs. GitHub http://github.com/google/jax (2018)."
+    },
+    {
+      "key": "7744_CR43",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Durran, D. R. Numerical Methods for Fluid Dynamics: With Applications to Geophysics Vol. 32, 2nd edn (Springer, 2010).",
+      "DOI": "10.1007/978-1-4419-6412-0"
+    },
+    {
+      "key": "7744_CR44",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2022MS002984",
+      "DOI": "10.1029/2022MS002984",
+      "volume": "14",
+      "author": "P Wang",
+      "year": "2022",
+      "unstructured": "Wang, P., Yuval, J. & O’Gorman, P. A. Non-local parameterization of atmospheric subgrid processes with neural networks. J. Adv. Model. Earth Syst. 14, e2022MS002984 (2022).",
+      "journal-title": "J. Adv. Model. Earth Syst."
+    },
+    {
+      "key": "7744_CR45",
+      "doi-asserted-by": "publisher",
+      "first-page": "450",
+      "DOI": "10.1029/RG019i003p00450",
+      "volume": "19",
+      "author": "R Daley",
+      "year": "1981",
+      "unstructured": "Daley, R. Normal mode initialization. Rev. Geophys. 19, 450–468 (1981).",
+      "journal-title": "Rev. Geophys."
+    },
+    {
+      "key": "7744_CR46",
+      "doi-asserted-by": "publisher",
+      "first-page": "3426",
+      "DOI": "10.1175/MWR-D-13-00132.1",
+      "volume": "141",
+      "author": "JS Whitaker",
+      "year": "2013",
+      "unstructured": "Whitaker, J. S. & Kar, S. K. Implicit–explicit Runge–Kutta methods for fast–slow wave problems. Mon. Weather Rev. 141, 3426–3434 (2013).",
+      "journal-title": "Mon. Weather Rev."
+    },
+    {
+      "key": "7744_CR47",
+      "doi-asserted-by": "publisher",
+      "first-page": "1416",
+      "DOI": "10.1175/2009WAF2222269.1",
+      "volume": "24",
+      "author": "E Gilleland",
+      "year": "2009",
+      "unstructured": "Gilleland, E., Ahijevych, D., Brown, B. G., Casati, B. & Ebert, E. E. Intercomparison of spatial forecast verification methods. Weather Forecast. 24, 1416–1430 (2009).",
+      "journal-title": "Weather Forecast."
+    },
+    {
+      "key": "7744_CR48",
+      "doi-asserted-by": "publisher",
+      "first-page": "3885",
+      "DOI": "10.1175/MWR-D-18-0187.1",
+      "volume": "146",
+      "author": "S Rasp",
+      "year": "2018",
+      "unstructured": "Rasp, S. & Lerch, S. Neural networks for postprocessing ensemble weather forecasts. Month. Weather Rev. 146, 3885–3900 (2018).",
+      "journal-title": "Month. Weather Rev."
+    },
+    {
+      "key": "7744_CR49",
+      "unstructured": "Pacchiardi, L., Adewoyin, R., Dueben, P. & Dutta, R. Probabilistic forecasting with generative networks via scoring rule minimization. J. Mach. Learn. Res. 25, 1–64 (2024)."
+    },
+    {
+      "key": "7744_CR50",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Smith, J. A., Kochkov, D., Norgaard, P., Yuval, J. & Hoyer, S. google-research/dinosaur: 1.0.0. Zenodo https://doi.org/10.5281/zenodo.11376145 (2024).",
+      "DOI": "10.5281/zenodo.11376145"
+    },
+    {
+      "key": "7744_CR51",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Kochkov, D. et al. google-research/neuralgcm: 1.0.0. Zenodo https://doi.org/10.5281/zenodo.11376143 (2024).",
+      "DOI": "10.5281/zenodo.11376143"
+    },
+    {
+      "key": "7744_CR52",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Rasp, S. et al. google-research/weatherbench2: v0.2.0. Zenodo https://doi.org/10.5281/zenodo.11376271 (2023).",
+      "DOI": "10.5281/zenodo.11376271"
+    }
+  ],
+  "container-title": [
+    "Nature"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s41586-024-07744-y.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41586-024-07744-y",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41586-024-07744-y.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        29
+      ]
+    ],
+    "date-time": "2024-08-29T02:11:29Z",
+    "timestamp": 1724897489000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41586-024-07744-y"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        7,
+        22
+      ]
+    ]
+  },
+  "references-count": 52,
+  "journal-issue": {
+    "issue": "8027",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          29
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "7744"
+  ],
+  "URL": "https://doi.org/10.1038/s41586-024-07744-y",
+  "relation": {},
+  "ISSN": [
+    "0028-0836",
+    "1476-4687"
+  ],
+  "issn-type": [
+    {
+      "value": "0028-0836",
+      "type": "print"
+    },
+    {
+      "value": "1476-4687",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        7,
+        22
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "13 November 2023",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "15 June 2024",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "22 July 2024",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "D.K., J.Y., I.L., P.N., J.S., J.L., S.R., P.B., A.S.-G., M.W., M.P.B. and S. Hoyer are employees of Google. S. Hoyer, D.K., I.L., J.Y., G.M., P.N., J.S. and M.B. have filed international patent application PCT/US2023/035420 in the name of Google LLC, currently pending, relating to neural general circulation models.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ]
+}

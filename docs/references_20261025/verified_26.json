@@ -1,0 +1,1003 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2026-10-24T16:51:57Z",
+    "timestamp": 1792860717280,
+    "version": "4.5.0"
+  },
+  "reference-count": 81,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "8065",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2025-05-21T00:00:00Z",
+        "timestamp": 1747785600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            21
+          ]
+        ],
+        "date-time": "2025-05-21T00:00:00Z",
+        "timestamp": 1747785600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Nature"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        5,
+        29
+      ]
+    ]
+  },
+  "DOI": "10.1038/s41586-025-09005-y",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        5,
+        21
+      ]
+    ],
+    "date-time": "2025-05-21T11:02:52Z",
+    "timestamp": 1747825372000
+  },
+  "page": "1180-1187",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 259,
+  "title": [
+    "A foundation model for the Earth system"
+  ],
+  "prefix": "10.1038",
+  "volume": "641",
+  "author": [
+    {
+      "given": "Cristian",
+      "family": "Bodnar",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wessel P.",
+      "family": "Bruinsma",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ana",
+      "family": "Lucic",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Megan",
+      "family": "Stanley",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Anna",
+      "family": "Allen",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Johannes",
+      "family": "Brandstetter",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Patrick",
+      "family": "Garvan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3299-1382",
+      "authenticated-orcid": false,
+      "given": "Maik",
+      "family": "Riechert",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jonathan A.",
+      "family": "Weyn",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0008-0986-8339",
+      "authenticated-orcid": false,
+      "given": "Haiyu",
+      "family": "Dong",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-4742-9942",
+      "authenticated-orcid": false,
+      "given": "Jayesh K.",
+      "family": "Gupta",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kit",
+      "family": "Thambiratnam",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Alexander T.",
+      "family": "Archibald",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Chun-Chieh",
+      "family": "Wu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Elizabeth",
+      "family": "Heider",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Max",
+      "family": "Welling",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0066-0984",
+      "authenticated-orcid": false,
+      "given": "Richard E.",
+      "family": "Turner",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-2816-3229",
+      "authenticated-orcid": false,
+      "given": "Paris",
+      "family": "Perdikaris",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2025,
+        5,
+        21
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "9005_CR1",
+      "doi-asserted-by": "publisher",
+      "unstructured": "European Centre for Medium-Range Weather Forecasts (ECMWF). IFS Documentation CY48R1, Vol. 8. https://doi.org/10.21957/0f360ba4ca (2023).",
+      "DOI": "10.21957/0f360ba4ca"
+    },
+    {
+      "key": "9005_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "533",
+      "DOI": "10.1038/s41586-023-06185-3",
+      "volume": "619",
+      "author": "K Bi",
+      "year": "2023",
+      "unstructured": "Bi, K. et al. Accurate medium-range global weather forecasting with 3D neural networks. Nature 619, 533–538 (2023).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "9005_CR3",
+      "doi-asserted-by": "publisher",
+      "first-page": "1416",
+      "DOI": "10.1126/science.adi2336",
+      "volume": "382",
+      "author": "R Lam",
+      "year": "2023",
+      "unstructured": "Lam, R. et al. Learning skillful medium-range global weather forecasting. Science 382, 1416–1421 (2023).",
+      "journal-title": "Science"
+    },
+    {
+      "key": "9005_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "493",
+      "DOI": "10.1038/s41586-024-07487-w",
+      "volume": "630",
+      "author": "J Abramson",
+      "year": "2024",
+      "unstructured": "Abramson, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "9005_CR5",
+      "unstructured": "OpenAI et al. GPT-4 technical report. Preprint at https://arxiv.org/abs/2303.08774 (2024)."
+    },
+    {
+      "key": "9005_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "533",
+      "DOI": "10.1038/323533a0",
+      "volume": "323",
+      "author": "DE Rumelhart",
+      "year": "1986",
+      "unstructured": "Rumelhart, D. E., Hinton, G. E. & Williams, R. J. Learning representations by back-propagating errors. Nature 323, 533–536 (1986).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "9005_CR7",
+      "doi-asserted-by": "publisher",
+      "first-page": "617",
+      "DOI": "10.1175/1520-0450(1996)035<0617:ANNFTP>2.0.CO;2",
+      "volume": "35",
+      "author": "C Marzban",
+      "year": "1996",
+      "unstructured": "Marzban, C. & Stumpf, G. J. A neural network for tornado prediction based on Doppler radar-derived attributes. J. Appl. Meteorol. Climatol. 35, 617–626 (1996).",
+      "journal-title": "J. Appl. Meteorol. Climatol."
+    },
+    {
+      "key": "9005_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "525",
+      "DOI": "10.1175/1520-0434(1992)007<0525:ANNSTF>2.0.CO;2",
+      "volume": "7",
+      "author": "DW McCann",
+      "year": "1992",
+      "unstructured": "McCann, D. W. A neural network short-term forecast of significant thunderstorms. Weather Forecast. 7, 525–534 (1992).",
+      "journal-title": "Weather Forecast."
+    },
+    {
+      "key": "9005_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "470",
+      "DOI": "10.1175/1520-0493(1998)126<0470:EISTPF>2.0.CO;2",
+      "volume": "126",
+      "author": "RJ Kuligowski",
+      "year": "1998",
+      "unstructured": "Kuligowski, R. J. & Barros, A. P. Experiments in short-term precipitation forecasting using artificial neural networks. Mon. Weather Rev. 126, 470–482 (1998).",
+      "journal-title": "Mon. Weather Rev."
+    },
+    {
+      "key": "9005_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "1194",
+      "DOI": "10.1175/1520-0434(1998)013<1194:LPFFAN>2.0.CO;2",
+      "volume": "13",
+      "author": "RJ Kuligowski",
+      "year": "1998",
+      "unstructured": "Kuligowski, R. J. & Barros, A. P. Localized precipitation forecasts from a numerical weather prediction model using artificial neural networks. Weather Forecast. 13, 1194–1204 (1998).",
+      "journal-title": "Weather Forecast."
+    },
+    {
+      "key": "9005_CR11",
+      "doi-asserted-by": "publisher",
+      "first-page": "123",
+      "DOI": "10.1016/S0143-6228(98)00039-3",
+      "volume": "19",
+      "author": "G Spellman",
+      "year": "1999",
+      "unstructured": "Spellman, G. An application of artificial neural networks to the prediction of surface ozone concentrations in the United Kingdom. Appl. Geogr. 19, 123–136 (1999).",
+      "journal-title": "Appl. Geogr."
+    },
+    {
+      "key": "9005_CR12",
+      "doi-asserted-by": "publisher",
+      "first-page": "191",
+      "DOI": "10.1016/S0029-8018(97)10025-7",
+      "volume": "26",
+      "author": "M Deo",
+      "year": "1998",
+      "unstructured": "Deo, M. & Naidu, C. S. Real time wave forecasting using neural networks. Ocean Eng. 26, 191–203 (1998).",
+      "journal-title": "Ocean Eng."
+    },
+    {
+      "key": "9005_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "135",
+      "DOI": "10.1007/s003820050156",
+      "volume": "13",
+      "author": "F Tangang",
+      "year": "1997",
+      "unstructured": "Tangang, F., Hsieh, W. & Tang, B. Forecasting the equatorial pacific sea surface temperatures by neural network models. Clim. Dyn. 13, 135–147 (1997).",
+      "journal-title": "Clim. Dyn."
+    },
+    {
+      "key": "9005_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "1855",
+      "DOI": "10.1175/1520-0477(1998)079<1855:ANNMTP>2.0.CO;2",
+      "volume": "79",
+      "author": "WW Hsieh",
+      "year": "1998",
+      "unstructured": "Hsieh, W. W. & Tang, B. Applying neural network models to prediction and data analysis in meteorology and oceanography. Bull. Am. Meteorol. Soc. 79, 1855–1870 (1998).",
+      "journal-title": "Bull. Am. Meteorol. Soc."
+    },
+    {
+      "key": "9005_CR15",
+      "doi-asserted-by": "publisher",
+      "first-page": "277",
+      "DOI": "10.1023/A:1006498914708",
+      "volume": "65",
+      "author": "M Kolehmainen",
+      "year": "2000",
+      "unstructured": "Kolehmainen, M., Martikainen, H., Hiltunen, T. & Ruuskanen, J. Forecasting air quality parameters using hybrid neural network modelling. Environ. Monit. Assess. 65, 277–286 (2000).",
+      "journal-title": "Environ. Monit. Assess."
+    },
+    {
+      "key": "9005_CR16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41612-023-00512-1",
+      "volume": "6",
+      "author": "L Chen",
+      "year": "2023",
+      "unstructured": "Chen, L. et al. FuXi: a cascade machine learning forecasting system for 15-day global weather forecast. npj Clim. Atmos. Sci. 6, 190 (2023).",
+      "journal-title": "npj Clim. Atmos. Sci."
+    },
+    {
+      "key": "9005_CR17",
+      "unstructured": "Han, T. et al. FengWu-GHR: learning the kilometer-scale medium-range global weather forecasting. Preprint at https://arxiv.org/abs/2402.00059 (2024)."
+    },
+    {
+      "key": "9005_CR18",
+      "unstructured": "Chen, K. et al. FengWu: pushing the skillful global medium-range weather forecast beyond 10 days lead. Preprint at https://arxiv.org/abs/2304.02948 (2023)."
+    },
+    {
+      "key": "9005_CR19",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Liu, Z. et al. Swin Transformer: hierarchical vision transformer using shifted windows. In Proc. IEEE/CVF International Conference on Computer Vision (ICCV) 10012–10022 (IEEE, 2021).",
+      "DOI": "10.1109/ICCV48922.2021.00986"
+    },
+    {
+      "key": "9005_CR20",
+      "unstructured": "Dosovitskiy, A. et al. An image is worth 16 × 16 words: transformers for image recognition at scale. In International Conference on Learning Representations, https://openreview.net/forum?id=YicbFdNTTy (Curran Associates, 2021)."
+    },
+    {
+      "key": "9005_CR21",
+      "unstructured": "Jaegle, A. et al. Perceiver: general perception with iterative attention. In Proc. 38th International Conference on Machine Learning (eds Meila, M. & Zhang, T.) 4651–4664, https://proceedings.mlr.press/v139/jaegle21a.html (PMLR, 2021)."
+    },
+    {
+      "key": "9005_CR22",
+      "unstructured": "Jaegle, A. et al. Perceiver IO: a general architecture for structured inputs & outputs. In International Conference on Learning Representations, https://openreview.net/forum?id=fILj7WpI-g (Curran Associates, 2022)."
+    },
+    {
+      "key": "9005_CR23",
+      "unstructured": "World Health Organization (WHO). WHO global air quality guidelines: particulate matter (PM2.5 and PM10), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide. https://www.who.int/publications/i/item/9789240034228 (WHO, 2021)."
+    },
+    {
+      "key": "9005_CR24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Brasseur, G. P. & Jacob, D. J. Modeling of Atmospheric Chemistry (Cambridge Univ. Press, 2017).",
+      "DOI": "10.1017/9781316544754"
+    },
+    {
+      "key": "9005_CR25",
+      "doi-asserted-by": "publisher",
+      "unstructured": "European Centre for Medium-Range Weather Forecasts (ECMWF). IFS Documentation CY48R1 - Part VIII: Atmospheric Composition. https://doi.org/10.21957/749dc09059 (2023).",
+      "DOI": "10.21957/749dc09059"
+    },
+    {
+      "key": "9005_CR26",
+      "unstructured": "U.S. Environmental Protection Agency. Technical assistance document for the reporting of daily air quality – the air quality index (AQI). Technical report, https://document.airnow.gov/technical-assistance-document-for-the-reporting-of-daily-air-quailty.pdf (2024)."
+    },
+    {
+      "key": "9005_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "3515",
+      "DOI": "10.5194/acp-19-3515-2019",
+      "volume": "19",
+      "author": "A Inness",
+      "year": "2019",
+      "unstructured": "Inness, A. et al. The CAMS reanalysis of atmospheric composition. Atmos. Chem. Phys. 19, 3515–3556 (2019).",
+      "journal-title": "Atmos. Chem. Phys."
+    },
+    {
+      "key": "9005_CR28",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Buizza, R. et al. The development and evaluation process followed at ECMWF to upgrade the integrated forecasting system (IFS). Technical Report 829, https://doi.org/10.21957/xzopnhty9 (2018).",
+      "DOI": "10.21957/xzopnhty9"
+    },
+    {
+      "key": "9005_CR29",
+      "doi-asserted-by": "publisher",
+      "first-page": "119539",
+      "DOI": "10.1016/j.atmosenv.2022.119539",
+      "volume": "296",
+      "author": "D Francis",
+      "year": "2023",
+      "unstructured": "Francis, D. et al. On the Middle East’s severe dust storms in spring 2022: triggers and impacts. Atmos. Environ. 296, 119539 (2023).",
+      "journal-title": "Atmos. Environ."
+    },
+    {
+      "key": "9005_CR30",
+      "unstructured": "European Centre for Medium-Range Weather Forecasts (ECMWF). Ocean Wave Model high resolution 15-day forecast (Set II - HRES-WAM). https://www.ecmwf.int/en/forecasts/datasets/set-ii (2024)."
+    },
+    {
+      "key": "9005_CR31",
+      "unstructured": "European Centre for Medium-Range Weather Forecasts (ECMWF). IFS DOCUMENTATION – Cy43r3 operational implementation 11 July 2017. PART VII: ECMWF WAVE MODEL. https://www.ecmwf.int/sites/default/files/elibrary/2017/17739-part-vii-ecmwf-wave-model.pdf (2017)."
+    },
+    {
+      "key": "9005_CR32",
+      "first-page": "23",
+      "volume": "146",
+      "author": "S Malardel",
+      "year": "2016",
+      "unstructured": "Malardel, S. et al. A new grid for the IFS. ECMWF Newsl. 146, 23–28 (2016).",
+      "journal-title": "ECMWF Newsl."
+    },
+    {
+      "key": "9005_CR33",
+      "unstructured": "Gordon, J. et al. Convolutional conditional neural processes. In International Conference on Learning Representations, https://openreview.net/forum?id=Skey4eBYPS (Curran Associates, 2020)."
+    },
+    {
+      "key": "9005_CR34",
+      "unstructured": "World Meteorological Organization (WMO). Tropical cyclone. https://wmo.int/topics/tropical-cyclone (2024)."
+    },
+    {
+      "key": "9005_CR35",
+      "unstructured": "National Hurricane Center (NHC). NHC track and intensity models. https://www.nhc.noaa.gov/modelsummary.shtml (2019)."
+    },
+    {
+      "key": "9005_CR36",
+      "doi-asserted-by": "publisher",
+      "first-page": "817",
+      "DOI": "10.1175/WAF-D-21-0091.1",
+      "volume": "37",
+      "author": "L Boussioux",
+      "year": "2022",
+      "unstructured": "Boussioux, L., Zeng, C., Guénais, T. & Bertsimas, D. Hurricane forecasting: a novel multimodal machine learning framework. Weather Forecast. 37, 817–831 (2022).",
+      "journal-title": "Weather Forecast."
+    },
+    {
+      "key": "9005_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2021GL096898",
+      "DOI": "10.1029/2021GL096898",
+      "volume": "49",
+      "author": "C Huang",
+      "year": "2022",
+      "unstructured": "Huang, C., Bai, C., Chan, S. & Zhang, J. MMSTN: a multi-modal spatial-temporal network for tropical cyclone short-term prediction. Geophys. Res. Lett. 49, e2021GL096898 (2022).",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "9005_CR38",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kurth, T. et al. FourCastNet: accelerating global high-resolution weather forecasting using adaptive Fourier neural operators. In Proc. Platform for Advanced Scientific Computing Conference, article no. 13 (Association for Computing Machinery, 2023).",
+      "DOI": "10.1145/3592979.3593412"
+    },
+    {
+      "key": "9005_CR39",
+      "unstructured": "DeMaria, M. et al. Evaluation of tropical cyclone track and intensity forecasts from Artificial Intelligence Weather Prediction (AIWP) models. Preprint at https://arxiv.org/abs/2409.06735 (2024)."
+    },
+    {
+      "key": "9005_CR40",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gahtan, J. et al. International Best Track Archive for Climate Stewardship (IBTrACS) project, version 4r01. NOAA National Centers for Environmental Information, https://doi.org/10.25921/82ty-9e16 (2024).",
+      "DOI": "10.25921/82ty-9e16"
+    },
+    {
+      "key": "9005_CR41",
+      "doi-asserted-by": "publisher",
+      "first-page": "363",
+      "DOI": "10.1175/2009BAMS2755.1",
+      "volume": "91",
+      "author": "KR Knapp",
+      "year": "2010",
+      "unstructured": "Knapp, K. R., Kruk, M. C., Levinson, D. H., Diamond, H. J. & Neumann, C. J. The International Best Track Archive for Climate Stewardship (IBTrACS): unifying tropical cyclone data. Bull. Am. Meteorol. Soc. 91, 363–376 (2010).",
+      "journal-title": "Bull. Am. Meteorol. Soc."
+    },
+    {
+      "key": "9005_CR42",
+      "unstructured": "National Hurricane Center (NHC). National Hurricane Center forecast verification report. 2022 hurricane season. NOAA technical report, https://www.nhc.noaa.gov/verification/pdfs/Verification_2022.pdf (2022)."
+    },
+    {
+      "key": "9005_CR43",
+      "unstructured": "National Hurricane Center (NHC). National Hurricane Center forecast verification report. 2023 hurricane season. NOAA technical report, https://www.nhc.noaa.gov/verification/pdfs/Verification_2023.pdf (2023)."
+    },
+    {
+      "key": "9005_CR44",
+      "unstructured": "Bonev, B. et al. Spherical Fourier neural operators: learning stable dynamics on the sphere. In Proc. 40th International Conference on Machine Learning (eds Krause, A. et al.) 2806–2823, https://proceedings.mlr.press/v202/bonev23a.html (PMLR, 2023)."
+    },
+    {
+      "key": "9005_CR45",
+      "doi-asserted-by": "publisher",
+      "first-page": "E864",
+      "DOI": "10.1175/BAMS-D-23-0162.1",
+      "volume": "105",
+      "author": "Z Ben Bouallègue",
+      "year": "2024",
+      "unstructured": "Ben Bouallègue, Z. et al. The rise of data-driven weather forecasting: a first statistical assessment of machine learning-based weather forecasts in an operational-like context. Bull. Am. Meteorol. Soc. 105, E864–E883 (2024).",
+      "journal-title": "Bull. Am. Meteorol. Soc."
+    },
+    {
+      "key": "9005_CR46",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jin, W. et al. WeatherReal: a benchmark based on in-situ observations for evaluating weather models. Preprint at https://arxiv.org/abs/2409.09371 (2024).",
+      "DOI": "10.5194/egusphere-egu25-7596"
+    },
+    {
+      "key": "9005_CR47",
+      "unstructured": "UK Met Office. Storm Ciarán, 1 to 2 November 2023. https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/weather/learn-about/uk-past-events/interesting/2023/2023_09_storm_ciaran_2.pdf (2023)."
+    },
+    {
+      "key": "9005_CR48",
+      "doi-asserted-by": "publisher",
+      "first-page": "93",
+      "DOI": "10.1038/s41612-024-00638-w",
+      "volume": "7",
+      "author": "AJ Charlton-Perez",
+      "year": "2024",
+      "unstructured": "Charlton-Perez, A. J. et al. Do AI models produce better weather forecasts than physics-based models? A quantitative evaluation case study of Storm Ciarán. npj Clim. Atmos. Sci. 7, 93 (2024).",
+      "journal-title": "npj Clim. Atmos. Sci."
+    },
+    {
+      "key": "9005_CR49",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Allen, A. et al. Aardvark weather: end-to-end data-driven weather forecasting. Nature https://doi.org/10.1038/s41586-025-08897-0 (2025).",
+      "DOI": "10.1038/s41586-025-08897-0"
+    },
+    {
+      "key": "9005_CR50",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Liu, Z. et al. Swin Transformer v2: scaling up capacity and resolution. In Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 12009–12019 (IEEE, 2022).",
+      "DOI": "10.1109/CVPR52688.2022.01170"
+    },
+    {
+      "key": "9005_CR51",
+      "unstructured": "Loshchilov, I. & Hutter, F. Decoupled weight decay regularization. In International Conference on Learning Representations, https://openreview.net/forum?id=Bkg6RiCqY7 (Curran Associates, 2019)."
+    },
+    {
+      "key": "9005_CR52",
+      "unstructured": "Larsson, G., Maire, M. & Shakhnarovich, G. FractalNet: ultra-deep neural networks without residuals. In International Conference on Learning Representations, https://openreview.net/forum?id=S1VaB4cex (Curran Associates, 2017)."
+    },
+    {
+      "key": "9005_CR53",
+      "unstructured": "Hu, E. J. et al. LoRA: low-rank adaptation of large language models. In International Conference on Learning Representations, https://openreview.net/forum?id=nZeVKeeFYf9 (Curran Associates, 2022)."
+    },
+    {
+      "key": "9005_CR54",
+      "unstructured": "Brandstetter, J., Worrall, D. E. & Welling, M. Message passing neural PDE solvers. In International Conference on Learning Representations, https://openreview.net/forum?id=vSix3HPYKSU (Curran Associates, 2022)."
+    },
+    {
+      "key": "9005_CR55",
+      "unstructured": "Lin, L.-J. Reinforcement Learning for Robots Using Neural Networks. PhD thesis, Carnegie Mellon Univ. (1993)."
+    },
+    {
+      "key": "9005_CR56",
+      "doi-asserted-by": "publisher",
+      "first-page": "529",
+      "DOI": "10.1038/nature14236",
+      "volume": "518",
+      "author": "V Mnih",
+      "year": "2015",
+      "unstructured": "Mnih, V. et al. Human-level control through deep reinforcement learning. Nature 518, 529–533 (2015).",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "9005_CR57",
+      "doi-asserted-by": "publisher",
+      "first-page": "1231",
+      "DOI": "10.1175/1520-0477(2000)081<1231:TATCFS>2.3.CO;2",
+      "volume": "81",
+      "author": "CR Sampson",
+      "year": "2000",
+      "unstructured": "Sampson, C. R. & Schrader, A. J. The automated tropical cyclone forecasting system (version 3.2). Bull. Am. Meteorol. Soc. 81, 1231–1240 (2000).",
+      "journal-title": "Bull. Am. Meteorol. Soc."
+    },
+    {
+      "key": "9005_CR58",
+      "unstructured": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O. & Dahl, G. E. Neural message passing for quantum chemistry. In Proc. 34th International Conference on Machine Learning (eds Precup, D. & Teh, Y. W.) 1263–1272 (PMLR, 2017)."
+    },
+    {
+      "key": "9005_CR59",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Beyer, L. et al. FlexiViT: one model for all patch sizes. In Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 14496–14506 (IEEE, 2023).",
+      "DOI": "10.1109/CVPR52729.2023.01393"
+    },
+    {
+      "key": "9005_CR60",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2023MS004019",
+      "DOI": "10.1029/2023MS004019",
+      "volume": "16",
+      "author": "S Rasp",
+      "year": "2024",
+      "unstructured": "Rasp, S. et al. WeatherBench 2: a benchmark for the next generation of data-driven global weather models. J. Adv. Model. Earth Syst. 16, e2023MS004019 (2024).",
+      "journal-title": "J. Adv. Model. Earth Syst."
+    },
+    {
+      "key": "9005_CR61",
+      "unstructured": "Hersbach, H. et al. ERA5 hourly data on single levels from 1940 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview (2018)."
+    },
+    {
+      "key": "9005_CR62",
+      "unstructured": "Hersbach, H. et al. ERA5 hourly data on pressure levels from 1940 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview (2018)."
+    },
+    {
+      "key": "9005_CR63",
+      "unstructured": "European Centre for Medium-Range Weather Forecasts (ECMWF). Section 2.1.2.4 HRES - High Resolution Forecasts. https://www.ecmwf.int/en/forecasts/datasets/set-i (2024)."
+    },
+    {
+      "key": "9005_CR64",
+      "unstructured": "European Centre for Medium-Range Weather Forecasts (ECMWF). Section 5 Forecast Ensemble (ENS) - Rationale and Construction. https://confluence.ecmwf.int/display/FUG/Section+5+Forecast+Ensemble+%28ENS%29+-+Rationale+and+Construction (2024)."
+    },
+    {
+      "key": "9005_CR65",
+      "unstructured": "National Oceanic and Atmospheric Administration (NOAA). NOAA Global Forecast System (GFS). https://registry.opendata.aws/noaa-gfs-bdp-pds (2024)."
+    },
+    {
+      "key": "9005_CR66",
+      "unstructured": "National Oceanic and Atmospheric Administration (NOAA). NOAA Global Ensemble Forecast System (GEFS). https://registry.opendata.aws/noaa-gefs (2024)."
+    },
+    {
+      "key": "9005_CR67",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Scoccimarro, E., Bellucci, A. & Peano, D. CMCC CMCC-CM2-VHR4 model output prepared for CMIP6 HighResMIP hist-1950. Earth System Grid Federation, https://doi.org/10.22033/ESGF/CMIP6.3818 (2018).",
+      "DOI": "10.22033/ESGF/CMIP6.3818"
+    },
+    {
+      "key": "9005_CR68",
+      "unstructured": "European Centre for Medium-Range Weather Forecasts (ECMWF). PRIMAVERA: European Centre for Medium-Range Weather Forecasts (ECMWF) ECMWF-IFS-HR model output for the “hist-1950” experiment. NERC EDS Centre for Environmental Data Analysis, https://catalogue.ceda.ac.uk/uuid/470e43e166c44e5990f4f74bc90562d6 (2022)."
+    },
+    {
+      "key": "9005_CR69",
+      "unstructured": "Global Modeling and Assimilation Office (GMAO). MERRA-2: 2d, 1-hourly, time-averaged, single-level, assimilation, single-level diagnostics V5.12.4. Goddard Earth Sciences Data and Information Services Center (GES DISC), https://disc.gsfc.nasa.gov/information/mission-project?title=MERRA-2 (2022)."
+    },
+    {
+      "key": "9005_CR70",
+      "unstructured": "European Centre for Medium-Range Weather Forecasts (ECMWF). CAMS: global atmospheric composition forecast data documentation. https://confluence.ecmwf.int/display/CKB/CAMS%3A+Global+atmospheric+composition+forecast+data+documentation (2024)."
+    },
+    {
+      "key": "9005_CR71",
+      "unstructured": "Lang, S. et al. AIFS – ECMWF’s data-driven forecasting system. Preprint at https://arxiv.org/abs/2406.01465 (2024)."
+    },
+    {
+      "key": "9005_CR72",
+      "unstructured": "Dehghani, M. et al. Patch n’ Pack: NaViT, a vision transformer for any aspect ratio and resolution. In Advances in Neural Information Processing Systems 36 (eds Oh, A. et al.) 2252–2274, https://proceedings.neurips.cc/paper_files/paper/2023/file/06ea400b9b7cfce6428ec27a371632eb-Paper-Conference.pdf (2023)."
+    },
+    {
+      "key": "9005_CR73",
+      "doi-asserted-by": "publisher",
+      "first-page": "e2020MS002203",
+      "DOI": "10.1029/2020MS002203",
+      "volume": "12",
+      "author": "S Rasp",
+      "year": "2020",
+      "unstructured": "Rasp, S. et al. WeatherBench: a benchmark data set for data-driven weather forecasting. J. Adv. Model. Earth Syst. 12, e2020MS002203 (2020).",
+      "journal-title": "J. Adv. Model. Earth Syst."
+    },
+    {
+      "key": "9005_CR74",
+      "unstructured": "Hoffmann, J. et al. Training compute-optimal large language models. In Proc. 36th International Conference on Neural Information Processing Systems (eds Koyejo, S. et al.) 30016–30030 (Curran Associates, 2024)."
+    },
+    {
+      "key": "9005_CR75",
+      "unstructured": "Gunasekar, S. et al. Textbooks are all you need. In International Conference on Learning Representations, https://openreview.net/forum?id=Fq8tKtjACC (Curran Associates, 2024)."
+    },
+    {
+      "key": "9005_CR76",
+      "unstructured": "Inness, A. et al. CAMS global reanalysis (EAC4). Copernicus Atmosphere Monitoring Service (CAMS) Atmosphere Data Store (ADS), https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-reanalysis-eac4?tab=overview (2024)."
+    },
+    {
+      "key": "9005_CR77",
+      "doi-asserted-by": "publisher",
+      "first-page": "90",
+      "DOI": "10.1109/MCSE.2007.55",
+      "volume": "9",
+      "author": "JD Hunter",
+      "year": "2007",
+      "unstructured": "Hunter, J. D. Matplotlib: a 2D graphics environment. Comput. Sci. Eng. 9, 90–95 (2007).",
+      "journal-title": "Comput. Sci. Eng."
+    },
+    {
+      "key": "9005_CR78",
+      "unstructured": "UK Met Office. Cartopy: a cartographic Python library with a Matplotlib interface. https://scitools.org.uk/cartopy (2010–2015)."
+    },
+    {
+      "key": "9005_CR79",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Bodnar, C. et al. microsoft/aurora: v1.5.1. Zenodo https://doi.org/10.5281/zenodo.14983584 (2025).",
+      "DOI": "10.5281/zenodo.14983584"
+    },
+    {
+      "key": "9005_CR80",
+      "unstructured": "Nguyen, T., Brandstetter, J., Kapoor, A., Gupta, J. K. & Grover, A. ClimaX: a foundation model for weather and climate. In Proc. 40th International Conference on Machine Learning (eds Krause, A. et al.) 25904–25938, https://proceedings.mlr.press/v202/nguyen23a.html (PMLR, 2023)."
+    },
+    {
+      "key": "9005_CR81",
+      "unstructured": "Kaplan, J. et al. Scaling laws for neural language models. Preprint at https://arxiv.org/abs/2001.08361 (2020)"
+    }
+  ],
+  "container-title": [
+    "Nature"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s41586-025-09005-y.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41586-025-09005-y",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41586-025-09005-y.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2025-06-18T06:38:23Z",
+    "timestamp": 1750228703000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41586-025-09005-y"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        5,
+        21
+      ]
+    ]
+  },
+  "references-count": 81,
+  "journal-issue": {
+    "issue": "8065",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          29
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "9005"
+  ],
+  "URL": "https://doi.org/10.1038/s41586-025-09005-y",
+  "relation": {},
+  "ISSN": [
+    "0028-0836",
+    "1476-4687"
+  ],
+  "issn-type": [
+    {
+      "value": "0028-0836",
+      "type": "print"
+    },
+    {
+      "value": "1476-4687",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        5,
+        21
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "28 May 2024",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "9 April 2025",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "21 May 2025",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "C.B., W.P.B., M.S., J.B., P.G., M.R., J.A.W., H.D., J.K.G., K.T., E.H., M.W. and P.P. own Microsoft stock. W.P.B., M.S., P.G., M.R., J.A.W., H.D. and K.T. are Microsoft employees. C.B. and J.K.G. are employees of Silurian AI Inc. and own Silurian AI Inc. stock. The remaining authors declare no competing interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ]
+}

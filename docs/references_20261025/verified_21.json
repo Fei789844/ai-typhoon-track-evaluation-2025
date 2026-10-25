@@ -1,0 +1,396 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2026-10-24T15:48:37Z",
+    "timestamp": 1792856917374,
+    "version": "4.5.0"
+  },
+  "reference-count": 24,
+  "publisher": "Copernicus GmbH",
+  "issue": "10",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2018-10-01T00:00:00Z",
+        "timestamp": 1538352000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100007601",
+      "name": "Horizon 2020",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100007601",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000288",
+      "name": "Royal Society",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "University Research Fellow"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "University Research Fellow"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100000288",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Geosci. Model Dev."
+  ],
+  "abstract": "<jats:p>Abstract. Can models that are based on deep learning and trained on atmospheric data compete with weather and climate models that are based on physical principles and the basic equations of motion? This question has been asked often recently due to the boom in deep-learning techniques. The question is valid given the huge amount of data that are available, the computational efficiency of deep-learning techniques and the limitations of today's weather and climate models in particular with respect to resolution and complexity.In this paper, the question will be discussed in the context of global weather forecasts. A toy model for global weather predictions will be presented and used to identify challenges and fundamental design choices for a forecast system based on neural networks.</jats:p>",
+  "DOI": "10.5194/gmd-11-3999-2018",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        1
+      ]
+    ],
+    "date-time": "2018-10-01T07:34:13Z",
+    "timestamp": 1538379253000
+  },
+  "page": "3999-4009",
+  "source": "Crossref",
+  "is-referenced-by-count": 305,
+  "title": [
+    "Challenges and design choices for global weather and climate models based on machine learning"
+  ],
+  "prefix": "10.5194",
+  "volume": "11",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-4610-3326",
+      "authenticated-orcid": false,
+      "given": "Peter D.",
+      "family": "Dueben",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-3205-6055",
+      "authenticated-orcid": false,
+      "given": "Peter",
+      "family": "Bauer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        1
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Brenowitz, N. D. and Bretherton, C. S.: Prognostic Validation of a Neural Network Unified Physics Parameterization, Geophys. Res. Lett., 45, 6289–6298, https://doi.org/10.1029/2018GL078510, 2018.",
+      "DOI": "10.1029/2018GL078510"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chevallier, F., Chéruy, F., Scott, N. A., and Chédin, A.: A Neural Network Approach for a Fast and Accurate Computation of a Longwave Radiative Budget, J. Appl. Meteorol., 37, 1385–1397, https://doi.org/10.1175/1520-0450(1998)037&amp;lt;1385:ANNAFA&amp;gt;2.0.CO;2, 1998.",
+      "DOI": "10.1175/1520-0450(1998)037<1385:ANNAFA>2.0.CO;2"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chevallier, F., Morcrette, J.-J., Chéruy, F., and Scott, N. A.: Use of a neural-network-based long-wave radiative-transfer scheme in the ECMWF atmospheric model, Q. J. Roy. Meteor. Soc., 126, 761–776, https://doi.org/10.1002/qj.49712656318, 2000.",
+      "DOI": "10.1002/qj.49712656318"
+    },
+    {
+      "key": "ref4",
+      "unstructured": "Chollet, F. et al.: Keras, available at: https://github.com/fchollet/keras (last access: 28 September 2018), 2015."
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Dee, D. P., Uppala, S. M., Simmons, A. J., Berrisford, P., Poli, P., Kobayashi, S., Andrae, U., Balmaseda, M. A., Balsamo, G., Bauer, P., Bechtold, P., Beljaars, A. C. M., van de Berg, L., Bidlot, J., Bormann, N., Delsol, C., Dragani, R., Fuentes, M., Geer, A. J., Haimberger, L., Healy, S. B., Hersbach, H., Hólm, E. V., Isaksen, L., Kållberg, P., Köhler, M., Matricardi, M., McNally, A. P., Monge-Sanz, B. M., Morcrette, J. J., Park, B. K., Peubey, C., de Rosnay, P., Tavolato, C., Thépaut, J. N., and Vitart, F.: The ERA-Interim reanalysis: configuration and performance of the data assimilation system, Q. J. Roy. Meteor. Soc., 137, 553–597, https://doi.org/10.1002/qj.828, 2011.",
+      "DOI": "10.1002/qj.828"
+    },
+    {
+      "key": "ref6",
+      "unstructured": "ECMWF: Homepage, available at: https://www.ecmwf.int/en/computing/our-facilities/data-handling-system, last access: 16 June 2018."
+    },
+    {
+      "key": "ref7",
+      "unstructured": "ERA5: dataset, available at: https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5, last access: 10 April 2018."
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gentine, P., Pritchard, M., Rasp, S., Reinaudi, G., and Yacalis, G.: Could Machine Learning Break the Convection Parameterization Deadlock?, Geophys. Res. Lett., 45, 5742–5751, https://doi.org/10.1029/2018GL078202, 2018.",
+      "DOI": "10.1029/2018GL078202"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Hall, T., Brooks, H. E., and Doswell III, C. A.: Precipitation Forecasting Using a Neural Network, Weather Forecast., 14, 338–345, https://doi.org/10.1175/1520-0434(1999)014&amp;lt;0338:PFUANN&amp;gt;2.0.CO;2, 1999.",
+      "DOI": "10.1175/1520-0434(1999)014<0338:PFUANN>2.0.CO;2"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Krasnopolsky, V. M. and Fox-Rabinovitz, M. S.: A new synergetic paradigm in environmental numerical modeling: Hybrid models combining deterministic and machine learning components, Ecol. Model., 191, 5–18, https://doi.org/10.1016/j.ecolmodel.2005.08.009, 2006.",
+      "DOI": "10.1016/j.ecolmodel.2005.08.009"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Krasnopolsky, V. M. and Lin, Y.: A Neural Network Nonlinear Multimodel Ensemble to Improve Precipitation Forecasts over Continental US, Adv. Meteorol., 2012, 649450, https://doi.org/10.1155/2012/649450, 2012.",
+      "DOI": "10.1155/2012/649450"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Krasnopolsky, V. M., Chalikov, D. V., and Tolman, H. L.: A neural network technique to improve computational efficiency of numerical oceanic models, Ocean Model., 4, 363–383, https://doi.org/10.1016/S1463-5003(02)00010-0, 2002.",
+      "DOI": "10.1016/S1463-5003(02)00010-0"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Krasnopolsky, V. M., Fox-Rabinovitz, M. S., and Chalikov, D. V.: New Approach to Calculation of Atmospheric Model Physics: Accurate and Fast Neural Network Emulation of Longwave Radiation in a Climate Model, Mon. Weather Rev., 133, 1370–1383, https://doi.org/10.1175/MWR2923.1, 2005.",
+      "DOI": "10.1175/MWR2923.1"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Krasnopolsky, V. M., Fox-Rabinovitz, M. S., and Belochitski, A. A.: Using Ensemble of Neural Networks to Learn Stochastic Convection Parameterizations for Climate and Numerical Weather Prediction Models from Data Simulated by a Cloud Resolving Model, Advances in Artificial Neural Systems, 2013, 485913, https://doi.org/10.1155/2013/485913, 2013.",
+      "DOI": "10.1155/2013/485913"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Le, Q. V.: Building high-level features using large scale unsupervised learning, in: 2013 IEEE International Conference on Acoustics, Speech and Signal Processing, 8595–8598, https://doi.org/10.1109/ICASSP.2013.6639343, 2013.",
+      "DOI": "10.1109/ICASSP.2013.6639343"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Lorenz, E. N.: Predictability – a problem partly solved, in: Predictability of Weather and Climate, edited by: Palmer, T. N. and Hagedorn, R., chap. 3, Cambridge University Press, 40–58, 2006.",
+      "DOI": "10.1017/CBO9780511617652.004"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Nooteboom, P. D., Feng, Q. Y., López, C., Hernández-García, E., and Dijkstra, H. A.: Using network theory and machine learning to predict El Niño, Earth Syst. Dynam., 9, 969–983, https://doi.org/10.5194/esd-9-969-2018, 2018.",
+      "DOI": "10.5194/esd-9-969-2018"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "crossref",
+      "unstructured": "O'Gorman, P. A. and Dwyer, J. G.: Using machine learning to parameterize moist convection: potential for modeling of climate, climate change and extreme events, ArXiv e-prints, arXiv:1806.11037, 2018.",
+      "DOI": "10.1029/2018MS001351"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rasp, S. and Lerch, S.: Neural networks for post-processing ensemble weather forecasts, ArXiv e-prints, arXiv:1805.09091, 2018.",
+      "DOI": "10.1175/MWR-D-18-0187.1"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rasp, S., Pritchard, M. S., and Gentine, P.: Deep learning to represent sub-grid processes in climate models, ArXiv e-prints, arXiv:1806.04731, 2018.",
+      "DOI": "10.1073/pnas.1810286115"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Schneider, T., Lan, S., Stuart, A., and Teixeira, J.: Earth System Modeling 2.0: A Blueprint for Models That Learn From Observations and Targeted High-Resolution Simulations, Geophys. Res. Lett., 44, 12396–12417, https://doi.org/10.1002/2017GL076101, 2018.",
+      "DOI": "10.1002/2017GL076101"
+    },
+    {
+      "key": "ref22",
+      "unstructured": "TensorFlow: available at: https://www.tensorflow.org, last access: 28 September 2018."
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Thornes, T., Düben, P., and Palmer, T.: On the use of scale-dependent precision in Earth System modelling, Q. J. Roy. Meteor. Soc., 143, 897–908, https://doi.org/10.1002/qj.2974, 2017.",
+      "DOI": "10.1002/qj.2974"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tolman, H. L., Krasnopolsky, V. M., and Chalikov, D. V.: Neural network approximations for nonlinear interactions in wind wave spectra: direct mapping for wind seas in deep water, Ocean Model., 8, 253–278, 2005.",
+      "DOI": "10.1016/j.ocemod.2003.12.008"
+    }
+  ],
+  "container-title": [
+    "Geoscientific Model Development"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://gmd.copernicus.org/articles/11/3999/2018/gmd-11-3999-2018.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        2,
+        1
+      ]
+    ],
+    "date-time": "2025-02-01T10:09:28Z",
+    "timestamp": 1738404568000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://gmd.copernicus.org/articles/11/3999/2018/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        1
+      ]
+    ]
+  },
+  "references-count": 24,
+  "journal-issue": {
+    "issue": "10",
+    "published-online": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.5194/gmd-11-3999-2018",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/gmd-2018-148",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/gmd-2018-148",
+        "asserted-by": "object"
+      }
+    ],
+    "has-review": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/gmd-2018-148-RC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/gmd-2018-148-RC2",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/gmd-2018-148-AC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/gmd-2018-148-AC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/gmd-2018-148-RC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/gmd-2018-148-RC2",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1991-9603"
+  ],
+  "issn-type": [
+    {
+      "value": "1991-9603",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        10,
+        1
+      ]
+    ]
+  }
+}

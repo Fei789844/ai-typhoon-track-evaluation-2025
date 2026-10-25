@@ -1,0 +1,633 @@
+{
+  "21": "HTTP Error 429: Too Many Requests",
+  "22": "HTTP Error 429: Too Many Requests",
+  "23": [
+    {
+      "title": [
+        "Probabilistic Weather Forecasting with Hierarchical Graph Neural Networks"
+      ],
+      "DOI": "10.52202/079017-1316",
+      "author": [
+        {
+          "given": "Joel",
+          "family": "Oskarsson",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tomas",
+          "family": "Landelius",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marc",
+          "family": "Deisenroth",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fredrik",
+          "family": "Lindsten",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "container-title": [
+        "Advances in Neural Information Processing Systems 37"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "41577-41648",
+      "abstract": null
+    },
+    {
+      "title": [
+        "Data-driven Ocean Forecasting Models with Multi-Scale Graph Neural Networks for 10-day Global Forecasting"
+      ],
+      "DOI": "10.5194/egusphere-egu25-8030",
+      "author": [
+        {
+          "given": "Yuta",
+          "family": "Hirabayashi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Daisuke",
+          "family": "Matsuoka",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Konobu",
+          "family": "Kimura",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            18
+          ]
+        ]
+      },
+      "container-title": null,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "abstract": "<jats:p>Accurate ocean forecasting models are crucial for both scientific research and practical application, such as understanding ocean dynamics and efficient ship route planning. While traditional numerical ocean models have proven effective, they require substantial computational resources due to the complexity of solving partial differential equations. In recent years, data-driven weather forecasting models have demonstrated their ability to provide accurate predictions at lower computational costs compared to conventional numerical weather prediction models while their application to ocean forecasting remains limited.&amp;#160;This study explores a data-driven ocean forecasting model for 10-day global forecasting, employing a multi-scale graph neural network (GNN) to capture the multi-scale features of ocean variables while incorporating graph structures that account for land masks. To reflect the effects of atmospheric forcing, surface atmospheric variables are combined with ocean variables and used as GNN&amp;#8217;s node input features. The model was initially trained on paired reanalysis data samples with a 1-day interval to minimize the mean squared error. Subsequently, it was fine-tuned using auto-regressive rollouts across multiple time steps. The forecasting process involves autoregressive steps, where the predicted ocean variables from the previous step and weather forecasting variables provided by an operational center are used as inputs for the next step.Preliminary experiments comparing the proposed model with persistent forecasts showed the skillfulness of the proposed model. Sensitivity experiments were conducted to evaluate the impact of atmospheric forcing by replacing weather forecasting data with climatological data. The evaluation was conducted over a one-year period across the global ocean employing reanalysis data as references. The results showed that using weather forecasting data improved the accuracy of surface ocean variable predictions compared to using climatology.&amp;#160;&amp;#160;Specifically, the RMSE was reduced by 6.6%, 6.2%, and 1.0% for 3-day-ahead, 5-day-ahead, and 10-day-ahead forecasts, respectively, representing the median improvement across the period and variables.&amp;#160;&amp;#160;The improvements varied across variables; for instance, salinity showed a consistent improvement of almost 1% across all lead times, whereas northward velocity showed greater improvements at shorter lead times, such as an improvement of 22% at 3-day-ahead forecasts.The results indicate that it is crucial for data-driven ocean models to incorporate atmospheric forcing, similar to numerical ocean models. These findings suggest that the multi-scale GNN-based ocean forecasting model that integrates atmospheric forcing offers a potential approach for 10-day global ocean forecasting.</jats:p>"
+    }
+  ],
+  "24": [
+    {
+      "title": [
+        "GraphCast: Learning skillful medium-range global weather forecasting"
+      ],
+      "DOI": "10.5194/egusphere-egu24-11381",
+      "author": [
+        {
+          "given": "Alvaro",
+          "family": "Sanchez-Gonzalez",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "GraphCast team from Google DeepMind",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            20
+          ]
+        ]
+      },
+      "container-title": null,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "abstract": "<jats:p>Global medium-range weather forecasting is critical to decision-making across many social and economic domains. Traditional numerical weather prediction uses increased compute resources to improve forecast accuracy but does not directly use historical weather data to improve the underlying model. In this talk we will be presenting GraphCast, a machine learning&amp;#8211;based method trained directly from reanalysis data. It predicts hundreds of weather variables for the next 10 days at 0.25&amp;#176; resolution globally in under 1 minute. We compare GraphCast to the most accurate operational deterministic system (HRES) and show how its forecasts produce state of the art metrics, and support better severe event prediction, including tropical cyclone tracking, atmospheric rivers, and extreme temperatures. We also show how the approach can be extended to probabilistic forecasting to materialize similar improvements against ENS, a top operational ensemble forecast. These models are key advances in accurate and efficient weather forecasting and help realize the promise of machine learning for modeling complex dynamical systems.</jats:p>"
+    },
+    {
+      "title": [
+        "medium(-range) (weather) forecast"
+      ],
+      "DOI": "10.1007/978-3-642-41714-6_131234",
+      "author": null,
+      "published": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "container-title": [
+        "Dictionary Geotechnical Engineering/Wörterbuch GeoTechnik"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "856-856",
+      "abstract": null
+    }
+  ],
+  "25": [
+    {
+      "title": [
+        "Numerical models of the general circulation, climate and weather prediction"
+      ],
+      "DOI": "10.4324/9780203871027-13",
+      "author": null,
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            10,
+            20
+          ]
+        ]
+      },
+      "container-title": [
+        "Atmosphere, Weather and Climate"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "224-241",
+      "abstract": null
+    },
+    {
+      "title": [
+        "Numerical models of the general circulation, climate and weather prediction"
+      ],
+      "DOI": "10.4324/9780203428238-8",
+      "author": null,
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            2,
+            24
+          ]
+        ]
+      },
+      "container-title": [
+        "Atmosphere, Weather and Climate"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "202-216",
+      "abstract": null
+    }
+  ],
+  "26": "HTTP Error 429: Too Many Requests",
+  "27": "HTTP Error 429: Too Many Requests",
+  "28": "HTTP Error 429: Too Many Requests",
+  "29": "HTTP Error 429: Too Many Requests",
+  "30": "HTTP Error 429: Too Many Requests",
+  "31": "HTTP Error 429: Too Many Requests",
+  "32": [
+    {
+      "title": [
+        "Diagnosing Forecast Errors in Tropical Cyclone Motion"
+      ],
+      "DOI": "10.1175/mwr-d-12-00071.1",
+      "author": [
+        {
+          "suffix": "Jr.",
+          "given": "Thomas J.",
+          "family": "Galarneau",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "National Center for Atmospheric Research,* Boulder, Colorado"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christopher A.",
+          "family": "Davis",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "National Center for Atmospheric Research,* Boulder, Colorado"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            2,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "Monthly Weather Review"
+      ],
+      "volume": "141",
+      "issue": "2",
+      "page": "405-430",
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>This paper reports on the development of a diagnostic approach that can be used to examine the sources of numerical model forecast error that contribute to degraded tropical cyclone (TC) motion forecasts. Tropical cyclone motion forecasts depend upon skillful prediction of the environment wind field, and by extension, the synoptic-scale weather systems nearby the TC. While previous research suggests that the deep-layer mean (DLM) steering flow typically approximates the actual TC motion, it is shown that the motion of even mature TCs can depart from the DLM steering flow. An optimal environmental steering flow is defined, which varies the vertical extent of the steering layer and the radius over which TC vorticity and divergence are removed.</jats:p>\n               <jats:p>Errors in predicted TC motion are quantified using a diagnostic equation that accounts for not only differences in the synoptic-scale flow, but also differences in the depth and radius used to define the steering flow. Differences in the latter two parameters are interpreted in terms of errors in predicted TC structure or errors in proximate mesoscale flow features. Results from an analysis of 24-h forecasts from the Advanced Hurricane Weather Research and Forecasting Model during the 2008–10 North Atlantic TC seasons show that forecast motion errors are dominated by errors in the environment wind field. Contributions from other terms are occasionally large and are interpreted from a vorticity perspective. The utility of this new diagnostic equation is that it can be used to assess TC motion forecasts from any numerical modeling system.</jats:p>"
+    },
+    {
+      "title": [
+        "Diagnosis of Track Forecast Errors for Tropical Cyclone Rita (2005) Using GEFS Reforecasts"
+      ],
+      "DOI": "10.1175/waf-d-15-0036.1",
+      "author": [
+        {
+          "suffix": "Jr.",
+          "given": "Thomas J.",
+          "family": "Galarneau",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "National Center for Atmospheric Research,+ Boulder, Colorado"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Thomas M.",
+          "family": "Hamill",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NOAA/Earth System Research Laboratory/Physical Sciences Division, Boulder, Colorado"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            10,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "Weather and Forecasting"
+      ],
+      "volume": "30",
+      "issue": "5",
+      "page": "1334-1354",
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Analysis and diagnosis of the track forecasts for Tropical Cyclone (TC) Rita (2005) from the Global Ensemble Forecast System (GEFS) reforecast dataset is presented. The operational numerical weather prediction guidance and GEFS reforecasts initialized at 0000 UTC 20–22 September 2005, 2–4 days prior to landfall, were all characterized by a persistent left-of-track error. The numerical guidance indicated a significant threat of landfall for the Houston, Texas, region on 24 September. The largest mass evacuation in U.S. history was ordered, with the evacuation resulting in more fatalities than TC Rita itself. TC Rita made landfall along the Texas–Louisiana coastal zone on 24 September. This study utilizes forecasts from the GEFS reforecast and a high-resolution regional reforecast. The regional reforecast was generated using the Advanced Hurricane Weather Research and Forecasting Model (AHW) with the GEFS reforecasts providing the initial and boundary conditions. The results show that TC Rita’s track was sensitive to errors in both the synoptic-scale flow and TC intensity. Within the GEFS reforecast ensemble, the nonrecurving members were characterized by a midlevel subtropical anticyclone that extended too far south and west over the southern United States, and an upper-level cutoff low west and anticyclone east of TC Rita that were too weak. The AHW regional reforecast ensemble further highlighted the role of intensity and steering-layer depth in TC Rita’s track. While the AHW forecast was initialized with a TC that was too weak, the ensemble members that were able to intensify TC Rita more rapidly produced a better track forecast because the TCs followed a deeper steering-layer flow.</jats:p>"
+    }
+  ],
+  "33": [
+    {
+      "title": [
+        "A General Method for Tracking Analysis and Its Application to Meteorological Data"
+      ],
+      "DOI": "10.1175/1520-0493(1994)122<2573:agmfta>2.0.co;2",
+      "author": [
+        {
+          "given": "K. I.",
+          "family": "Hodges",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1994,
+            11
+          ]
+        ]
+      },
+      "container-title": [
+        "Monthly Weather Review"
+      ],
+      "volume": "122",
+      "issue": "11",
+      "page": "2573-2586",
+      "abstract": null
+    },
+    {
+      "title": [
+        "General Least Squares Method and its Application to Curve Fitting and Coordinate Transformations"
+      ],
+      "DOI": "10.1002/9780470121498.ch22",
+      "author": null,
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            5,
+            24
+          ]
+        ]
+      },
+      "container-title": [
+        "Adjustment Computations"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "437-453",
+      "abstract": null
+    }
+  ],
+  "34": "HTTP Error 429: Too Many Requests",
+  "35": "HTTP Error 429: Too Many Requests",
+  "36": "HTTP Error 429: Too Many Requests",
+  "37": [
+    {
+      "title": [
+        "Assessing the Ensemble Spread–Error Relationship"
+      ],
+      "DOI": "10.1175/mwr-d-12-00111.1",
+      "author": [
+        {
+          "given": "T. M.",
+          "family": "Hopson",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Research Applications Laboratory, National Center for Atmospheric Research, Boulder, Colorado"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "Monthly Weather Review"
+      ],
+      "volume": "142",
+      "issue": "3",
+      "page": "1125-1142",
+      "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>The potential ability of an ensemble prediction system (EPS) to represent its own varying forecast error provides strong motivation to produce an EPS over a less expensive deterministic forecast. Traditionally, this ability has been assessed by correlating the realized forecast error with the ensemble's dispersion. This paper revisits the limitations of the skill–spread correlation, but uses aspects of the correlation to introduce two metrics to assess an EPS's capacity to provide a reliable likelihood of its own error. Using a perfect EPS, skill–spread correlation is shown to be limited by its dependence on how “skill” and “spread” are defined and, perhaps most fatally, by its inability to distill the skill–spread reliability from the stability properties of the physical system being modeled. Building from this, it is argued there are two aspects of an ensemble's dispersion that should be assessed. First, is there enough variability in the dispersion to justify the expense of the EPS? The factor that controls the theoretical upper limit of the spread–error correlation can be useful in diagnosing this. Second, does the variable dispersion of an ensemble relate to a variable expectation of the forecast error? Representing the spread–error correlation in relation to its theoretical limit can provide a simple diagnostic of this attribute. A context for these concepts is provided by assessing two operational ensembles: western U.S. temperature forecasts and Brahmaputra River flow before and after postprocessing. It is shown that “skill–spread” reliability can be improved by postprocessing to that of a perfect EPS, but at the cost of the potential information content of the EPS's variable dispersion.</jats:p>"
+    },
+    {
+      "title": [
+        "Spread/Error relationship and spatial error structure of precipitation ensemble nowcasting: Comparison of STEPS and generative AI"
+      ],
+      "DOI": "10.5194/egusphere-2026-1460",
+      "author": [
+        {
+          "given": "Martin",
+          "family": "Bonte",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/058qm9p63",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Royal Meteorological Institute of Belgium (Brussels, Belgium)"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            },
+            {
+              "role": "corresponding-author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4458-8953",
+          "authenticated-orcid": false,
+          "given": "Lesley",
+          "family": "De Cruz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fabian",
+          "family": "Debal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1734-1042",
+          "authenticated-orcid": false,
+          "given": "Stéphane",
+          "family": "Vannitsem",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            23
+          ]
+        ]
+      },
+      "container-title": null,
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "abstract": "<jats:p>Abstract. The predictability of the generative AI-based nowcasting model LDCast is evaluated over Belgium, together with the pysteps implementation of the nowcasting algorithm STEPS. Neither STEPS nor LDCast were fine-tuned for the Belgian region, so both models are evaluated under conditions in which they will most likely be used in practice at national weather offices. STEPS and LDCast are slightly underdispersive, but the ensemble spread provides an estimation of the error at almost all scales. Both models adapt the properties of their ensembles to the type of event, either convective or stratiform. The spatial scores of the STEPS and LDCast ensembles are compared with those of surrogate ensembles, revealing that both STEPS and LDCast have very little ability to spatially localise the error of the ensemble mean. This suggests that the content of STEPS and LDCast ensembles is informative in terms of statistics, but not in terms of dynamics.</jats:p>"
+    }
+  ],
+  "38": "HTTP Error 429: Too Many Requests",
+  "39": "HTTP Error 429: Too Many Requests",
+  "40": [
+    {
+      "title": [
+        "An introduction to ROC analysis"
+      ],
+      "DOI": "10.1016/j.patrec.2005.10.010",
+      "author": [
+        {
+          "given": "Tom",
+          "family": "Fawcett",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "Pattern Recognition Letters"
+      ],
+      "volume": "27",
+      "issue": "8",
+      "page": "861-874",
+      "abstract": null
+    },
+    {
+      "title": [
+        "Using rule sets to maximize ROC performance"
+      ],
+      "DOI": "10.1109/icdm.2001.989510",
+      "author": [
+        {
+          "given": "T.",
+          "family": "Fawcett",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": null,
+      "container-title": [
+        "Proceedings 2001 IEEE International Conference on Data Mining"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "131-138",
+      "abstract": null
+    }
+  ]
+}

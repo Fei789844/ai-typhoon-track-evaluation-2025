@@ -1,0 +1,487 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        29
+      ]
+    ],
+    "date-time": "2026-09-29T11:26:21Z",
+    "timestamp": 1790681181617,
+    "version": "4.1.0"
+  },
+  "reference-count": 32,
+  "publisher": "American Meteorological Society",
+  "issue": "3",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2014,
+        3,
+        1
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>The potential ability of an ensemble prediction system (EPS) to represent its own varying forecast error provides strong motivation to produce an EPS over a less expensive deterministic forecast. Traditionally, this ability has been assessed by correlating the realized forecast error with the ensemble's dispersion. This paper revisits the limitations of the skill–spread correlation, but uses aspects of the correlation to introduce two metrics to assess an EPS's capacity to provide a reliable likelihood of its own error. Using a perfect EPS, skill–spread correlation is shown to be limited by its dependence on how “skill” and “spread” are defined and, perhaps most fatally, by its inability to distill the skill–spread reliability from the stability properties of the physical system being modeled. Building from this, it is argued there are two aspects of an ensemble's dispersion that should be assessed. First, is there enough variability in the dispersion to justify the expense of the EPS? The factor that controls the theoretical upper limit of the spread–error correlation can be useful in diagnosing this. Second, does the variable dispersion of an ensemble relate to a variable expectation of the forecast error? Representing the spread–error correlation in relation to its theoretical limit can provide a simple diagnostic of this attribute. A context for these concepts is provided by assessing two operational ensembles: western U.S. temperature forecasts and Brahmaputra River flow before and after postprocessing. It is shown that “skill–spread” reliability can be improved by postprocessing to that of a perfect EPS, but at the cost of the potential information content of the EPS's variable dispersion.</jats:p>",
+  "DOI": "10.1175/mwr-d-12-00111.1",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        9,
+        11
+      ]
+    ],
+    "date-time": "2013-09-11T16:34:29Z",
+    "timestamp": 1378917269000
+  },
+  "page": "1125-1142",
+  "source": "Crossref",
+  "is-referenced-by-count": 80,
+  "title": [
+    "Assessing the Ensemble Spread–Error Relationship"
+  ],
+  "prefix": "10.1175",
+  "volume": "142",
+  "author": [
+    {
+      "given": "T. M.",
+      "family": "Hopson",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Research Applications Laboratory, National Center for Atmospheric Research, Boulder, Colorado"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "12",
+  "published-online": {
+    "date-parts": [
+      [
+        2014,
+        3,
+        3
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "2020061822361188600_bib1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1941",
+      "DOI": "10.1175/1520-0493(1999)127<1941:TSOEPS>2.0.CO;2",
+      "article-title": "The skill of ensemble prediction systems",
+      "volume": "127",
+      "author": "Atger",
+      "year": "1999",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib2",
+      "doi-asserted-by": "crossref",
+      "first-page": "733",
+      "DOI": "10.1175/1520-0442(1991)004<0733:TRBSAF>2.0.CO;2",
+      "article-title": "The relationship between spread and forecast error in extended-range forecasts",
+      "volume": "4",
+      "author": "Barker",
+      "year": "1991",
+      "journal-title": "J. Climate"
+    },
+    {
+      "key": "2020061822361188600_bib3",
+      "doi-asserted-by": "crossref",
+      "first-page": "99",
+      "DOI": "10.1175/1520-0493(1997)125<0099:PFSOEP>2.0.CO;2",
+      "article-title": "Potential forecast skill of ensemble prediction and spread and skill distributions of the ECMWF Ensemble Prediction System",
+      "volume": "125",
+      "author": "Buizza",
+      "year": "1997",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib4",
+      "doi-asserted-by": "crossref",
+      "first-page": "359",
+      "DOI": "10.1198/016214506000001437",
+      "article-title": "Strictly proper scoring rules, prediction, and estimation",
+      "volume": "102",
+      "author": "Gneiting",
+      "year": "2007",
+      "journal-title": "J. Amer. Stat. Assoc."
+    },
+    {
+      "key": "2020061822361188600_bib5",
+      "doi-asserted-by": "crossref",
+      "first-page": "203",
+      "DOI": "10.1175/MWR3262.1",
+      "article-title": "Measuring the ensemble spread–error relationship with a probabilistic approach: Stochastic ensemble results",
+      "volume": "135",
+      "author": "Grimit",
+      "year": "2007",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib6",
+      "doi-asserted-by": "crossref",
+      "first-page": "618",
+      "DOI": "10.1175/2009JHM1006.1",
+      "article-title": "Operational flood forecasting for Bangladesh using ECMWF ensemble weather forecasts",
+      "volume": "11",
+      "author": "Hopson",
+      "year": "2010",
+      "journal-title": "J. Hydrometeor."
+    },
+    {
+      "key": "2020061822361188600_bib7",
+      "author": "Hopson",
+      "year": "2010"
+    },
+    {
+      "key": "2020061822361188600_bib8",
+      "doi-asserted-by": "crossref",
+      "first-page": "1834",
+      "DOI": "10.1175/1520-0493(1993)121<1834:GALSF>2.0.CO;2",
+      "article-title": "Global and local skill forecasts",
+      "volume": "121",
+      "author": "Houtekamer",
+      "year": "1993",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib9",
+      "doi-asserted-by": "crossref",
+      "first-page": "1225",
+      "DOI": "10.1175/1520-0493(1996)124<1225:ASSATE>2.0.CO;2",
+      "article-title": "System simulation approach to ensemble prediction",
+      "volume": "124",
+      "author": "Houtekamer",
+      "year": "1996",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib10",
+      "author": "Huffman",
+      "year": "2005"
+    },
+    {
+      "key": "2020061822361188600_bib11",
+      "doi-asserted-by": "crossref",
+      "first-page": "38",
+      "DOI": "10.1175/JHM560.1",
+      "article-title": "The TRMM Multisatellite Precipitation Analysis (TMPA): Quasi-global, multiyear, combined sensor precipitation estimates at fine scales",
+      "volume": "8",
+      "author": "Huffman",
+      "year": "2007",
+      "journal-title": "J. Hydrometeor."
+    },
+    {
+      "key": "2020061822361188600_bib12",
+      "doi-asserted-by": "crossref",
+      "first-page": "487",
+      "DOI": "10.1175/1525-7541(2004)005<0487:CAMTPG>2.0.CO;2",
+      "article-title": "CMORPH: A method that produces global precipitation estimates from passive microwave and infrared data at high spatial and temporal resolution",
+      "volume": "5",
+      "author": "Joyce",
+      "year": "2004",
+      "journal-title": "J. Hydrometeor."
+    },
+    {
+      "key": "2020061822361188600_bib13",
+      "doi-asserted-by": "crossref",
+      "first-page": "33",
+      "DOI": "10.2307/1913643",
+      "article-title": "Regression quantiles",
+      "volume": "46",
+      "author": "Koenker",
+      "year": "1978",
+      "journal-title": "Econometrica"
+    },
+    {
+      "key": "2020061822361188600_bib14",
+      "doi-asserted-by": "crossref",
+      "first-page": "3954",
+      "DOI": "10.1175/MWR-D-10-05081.1",
+      "article-title": "Investigation of ensemble variance as a measure of true forecast variance",
+      "volume": "139",
+      "author": "Kolczynski",
+      "year": "2011",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib15",
+      "first-page": "403",
+      "author": "Kruizinga",
+      "year": "1988"
+    },
+    {
+      "key": "2020061822361188600_bib16",
+      "doi-asserted-by": "crossref",
+      "first-page": "409",
+      "DOI": "10.1175/1520-0493(1974)102<0409:TSOMCF>2.0.CO;2",
+      "article-title": "Theoretical skill of Monte Carlo forecasts",
+      "volume": "102",
+      "author": "Leith",
+      "year": "1974",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib17",
+      "author": "Liu",
+      "year": "2007"
+    },
+    {
+      "key": "2020061822361188600_bib18",
+      "doi-asserted-by": "crossref",
+      "first-page": "295",
+      "DOI": "10.1175/2010MWR3129.1",
+      "article-title": "On the effect of correlations on rank histograms: Reliability of temperature and wind speed forecasts from finescale ensemble reforecasts",
+      "volume": "139",
+      "author": "Marzban",
+      "year": "2011",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib19",
+      "doi-asserted-by": "crossref",
+      "first-page": "73",
+      "DOI": "10.1002/qj.49712252905",
+      "article-title": "The ECMWF Ensemble Prediction System: Methodology and validation",
+      "volume": "122",
+      "author": "Molteni",
+      "year": "1996",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "2020061822361188600_bib20",
+      "doi-asserted-by": "crossref",
+      "first-page": "215",
+      "DOI": "10.1175/1520-0450(1973)012<0215:HASSFP>2.0.CO;2",
+      "article-title": "Hedging and skill scores for probability forecasts",
+      "volume": "12",
+      "author": "Murphy",
+      "year": "1973",
+      "journal-title": "J. Appl. Meteor."
+    },
+    {
+      "key": "2020061822361188600_bib21",
+      "doi-asserted-by": "crossref",
+      "first-page": "747",
+      "DOI": "10.1256/0035900021643593",
+      "article-title": "The economic value of ensemble forecasts as a tool for risk assessment: From days to decades",
+      "volume": "128",
+      "author": "Palmer",
+      "year": "2002",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "2020061822361188600_bib22",
+      "doi-asserted-by": "crossref",
+      "first-page": "649",
+      "DOI": "10.1002/qj.49712656313",
+      "article-title": "Skill and relative economic value of the ECMWF Ensemble Prediction System",
+      "volume": "126",
+      "author": "Richardson",
+      "year": "2000",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "2020061822361188600_bib23",
+      "doi-asserted-by": "crossref",
+      "first-page": "552",
+      "DOI": "10.1175/1520-0434(2004)019<0552:AOTSRU>2.0.CO;2",
+      "article-title": "Analysis of the spread–skill relations using the ECMWF ensemble prediction system over Europe",
+      "volume": "19",
+      "author": "Scherrer",
+      "year": "2004",
+      "journal-title": "Wea. Forecasting"
+    },
+    {
+      "key": "2020061822361188600_bib24",
+      "doi-asserted-by": "crossref",
+      "first-page": "73",
+      "DOI": "10.1214/ss/1177012580",
+      "article-title": "Francis Galton's account of the invention of correlation",
+      "volume": "4",
+      "author": "Stigler",
+      "year": "1989",
+      "journal-title": "Stat. Sci."
+    },
+    {
+      "key": "2020061822361188600_bib25",
+      "doi-asserted-by": "crossref",
+      "first-page": "3297",
+      "DOI": "10.1175/1520-0493(1997)125<3297:EFANAT>2.0.CO;2",
+      "article-title": "Ensemble forecasting at NCEP and the breeding method",
+      "volume": "125",
+      "author": "Toth",
+      "year": "1997",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib26",
+      "author": "Toth",
+      "year": "2003"
+    },
+    {
+      "key": "2020061822361188600_bib27",
+      "doi-asserted-by": "crossref",
+      "first-page": "1140",
+      "DOI": "10.1175/1520-0469(2003)060<1140:ACOBAE>2.0.CO;2",
+      "article-title": "A comparison of breeding and ensemble transform Kalman filter ensemble forecast schemes",
+      "volume": "60",
+      "author": "Wang",
+      "year": "2003",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "2020061822361188600_bib28",
+      "doi-asserted-by": "crossref",
+      "first-page": "3292",
+      "DOI": "10.1175/1520-0493(1998)126<3292:TRBESA>2.0.CO;2",
+      "article-title": "The relationship between ensemble spread and ensemble mean skill",
+      "volume": "126",
+      "author": "Whitaker",
+      "year": "1998",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "2020061822361188600_bib29",
+      "author": "Wilks",
+      "year": "1995"
+    },
+    {
+      "key": "2020061822361188600_bib30",
+      "doi-asserted-by": "crossref",
+      "first-page": "311",
+      "DOI": "10.1175/2010MWR3446.1",
+      "article-title": "On the reliability of the rank histogram",
+      "volume": "139",
+      "author": "Wilks",
+      "year": "2011",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "issue": "D14",
+      "key": "2020061822361188600_bib31",
+      "doi-asserted-by": "crossref",
+      "first-page": "19 023",
+      "DOI": "10.1029/96JD01553",
+      "article-title": "Gauge-based monthly analysis of global land precipitation from 1971 to 1994",
+      "volume": "101",
+      "author": "Xie",
+      "year": "1996",
+      "journal-title": "J. Geophys. Res."
+    },
+    {
+      "key": "2020061822361188600_bib32",
+      "doi-asserted-by": "crossref",
+      "first-page": "73",
+      "DOI": "10.1175/1520-0477(2002)083<0073:TEVOEB>2.3.CO;2",
+      "article-title": "The economic value of ensemble-based weather forecasts",
+      "volume": "83",
+      "author": "Zhu",
+      "year": "2002",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    }
+  ],
+  "container-title": [
+    "Monthly Weather Review"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://journals.ametsoc.org/mwr/article-pdf/142/3/1125/4300910/mwr-d-12-00111_1.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://journals.ametsoc.org/mwr/article-pdf/142/3/1125/4300910/mwr-d-12-00111_1.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2020,
+        12,
+        7
+      ]
+    ],
+    "date-time": "2020-12-07T23:06:43Z",
+    "timestamp": 1607382403000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://journals.ametsoc.org/doi/10.1175/MWR-D-12-00111.1"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2014,
+        3,
+        1
+      ]
+    ]
+  },
+  "references-count": 32,
+  "journal-issue": {
+    "issue": "3",
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          1
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1175/mwr-d-12-00111.1",
+  "relation": {},
+  "ISSN": [
+    "0027-0644",
+    "1520-0493"
+  ],
+  "issn-type": [
+    {
+      "value": "0027-0644",
+      "type": "print"
+    },
+    {
+      "value": "1520-0493",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2014,
+        3,
+        1
+      ]
+    ]
+  }
+}

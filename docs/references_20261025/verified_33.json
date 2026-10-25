@@ -1,0 +1,148 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        6
+      ]
+    ],
+    "date-time": "2026-10-06T06:51:49Z",
+    "timestamp": 1791269509220,
+    "version": "4.1.0"
+  },
+  "reference-count": 0,
+  "publisher": "American Meteorological Society",
+  "issue": "11",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Mon. Wea. Rev."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1994,
+        11
+      ]
+    ]
+  },
+  "DOI": "10.1175/1520-0493(1994)122<2573:agmfta>2.0.co;2",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2002,
+        7,
+        27
+      ]
+    ],
+    "date-time": "2002-07-27T12:25:40Z",
+    "timestamp": 1027772740000
+  },
+  "page": "2573-2586",
+  "source": "Crossref",
+  "is-referenced-by-count": 261,
+  "title": [
+    "A General Method for Tracking Analysis and Its Application to Meteorological Data"
+  ],
+  "prefix": "10.1175",
+  "volume": "122",
+  "author": [
+    {
+      "given": "K. I.",
+      "family": "Hodges",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "12",
+  "container-title": [
+    "Monthly Weather Review"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://journals.ametsoc.org/doi/pdf/abs/10.1175/1520-0493%281994%29122%3C2573%3AAGMFTA%3E2.0.CO%3B2",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2020,
+        12,
+        22
+      ]
+    ],
+    "date-time": "2020-12-22T12:13:08Z",
+    "timestamp": 1608639188000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://journals.ametsoc.org/doi/10.1175/1520-0493(1994)122<2573:AGMFTA>2.0.CO;2"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        1994,
+        11
+      ]
+    ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+    "issue": "11",
+    "published-print": {
+      "date-parts": [
+        [
+          1994,
+          11
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1175/1520-0493(1994)122<2573:AGMFTA>2.0.CO;2"
+  ],
+  "URL": "https://doi.org/10.1175/1520-0493(1994)122<2573:agmfta>2.0.co;2",
+  "relation": {},
+  "ISSN": [
+    "0027-0644",
+    "1520-0493"
+  ],
+  "issn-type": [
+    {
+      "value": "0027-0644",
+      "type": "print"
+    },
+    {
+      "value": "1520-0493",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        1994,
+        11
+      ]
+    ]
+  }
+}

@@ -1,0 +1,1187 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        16
+      ]
+    ],
+    "date-time": "2026-10-16T17:43:48Z",
+    "timestamp": 1792172628767,
+    "version": "4.4.0"
+  },
+  "reference-count": 68,
+  "publisher": "Elsevier BV",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2019-12-01T00:00:00Z",
+        "timestamp": 1575158400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2019-12-01T00:00:00Z",
+        "timestamp": 1575158400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            1,
+            14
+          ]
+        ],
+        "date-time": "2020-01-14T00:00:00Z",
+        "timestamp": 1578960000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 44,
+      "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Tropical Cyclone Research and Review"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2019,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.tcrr.2020.01.001",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2020,
+        2,
+        18
+      ]
+    ],
+    "date-time": "2020-02-18T22:15:11Z",
+    "timestamp": 1582064111000
+  },
+  "page": "181-218",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 70,
+  "title": [
+    "Review of Recent Progress in Tropical Cyclone Track Forecasting and Expression of Uncertainties"
+  ],
+  "prefix": "10.1016",
+  "volume": "8",
+  "author": [
+    {
+      "given": "Julian T.",
+      "family": "Heming",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Fernando",
+      "family": "Prates",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Morris A.",
+      "family": "Bender",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Rebecca",
+      "family": "Bowyer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "John",
+      "family": "Cangialosi",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Phillippe",
+      "family": "Caroff",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Thomas",
+      "family": "Coleman",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "James D.",
+      "family": "Doyle",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Anumeha",
+      "family": "Dube",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ghislain",
+      "family": "Faure",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jim",
+      "family": "Fraser",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Brian C.",
+      "family": "Howell",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yohko",
+      "family": "Igarashi",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ron",
+      "family": "McTaggart-Cowan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M.",
+      "family": "Mohapatra",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jonathan R.",
+      "family": "Moskaitis",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jim",
+      "family": "Murtha",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Rabi",
+      "family": "Rivett",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M.",
+      "family": "Sharma",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Chris J.",
+      "family": "Short",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Amit A.",
+      "family": "Singh",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Vijay",
+      "family": "Tallapragada",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Helen A.",
+      "family": "Titley",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yi",
+      "family": "Xiao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib1",
+      "first-page": "173",
+      "article-title": "Computational design of the basic dynamical processes of the UCLA general circulation model",
+      "volume": "17",
+      "author": "Arakawa",
+      "year": "1977",
+      "journal-title": "Methods Comput. Phys."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib2",
+      "series-title": "APS2 Upgrade to the ACCESS-TC Numerical Weather Prediction System",
+      "author": "BNOC Operations Bulletin No. 112",
+      "year": "2016"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib3",
+      "doi-asserted-by": "crossref",
+      "first-page": "1971",
+      "DOI": "10.1002/qj.340",
+      "article-title": "A review of forecast error covariance statistics in atmospheric variational data assimilation. II: Modelling the forecast error covariance statistics",
+      "volume": "134",
+      "author": "Bannister",
+      "year": "2008",
+      "journal-title": "Q.J.R. Meteorol. Soc."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib4",
+      "doi-asserted-by": "crossref",
+      "first-page": "9113",
+      "DOI": "10.1002/2014GL062071",
+      "article-title": "Sensitivity of hurricane forecasts to cumulus parameterizations in the HWRF model",
+      "volume": "41",
+      "author": "Biswas",
+      "year": "2014",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib5",
+      "doi-asserted-by": "crossref",
+      "first-page": "785",
+      "DOI": "10.1002/qj.2964",
+      "article-title": "The effect of improved ensemble covariances on hybrid variational data assimilation",
+      "volume": "143",
+      "author": "Bowler",
+      "year": "2017",
+      "journal-title": "Q.J.R. Meteorol. Soc."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib6",
+      "doi-asserted-by": "crossref",
+      "first-page": "2231",
+      "DOI": "10.1002/qj.2822",
+      "article-title": "Improvement of the forecast of convective activity from the AROMEFrance system",
+      "volume": "142",
+      "author": "Brousseau",
+      "year": "2016",
+      "journal-title": "Q.J.R. Meteorol. Soc."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib7",
+      "doi-asserted-by": "crossref",
+      "first-page": "2532",
+      "DOI": "10.1175/MWR-D-14-00354.1",
+      "article-title": "Implementation of deterministic weather forecasting systems based on ensemble–variational data assimilation at Environment Canada. Part I: the global system",
+      "volume": "143",
+      "author": "Buehner",
+      "year": "2015",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib8",
+      "article-title": "The Met Office Unified Model/JULES Regional Atmosphere and Land configurations (RAL) – 1st release. Submitted to Geosci",
+      "author": "Bush",
+      "year": "2019",
+      "journal-title": "Model Dev"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib9",
+      "series-title": "National Hurricane Center Forecast Verification Report – 2017 Hurricane Season",
+      "first-page": "73",
+      "author": "Cangialosi",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib10",
+      "article-title": "The State of Hurricane Forecasting",
+      "author": "Cangialosi",
+      "year": "2018",
+      "journal-title": "National Hurricane Center Blog – Inside the Eye"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib11",
+      "series-title": "Global Perspectives on Tropical Cyclones: From Science to Mitigation",
+      "author": "Chan",
+      "year": "2010"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib12",
+      "doi-asserted-by": "crossref",
+      "first-page": "71",
+      "DOI": "10.1175/1520-0469(1953)010<0071:NIOTQG>2.0.CO;2",
+      "article-title": "Numerical integration of the quasi-geostrophic equations for barotropic and simple baroclinic flows",
+      "volume": "10",
+      "author": "Charney",
+      "year": "1953",
+      "journal-title": "J. Meteor."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib13",
+      "doi-asserted-by": "crossref",
+      "first-page": "3579",
+      "DOI": "10.1175/2009MWR3119.1",
+      "article-title": "Effect of two-way air–sea coupling in high and low wind speed regimes",
+      "volume": "138",
+      "author": "Chen",
+      "year": "2010",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib14",
+      "doi-asserted-by": "crossref",
+      "first-page": "1445",
+      "DOI": "10.1002/qj.2054",
+      "article-title": "Operational implementation of a hybrid ensemble/4D-Var global data assimilation system at the Met Office",
+      "volume": "139",
+      "author": "Clayton",
+      "year": "2013",
+      "journal-title": "Q. J. R. Meteorol. Soc."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib15",
+      "doi-asserted-by": "crossref",
+      "first-page": "583",
+      "DOI": "10.1256/qj.05.105",
+      "article-title": "Operational multivariate ocean data assimilation",
+      "volume": "131",
+      "author": "Cummings",
+      "year": "2005",
+      "journal-title": "Quarterly Journal of the Royal Meteorological Society"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib16",
+      "doi-asserted-by": "crossref",
+      "first-page": "1245",
+      "DOI": "10.1175/1520-0493(2000)128<1245:TBHRTC>2.0.CO;2",
+      "article-title": "The BMRC High-Resolution Tropical Cyclone Prediction System: TC-LAPS",
+      "volume": "128",
+      "author": "Davidson",
+      "year": "2000",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib17",
+      "doi-asserted-by": "crossref",
+      "first-page": "265",
+      "DOI": "10.1175/MWR-D-13-00062.1",
+      "article-title": "ACCESS-TC: Vortex Specification, 4D-VAR Initialization, Verification and Structure Diagnostics",
+      "volume": "142",
+      "author": "Davidson",
+      "year": "2014",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib18",
+      "doi-asserted-by": "crossref",
+      "first-page": "92",
+      "DOI": "10.5670/oceanog.2014.72",
+      "article-title": "Tropical cyclone prediction using COAMPS-TC",
+      "volume": "27",
+      "author": "Doyle",
+      "year": "2014",
+      "journal-title": "Oceanography"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib19",
+      "first-page": "15",
+      "article-title": "Real time tropical cyclone prediction using COAMPS-TC",
+      "volume": "28",
+      "author": "Doyle",
+      "year": "2012"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib20",
+      "series-title": "Ensemble Methods for Meteorological Predictions. Handbook of Hydrometeorological Ensemble Forecasting",
+      "author": "Du",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib21",
+      "doi-asserted-by": "crossref",
+      "first-page": "664",
+      "DOI": "10.1175/WAF-D-11-00007.1",
+      "article-title": "Verification of Ensemble-Based Uncertainty Circles around Tropical Cyclone Track Forecasts",
+      "volume": "26",
+      "author": "Dupont",
+      "year": "2011",
+      "journal-title": "Weather and Forecasting"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib22",
+      "doi-asserted-by": "crossref",
+      "first-page": "1764",
+      "DOI": "10.1175/2008JAS2874.1",
+      "article-title": "Cloud microphysics impact on hurricane track as revealed in idealized experiments",
+      "volume": "66",
+      "author": "Fovell",
+      "year": "2009",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib23",
+      "doi-asserted-by": "crossref",
+      "first-page": "1183",
+      "DOI": "10.1175/MWR-D-13-00255.1",
+      "article-title": "Staggered vertical discretization of the Canadian Environmental Multiscale (GEM) model using a coordinate of the log-hydrostatic-pressure type",
+      "volume": "142",
+      "author": "Girard",
+      "year": "2014",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib24",
+      "series-title": "2017 HFIP R&D Activities Summary: Recent Results and Operational Implementation, HFIP Technical Report HFIP2018-1",
+      "author": "Gopalakrishnan",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib25",
+      "doi-asserted-by": "crossref",
+      "first-page": "4293",
+      "DOI": "10.1175/JCLI-D-15-0389.1",
+      "article-title": "High-resolution climate simulations using GFDL HiRAM with a stretched global grid",
+      "volume": "29",
+      "author": "Harris",
+      "year": "2016",
+      "journal-title": "J. Clim."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib26",
+      "doi-asserted-by": "crossref",
+      "first-page": "1433",
+      "DOI": "10.1175/WAF-D-16-0040.1",
+      "article-title": "Met Office Unified Model Tropical Cyclone Performance Following Major Changes to the Initialization Scheme and a Model Upgrade",
+      "volume": "31",
+      "author": "Heming",
+      "year": "2016",
+      "journal-title": "Wea. Forecasting"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.tcrr.2020.01.001_bib27",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1002/met.1599",
+      "article-title": "Tropical cyclone tracking and verification techniques for Met Office numerical weather prediction models",
+      "volume": "24",
+      "author": "Heming",
+      "year": "2017",
+      "journal-title": "Meteorological Applications"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib28",
+      "series-title": "Track and Structure Forecasts of Tropical Cyclones. Global Perspectives on Tropical Cyclones: From Science to Mitigation, Chapter 10",
+      "author": "Heming",
+      "year": "2010"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib29",
+      "series-title": "Operational global reanalysis: progress, future directions and synergies with NWP. ERA Report Series no.27",
+      "author": "Hersbach",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib30",
+      "doi-asserted-by": "crossref",
+      "first-page": "116",
+      "DOI": "10.5670/oceanog.2014.73",
+      "article-title": "The Navy Global Environmental Model",
+      "volume": "27",
+      "author": "Hogan",
+      "year": "2014",
+      "journal-title": "Oceanography"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib31",
+      "doi-asserted-by": "crossref",
+      "first-page": "1143",
+      "DOI": "10.1175/MWR-D-13-00138.1",
+      "article-title": "Higher Resolution in an Operational Ensemble Kalman Filter",
+      "volume": "142",
+      "author": "Houtekamer",
+      "year": "2014",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib32",
+      "series-title": "Cyclone Warning Services: Standard Operation Procedure",
+      "author": "IMD",
+      "year": "2013"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib33",
+      "first-page": "275",
+      "article-title": "A multimodel ensemble technique for cyclone track prediction over north Indian Sea",
+      "volume": "28",
+      "author": "Kotal",
+      "year": "2011",
+      "journal-title": "Geofizika"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib34",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1175/BAMS-D-17-0136.1",
+      "article-title": "Have We Reached the Limits of Predictability for Tropical Cyclone Track Forecasting?",
+      "author": "Landsea",
+      "year": "2018",
+      "journal-title": "Bulletin of the American Meteorological Society"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib35",
+      "first-page": "1749",
+      "article-title": "A finite-volume integration method for computing pressure gradient force in general vertical coordinates",
+      "volume": "123",
+      "author": "Lin",
+      "year": "1997",
+      "journal-title": "Q. J. Roy. Meteorol. Soc."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib36",
+      "doi-asserted-by": "crossref",
+      "first-page": "2293",
+      "DOI": "10.1175/1520-0493(2004)132<2293:AVLFDC>2.0.CO;2",
+      "article-title": "A “vertically Lagrangian” finite-volume dynamical core for global models",
+      "volume": "132",
+      "author": "Lin",
+      "year": "2004",
+      "journal-title": "Mon.Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib37",
+      "first-page": "2477",
+      "article-title": "An explicit flux-form semilagrangian shallow-water model on the sphere",
+      "volume": "123",
+      "author": "Lin",
+      "year": "1997",
+      "journal-title": "Q. J. Roy. Meteorol. Soc."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib38",
+      "doi-asserted-by": "crossref",
+      "first-page": "403",
+      "DOI": "10.2151/jmsj.87.403",
+      "article-title": "Sensitivity of numerical simulations of the early rapid intensification of Hurricane Emily to cumulus parameterization schemes in different model horizontal resolutions",
+      "volume": "87",
+      "author": "Li",
+      "year": "2009",
+      "journal-title": "J. Meteor. Soc. Jpn."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib39",
+      "series-title": "Preprints, 25th Conf. on Hurricanes and Tropical Meteorology",
+      "article-title": "How the NCEP Tropical Cyclone Tracker works",
+      "author": "Marchok",
+      "year": "2002"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib40",
+      "series-title": "Description of the NAVY coastal ocean model version 1.0. NRL Rep. NRL/FR/7322-00-9962",
+      "first-page": "42",
+      "author": "Martin",
+      "year": "2000"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib41",
+      "first-page": "C03S12",
+      "article-title": "Simulation of the northern Adriatic circulation during winter 2003",
+      "volume": "111",
+      "author": "Martin",
+      "year": "2006",
+      "journal-title": "J. Geophys. Res."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib42",
+      "doi-asserted-by": "crossref",
+      "first-page": "4392",
+      "DOI": "10.1002/2017JC012753",
+      "article-title": "Tropical cyclone sensitivity to ocean coupling in the ECMWF coupled model",
+      "volume": "122",
+      "author": "Mogensen",
+      "year": "2017",
+      "journal-title": "J. Geophys. Res. Oceans"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib43",
+      "first-page": "331",
+      "article-title": "Evaluation of Cone of Uncertainty in Tropical Cyclone Track Forecast over north Indian Ocean issued by India Meteorological Department",
+      "volume": "2",
+      "author": "Mohapatra",
+      "year": "2012",
+      "journal-title": "Tropical Cyclone Research and Review"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib44",
+      "doi-asserted-by": "crossref",
+      "first-page": "589",
+      "DOI": "10.1007/s12040-013-0291-1",
+      "article-title": "Evaluation of official tropical cyclone track forecast over north Indian Ocean issued by India Meteorological Department",
+      "volume": "122",
+      "author": "Mohapatra",
+      "year": "2013",
+      "journal-title": "J. Earth Syst. Sci."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib45",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.54302/mausam.v64i1.650",
+      "article-title": "Outcomes and Challenges of Forecast Demonstration Project (FDP) on Landfalling Cyclones over the Bay of Bengal",
+      "volume": "64",
+      "author": "Mohapatra",
+      "year": "2013",
+      "journal-title": "Mausam"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib46",
+      "doi-asserted-by": "crossref",
+      "first-page": "1826",
+      "DOI": "10.18520/cs/v112/i09/1826-1830",
+      "article-title": "Reduction in uncertainty in tropical cyclone track forecasts over the North Indian Ocean",
+      "volume": "112",
+      "author": "Mohapatra",
+      "year": "2017",
+      "journal-title": "Current Science"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib47",
+      "series-title": "Characteristics of Sudden Changes in Tropical Cyclone Tracks over North Indian, Ocean",
+      "author": "Mohapatra",
+      "year": "2012"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib48",
+      "first-page": "14",
+      "article-title": "Changes to the 2001 NCEP operational MRF/AVN global analysis/forecast system",
+      "volume": "484",
+      "author": "Moorthi",
+      "year": "2001",
+      "journal-title": "NWS Technical Procedures Bulletin"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib49",
+      "doi-asserted-by": "crossref",
+      "first-page": "1003",
+      "DOI": "10.1175/WAF-D-10-05000.1",
+      "article-title": "Assessing the impacts of different WRF precipitation physics in hurricane simulations",
+      "volume": "27",
+      "author": "Nasrollahi",
+      "year": "2012",
+      "journal-title": "Wea. Forecasting"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.tcrr.2020.01.001_bib50",
+      "first-page": "71",
+      "article-title": "Selective ensemble mean technique for tropical cyclone track forecasts using multimodel ensembles",
+      "volume": "4",
+      "author": "Nishimura",
+      "year": "2015",
+      "journal-title": "Tropical Cyclone Research and Review"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib51",
+      "doi-asserted-by": "crossref",
+      "first-page": "55",
+      "DOI": "10.1016/j.jcp.2007.07.022",
+      "article-title": "Finite-volume transport on various cubed-sphere grids",
+      "volume": "227",
+      "author": "Putman",
+      "year": "2007",
+      "journal-title": "J. Comput. Phys."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib52",
+      "doi-asserted-by": "crossref",
+      "first-page": "1913",
+      "DOI": "10.1002/qj.873",
+      "article-title": "The Canadian Global Environmental Multiscale model on the Yin-Yang grid system",
+      "volume": "137",
+      "author": "Qaddouri",
+      "year": "2011",
+      "journal-title": "Quart. J. Roy. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib53",
+      "series-title": "Report on cyclonic disturbances over the north Indian Ocean during 2017",
+      "author": "RSMC",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib54",
+      "doi-asserted-by": "crossref",
+      "first-page": "1131",
+      "DOI": "10.1175/1520-0477(2000)081<1231:TATCFS>2.3.CO;2",
+      "article-title": "The Automated Tropical Cyclone Forecasting System (Version 3.2)",
+      "volume": "81",
+      "author": "Sampson",
+      "year": "2000",
+      "journal-title": "Bull. Amer. Meteor. Soc"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib55",
+      "doi-asserted-by": "crossref",
+      "first-page": "976",
+      "DOI": "10.1175/2010MWR3425.1",
+      "article-title": "The AROME-France Convective-Scale Operational Model",
+      "volume": "139",
+      "author": "Seity",
+      "year": "2011",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib56",
+      "doi-asserted-by": "crossref",
+      "first-page": "345",
+      "DOI": "10.1007/s00703-016-0472-y",
+      "article-title": "Sensitivity of hurricane track to cumulus parameterization schemes in the WRF model for three intense tropical cyclones: impact of convective asymmetry",
+      "volume": "129",
+      "author": "Shepherd",
+      "year": "2017",
+      "journal-title": "Met. Atmos. Phys."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib57",
+      "doi-asserted-by": "crossref",
+      "first-page": "185",
+      "DOI": "10.1175/WAF-D-17-0069.1",
+      "article-title": "How well can the Met Office Unified Model forecast tropical cyclones in the Western North Pacific? Wea",
+      "volume": "33",
+      "author": "Short",
+      "year": "2018",
+      "journal-title": "Forecasting"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib58",
+      "doi-asserted-by": "crossref",
+      "first-page": "1157",
+      "DOI": "10.1175/MWR-D-17-0157.1",
+      "article-title": "Impact of Coupling with an Ice–Ocean Model on Global Medium-Range NWP Forecast Skill",
+      "volume": "146",
+      "author": "Smith",
+      "year": "2018",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib59",
+      "doi-asserted-by": "crossref",
+      "first-page": "1374",
+      "DOI": "10.1175/WAF-D-14-00043.1",
+      "article-title": "Implementation of a stochastic eddy-diffusivity mass flux parameterization into the Navy Global Environmental Model",
+      "volume": "29",
+      "author": "Suselj",
+      "year": "2014",
+      "journal-title": "Wea. Forecasting"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib60",
+      "doi-asserted-by": "crossref",
+      "first-page": "257",
+      "DOI": "10.5194/gmd-11-257-2018",
+      "article-title": "The ALADIN System and its canonical model configurations AROME CY41T1 and ALARO CY40T1, Geosci",
+      "volume": "11",
+      "author": "Termonia",
+      "year": "2018",
+      "journal-title": "Model Dev"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib61",
+      "series-title": "33rd Conference on Hurricanes and Tropical Meteorology, Florida",
+      "article-title": "A Probabilistic Evaluation of Global Tropical Cyclone Forecasts from the Upgraded Met Office MOGREPS-G Ensemble, and the Value of Multi-Model Ensembles",
+      "author": "Titley",
+      "year": "2018"
+    },
+    {
+      "issue": "No.3",
+      "key": "10.1016/j.tcrr.2020.01.001_bib62",
+      "first-page": "253",
+      "article-title": "The WGNE intercomparison of typhoon track forecasts from operational global models for 1991-2000",
+      "volume": "51",
+      "author": "Tsuyuki",
+      "year": "2002",
+      "journal-title": "WMO Bulletin"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib63",
+      "doi-asserted-by": "crossref",
+      "first-page": "1487",
+      "DOI": "10.5194/gmd-10-1487-2017",
+      "article-title": "The Met Office Unified Model Global Atmosphere 6.0/6.1 and JULES Global Land 6.0/6.1 configurations",
+      "volume": "10",
+      "author": "Walters",
+      "year": "2017",
+      "journal-title": "Geosci. Model. Dev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib64",
+      "doi-asserted-by": "crossref",
+      "first-page": "1878",
+      "DOI": "10.1175//2571.1",
+      "article-title": "Real-Time Multimodel Superensemble Forecasts of Atlantic Tropical Systems of 1999",
+      "volume": "131",
+      "author": "Williford",
+      "year": "2003",
+      "journal-title": "Mon. Wea. Rev."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib65",
+      "doi-asserted-by": "crossref",
+      "first-page": "1505",
+      "DOI": "10.1002/qj.2235",
+      "article-title": "An inherently mass-conserving semi-implicit semi-Lagrangian discretization of the deep-atmosphere global non-hydrostatic equations",
+      "volume": "140",
+      "author": "Wood",
+      "year": "2014",
+      "journal-title": "Q.J.R. Meteorol. Soc."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib66",
+      "doi-asserted-by": "crossref",
+      "first-page": "2337",
+      "DOI": "10.1175/BAMS-D-16-0133.1",
+      "article-title": "WGNE Intercomparison of Tropical Cyclone Forecasts by Operational NWP Models: A Quarter Century and Beyond",
+      "volume": "98",
+      "author": "Yamaguchi",
+      "year": "2017",
+      "journal-title": "Bull. Amer. Meteor. Soc."
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib67",
+      "article-title": "Improvements to the Global Deterministic Prediction system (GDPS) (from version 2.2.2 to 3.0.0), and related changes to the Regional Deterministic Prediction System (RDPS) (from version 3.0.0 to 3.1.0)",
+      "volume": "88",
+      "author": "Zadra",
+      "year": "2014",
+      "journal-title": "Canadian Meteorological Centre Tech"
+    },
+    {
+      "key": "10.1016/j.tcrr.2020.01.001_bib68",
+      "doi-asserted-by": "crossref",
+      "first-page": "1197",
+      "DOI": "10.1175/MWR-D-13-00124.1",
+      "article-title": "Evaluation of Tropical Cyclones in the Canadian Global Modeling System: Sensitivity to Moist Process Parameterization",
+      "volume": "142",
+      "author": "Zadra",
+      "year": "2014",
+      "journal-title": "Mon. Wea. Rev."
+    }
+  ],
+  "updated-by": [
+    {
+      "DOI": "10.1016/j.tcrr.2020.12.001",
+      "type": "erratum",
+      "label": "Erratum",
+      "source": "publisher",
+      "updated": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2021-03-01T00:00:00Z",
+        "timestamp": 1614556800000
+      }
+    }
+  ],
+  "container-title": [
+    "Tropical Cyclone Research and Review"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S2225603220300011?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S2225603220300011?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        6
+      ]
+    ],
+    "date-time": "2025-11-06T06:58:28Z",
+    "timestamp": 1762412308000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2225603220300011"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2019,
+        12
+      ]
+    ]
+  },
+  "references-count": 68,
+  "journal-issue": {
+    "issue": "4",
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "S2225603220300011"
+  ],
+  "URL": "https://doi.org/10.1016/j.tcrr.2020.01.001",
+  "relation": {},
+  "ISSN": [
+    "2225-6032"
+  ],
+  "issn-type": [
+    {
+      "value": "2225-6032",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2019,
+        12
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Review of Recent Progress in Tropical Cyclone Track Forecasting and Expression of Uncertainties",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Tropical Cyclone Research and Review",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.tcrr.2020.01.001",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ]
+}

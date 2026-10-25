@@ -38,11 +38,15 @@
 
 #### 1.2.1 全球人工智能天气预报模型的发展
 
-全球人工智能天气预报研究先建立统一数据和评价标准，再逐步发展到高分辨率确定性预报与概率预报。WeatherBench以ERA5资料构建全球中期预报基准，使不同数据驱动方法能够在共同变量、时效和指标下比较；WeatherBench 2进一步将评价范围扩展到1—14天，并把数据驱动模型与业务物理模式纳入同一评价框架。[[15]](#ref-15)[[16]](#ref-16) 统一基准推动研究重点由“能否预测全球气象场”转向“在相同条件下能否达到稳定、可复核的预报水平”。
+全球人工智能天气预报经历了从简化试验到高分辨率预报的发展。Dueben和Bauer通过简化全球预报试验，讨论神经网络预报系统的数据需求和设计选择；Weyn等将全球场映射到立方球网格，用卷积神经网络学习气象场演变；Keisler进一步使用图神经网络，以6 h为步长推进全球大气状态。[[21]](#ref-21)[[22]](#ref-22)[[23]](#ref-23) 这些工作逐步建立了从历史气象资料学习时间演变、再递推生成预报的技术路线。
+
+统一评价基准使不同技术路线能够直接比较。WeatherBench以ERA5资料构建全球中期预报基准，使不同数据驱动方法能够在共同变量、时效和指标下比较；WeatherBench 2进一步将评价范围扩展到1—14天，并把数据驱动模型与业务物理模式纳入同一评价框架。[[15]](#ref-15)[[16]](#ref-16) 统一基准推动研究重点由“能否预测全球气象场”转向“在相同条件下能否达到稳定、可复核的预报水平”。 Ben Bouallègue等还在相同初始化条件下比较Pangu-Weather与ECMWF IFS，将全球指标和极端事件纳入接近业务条件的检验。[[28]](#ref-28)
 
 国内研究中，Bi等提出的Pangu-Weather采用三维地球特定Transformer，将同一时刻的高空气象场与地面气象场共同作为输入。模型首先把气象场划分为小块并编码，按照气压层、经度和纬度组织为三维特征。随后，通过注意力机制学习不同位置和高度之间的联系，并通过移动窗口划分，使相邻窗口交换信息。模型还引入与气压层和纬度位置有关的可学习位置偏置，将地球空间位置的差异纳入计算。最后，解码器把处理后的特征还原为未来时刻的气象场。[[4]](#ref-4)
 
 在时间推进方面，Pangu-Weather分别训练了预报步长为1、3、6和24 h的网络，并采用分层时间聚合策略组合使用。例如，预报未来30 h的大气状态时，可先推进24 h，再推进6 h。这样可以减少达到目标时效所需的迭代次数，减轻逐步预报中的误差累积。[[4]](#ref-4) Chen等提出的FuXi则采用级联模型，由不同模型分别承担不同预报阶段，开展了15天全球天气预报研究。[[8]](#ref-8)
+
+Chen等提出的FengWu以多模态、多任务学习组织不同气象变量，并通过回放缓冲机制减轻递推误差累积；其集合扩展使用条件扩散模型生成多个预报成员。[[24]](#ref-24) 这条路线将确定性预报的长时效推进与多情景预测联系起来。
 
 随着确定性模型能力提高，人工智能天气预报开始进一步描述预报不确定性。Price等提出的GenCast采用条件扩散模型生成多条可能的大气演变轨迹，形成15天全球集合预报，并专门评价热带气旋路径等高影响天气。[[17]](#ref-17) 这一进展使人工智能天气预报由输出单一路径，拓展到同时给出多种可能情景及其分布。
 
@@ -50,9 +54,13 @@
 
 Pathak等提出的FourCastNet采用自适应傅里叶神经算子（AFNO）处理全球气象场。模型先将多变量气象场划分为小块，并把每个小块编码为特征；随后对这些特征进行二维傅里叶变换，将空间变化表示为不同空间频率的成分。网络在频域中学习特征变换，再通过逆傅里叶变换返回空间域，实现不同区域之间的信息交互。经过多层处理后，解码器重建未来时刻的气象场。该设计利用傅里叶变换处理大范围空间联系，并以6 h为步长，将前一步预测结果用于后续预报。[[7]](#ref-7)
 
+研究路线还拓展到物理过程与机器学习结合、基础模型预训练以及业务部署。Kochkov等的NeuralGCM将可微分大气动力求解器与机器学习组件结合，开展天气与气候预测；Bodnar等的Aurora在多来源地球物理资料上预训练，再适配天气、空气质量、海浪和热带气旋路径等任务。[[25]](#ref-25)[[26]](#ref-26) ECMWF的AIFS已进入业务运行，Moldovan等介绍的AIFS Single 1.1.0进一步加入降水非负性等约束，并扩展训练资料和输出变量。[[27]](#ref-27)
+
 GraphCast、Pangu-Weather和FourCastNet分别通过球面图上的信息传递、三维注意力计算和傅里叶域中的特征变换组织气象信息，形成了三条具有不同空间信息处理方式的全球预报路线。三者均输出可用于气旋追踪的气象场，为在同一批台风样本上比较路径预报表现提供了条件。本文据此选取这三个模型，在一致的追踪和验证规则下，研究其路径误差及随预报时效和路径形态的变化。
 
 #### 1.2.2 热带气旋专项验证的进展
+
+热带气旋路径研究同时关注位置准确度与不确定性的表达。Heming等综述了业务数值模式、共识预报和集合预报在路径预测中的进展，说明平均路径评价与预报置信度评价需要配合开展。[[30]](#ref-30) 在验证资料方面，Knapp等建立的IBTrACS汇集不同业务机构的最佳路径记录，为跨海盆研究提供统一的数据入口。[[34]](#ref-34)
 
 人工智能天气预报模型的热带气旋研究已由单个模型的能力评估，发展到多个模型在共同验证条件下的比较。DeMaria等使用GFS分析场初始化，采用美国国家飓风中心的验证流程，评估GraphCast-operational、Pangu-Weather、FourCastNetv1和FourCastNetv2-small对2023年5—11月北半球热带气旋的路径与强度预报。研究发现，这些模型的路径误差和气旋检出率与表现较好的业务模型相当，将其预报加入多模型共识后，还能改善部分长时效的路径预测。该研究把单模型评价与多模型组合联系起来，展示了人工智能预报在热带气旋路径业务中的应用价值。[[5]](#ref-5)
 
@@ -60,11 +68,15 @@ GraphCast、Pangu-Weather和FourCastNet分别通过球面图上的信息传递�
 
 热带气旋路径检验还形成了直接路径误差、沿轨误差和横轨误差等常用指标。Leonardo和Colle在北大西洋多模式集合预报中，将总位置误差分解为沿实际路径方向和垂直于路径方向的分量，并发现多种模式在120 h表现出明显的沿轨慢偏差。[[20]](#ref-20) 这种分解把“预测位置偏离多远”进一步落实为“移动速度方向的前后错位”和“路径左右偏离”，为分析不同路径形态下的误差来源提供了方法基础。
 
+路径形态分析还需要联系台风运动过程。Chan总结了环境引导气流、β效应、垂直风切变与加热对气旋运动的作用；Carr和Elsberry分析了中纬度环流作用被模式错误描述时产生的路径偏差。[[29]](#ref-29)[[31]](#ref-31) Galarneau和Davis则通过环境风场及引导层的诊断，追查运动预报误差的来源。[[32]](#ref-32) 这些研究为从总体距离评价进一步转向运动方向和转向阶段分析提供了依据。
+
 #### 1.2.3 多模型分歧与误差风险
+
+集合预报用多条可能的演变轨迹表达未来天气的不确定性。Gneiting和Raftery介绍了集合方法相对单一预报的信息价值；Leutbecher和Palmer进一步说明，初始状态和模式误差的增长依赖具体天气形势，因此集合系统需要评价其概率信息和实际用途。[[36]](#ref-36)[[35]](#ref-35)
 
 多模型共识通过综合不同模型的预测位置降低单一模型误差。Goerss对多个动力模式的热带气旋路径进行组合，发现72 h共识路径误差比表现最好的单一模型低16%—23%，说明不同模型的偏差可以在组合中相互抵消。[[18]](#ref-18) 后续研究进一步把模型分散程度用于预测共识误差。Goerss以共识成员的路径离散度、气旋强度等预报发布时即可获得的量为输入，建立了分时效的共识误差预测模型，表明模型分歧可以参与预报置信度判断。[[19]](#ref-19)
 
-模型分歧与实际误差并非一一对应。Elsberry和Carr基于西北太平洋381个案例分析五个动力模型，发现模型预测较集中时，共识误差通常较小，但也存在多个模型共同偏离真实位置的案例；模型预测较分散时，不同方向的偏差也可能经平均后得到较准确的共识路径。[[10]](#ref-10) 因此，分歧既要用于衡量案例间的风险排序，也要通过命中率、虚警比例等指标检验它能否筛选实际的大误差案例。本文第五章据此评价三个AI模型的位置分歧，并讨论它在台风路径预报核查中的用途。
+模型分歧与实际误差并非一一对应。Elsberry和Carr基于西北太平洋381个案例分析五个动力模型，发现模型预测较集中时，共识误差通常较小，但也存在多个模型共同偏离真实位置的案例；模型预测较分散时，不同方向的偏差也可能经平均后得到较准确的共识路径。[[10]](#ref-10) 因此，分歧既要用于衡量案例间的风险排序，也要通过命中率、虚警比例等指标检验它能否筛选实际的大误差案例。本文第五章据此评价三个AI模型的位置分歧，并讨论它在台风路径预报核查中的用途。 Hopson进一步指出，离散度与误差的相关关系受指标定义和系统误差变化特征影响，评价时应同时关注离散度所含的信息及其与误差的对应关系。[[37]](#ref-37)
 
 
 
@@ -150,6 +162,8 @@ Pangu-Weather采用两种步长，以减少长时效预测的连续迭代次数�
 
 #### 2.1.3 中心提取与连续追踪
 
+从预报场获得路径，需要先识别各时刻的中心，再将中心连接成连续轨迹。Hodges提出了气象系统特征识别与轨迹连接的一般方法，Heming进一步讨论了热带气旋追踪及验证流程。[[33]](#ref-33)[[2]](#ref-2) 本文按这一处理思路组织中心提取，具体搜索和评分参数如下。
+
 三模型预报场采用相同追踪规则。起报时刻以JMA中心为共同锚点，6 h时效围绕该位置搜索；从12 h起，根据前两次识别位置的位移外推0.75倍，确定新的搜索锚点。6 h的搜索半径为700 km，随后每6 h增加20 km，上限1000 km。
 
 程序先从搜索区域中选出低压候选点，再根据候选点与搜索锚点的距离、气压亏缺和近中心风速计算综合得分。候选点 $c$ 在第 $k$ 个预报时次的得分为
@@ -204,7 +218,7 @@ $$
 
 #### 2.2.2 台风重采样与模型配对比较
 
-同一台风的多个起报案例共享部分天气过程，因此本文以台风为重采样单位，将每个台风的全部案例作为一个整体保留，并以不同台风作为近似独立的抽样单位。不同台风的预测难度和误差水平有所差异，样本中各台风的构成会影响总体均值。bootstrap通过反复改变各台风在重采样中的出现次数，估计总体指标随样本构成变化的波动范围，为均值和模型差异提供置信区间。[[11]](#ref-11)
+同一台风的多个起报案例共享部分天气过程，因此本文以台风为重采样单位，将每个台风的全部案例作为一个整体保留，并以不同台风作为近似独立的抽样单位。不同台风的预测难度和误差水平有所差异，样本中各台风的构成会影响总体均值。bootstrap通过反复改变各台风在重采样中的出现次数，估计总体指标随样本构成变化的波动范围，为均值和模型差异提供置信区间。[[11]](#ref-11) 通过经验样本重采样估计统计量抽样波动的基本思想源于Efron提出的bootstrap方法。[[38]](#ref-38)
 
 对于平均DPE和RMSE，每次从主分析的14个台风中有放回地抽取14次。同一台风可以重复出现，未被抽中的台风在该次计算中不参与平均；每次均按第2.2.1节的台风等权规则重新计算指标。重复10000次后，取重采样结果的第2.5和97.5百分位数，得到各模型、各时效的95%置信区间。
 
@@ -227,7 +241,7 @@ $$
 
 其中，$E_{ijA}(\tau)$ 和 $E_{ijB}(\tau)$ 为第2.2.1节定义的大圆距离误差，$D_i^{A-B}(\tau)$ 为台风内平均差值，$\widehat{\Delta}^{A-B}(\tau)$ 为台风等权平均差值，单位均为km。差值为负表示A的平均DPE较小，为正表示B的平均DPE较小。本文分别比较GraphCast−Pangu-Weather、GraphCast−FourCastNet和Pangu-Weather−FourCastNet。
 
-三组模型配对分别在6、12、…、120 h进行比较，共形成 $3\times20=60$ 项差值。如果逐项查看95%区间，随着比较项增多，至少一项因样本波动而呈现差异的机会也会增加。因此，本文同时报告逐项置信区间与覆盖全部60项比较的近似95%同时置信带，用统一的整体标准判断模型差异。
+三组模型配对分别在6、12、…、120 h进行比较，共形成 $3\times20=60$ 项差值。如果逐项查看95%区间，随着比较项增多，至少一项因样本波动而呈现差异的机会也会增加。因此，本文同时报告逐项置信区间与覆盖全部60项比较的近似95%同时置信带，用统一的整体标准判断模型差异。 Wilks对气象研究中的多重检验问题作了系统讨论，为将单项判断与整体判断区分提供了方法背景。[[39]](#ref-39)
 
 为保留同一台风在不同模型配对、不同预报时效之间的联系，每次重采样均对全部60项比较使用同一组台风索引。例如，某个台风被抽中两次，它在三组配对、20个时效中的差值都随之出现两次。令 $k=1,\ldots,60$ 表示一个“模型配对—预报时效”组合，$D_{ik}$ 表示台风 $i$ 在该组合下的平均差值。第 $b$ 次重采样抽到的台风索引为 $I_1^{(b)},\ldots,I_N^{(b)}$，则
 
@@ -535,7 +549,7 @@ $$
 {\left(\sum_{c\in\mathcal E}w_c\right)\left(\sum_{d\in\mathcal O}w_d\right)}.
 $$
 
-AUC越高，表示大误差案例越容易排在风险分数较高的位置；0.5对应随机排序的参考水平。
+AUC越高，表示大误差案例越容易排在风险分数较高的位置；0.5对应随机排序的参考水平。 AUC作为排序判别指标的解释及ROC分析方法见Fawcett。[[40]](#ref-40)
 
 提升倍数评价高分歧筛选后大误差的集中程度。预警精确率 $\pi$、总体大误差发生率 $p_E$ 及提升倍数定义为
 
@@ -618,7 +632,7 @@ $$
 | 96 | 52.6 | [−5.5, 103.6] | [−31.4, 136.7] |
 | 120 | 142.7 | [52.6, 239.9] | [−3.0, 288.5] |
 
-**GraphCast和Pangu-Weather相对FourCastNet的中长时效优势获得了联合统计支持。** 在54–114 h，两者的平均DPE均小于FourCastNet，对应配对差值的同时置信带均完全低于零；120 h时，只有Pangu-Weather相对FourCastNet的优势仍获得支持。该时效Pangu-Weather的平均DPE比FourCastNet低364.0 km，降幅为51.6%（图3-3）。
+**GraphCast和Pangu-Weather相对FourCastNet的中长时效优势获得了联合统计支持。** 在54–114 h，两者的平均DPE均小于FourCastNet，对应配对差值的同时置信带均完全低于零；120 h时，只有Pangu-Weather相对FourCastNet的优势仍获得支持。该时效Pangu-Weather的平均DPE比FourCastNet低364.0 km，降幅为51.6%（图3-3）。 本节按统一的整体统计标准归纳三组配对结果，对应气象验证中对多重比较的处理要求。[[39]](#ref-39)
 
 ![模型配对误差差值](../figures/Figure_2_paired.png)
 
@@ -674,7 +688,7 @@ $$
 
 ### 4.3 转向前后的误差变化
 
-4.2节根据整段路径形态识别了转向台风。要判断转向过程是否影响路径预报能力，需要以转向时刻为基准，在相同预报时效下比较同一台风转向前后的误差。图4-2b和表4-2给出了可以开展这一比较的时效。
+4.2节根据整段路径形态识别了转向台风。要判断转向过程是否影响路径预报能力，需要以转向时刻为基准，在相同预报时效下比较同一台风转向前后的误差。图4-2b和表4-2给出了可以开展这一比较的时效。 既有研究将转向附近的路径偏差与中纬度环流及环境引导气流的预测联系起来。[[31]](#ref-31)[[32]](#ref-32) 本节据此关注转向阶段的误差变化，以位置及其方向分量刻画变化特征。
 
 ![转向前后可配对的预报时效](../figures/Figure_4_2b_event_support.png)
 
@@ -835,7 +849,7 @@ $$
 
 **短至中期可以根据模型分歧划分核查优先级。** 在6 h及24–54 h，三条AI预测路径接近时，可将该案例判断为相对低风险并按常规流程核查；三条路径明显分开时，则应提高核查优先级，重点检查中心识别、后续移动方向和环境引导气流，并与业务数值模式及最新观测进行交叉比较。模型分歧由此形成一套双向风险信号：一致对应较低的相对风险，分歧对应较高的相对风险。
 
-**60–120 h应转向多来源综合判断。** 这一时段的相关系数为0.08–0.28，各时效区间均跨零。随着预报时间延长，三个模型可能共同偏向同一方向，也可能彼此分散但平均位置仍接近真实路径。因此，较长时效的模型一致不能直接视为低风险，模型分歧也不能单独判定为高风险，应综合业务数值模式、实时观测和天气形势判断路径可信度。
+**60–120 h应转向多来源综合判断。** 这一时段的相关系数为0.08–0.28，各时效区间均跨零。随着预报时间延长，三个模型可能共同偏向同一方向，也可能彼此分散但平均位置仍接近真实路径。因此，较长时效的模型一致不能直接视为低风险，模型分歧也不能单独判定为高风险，应综合业务数值模式、实时观测和天气形势判断路径可信度。 这种使用方式也符合集合预报研究对离散度与误差关系的认识：离散度提供风险信息，其对应的误差水平需要通过验证建立。[[35]](#ref-35)[[37]](#ref-37)
 
 ### 5.3 高分歧对大误差的识别表现
 
@@ -1271,6 +1285,86 @@ ci95 = np.quantile(bootstrap_rmse, [0.025, 0.975])
 <a id="ref-20"></a>
 
 [20] Leonardo N M, Colle B A. Verification of Multimodel Ensemble Forecasts of North Atlantic Tropical Cyclones[J]. Weather and Forecasting, 2017, 32(6): 2083–2101. [DOI: 10.1175/WAF-D-17-0058.1](https://doi.org/10.1175/WAF-D-17-0058.1).
+
+<a id="ref-21"></a>
+
+[21] Dueben P D, Bauer P. Challenges and design choices for global weather and climate models based on machine learning[J]. Geoscientific Model Development, 2018, 11(10): 3999–4009. [DOI: 10.5194/gmd-11-3999-2018](https://doi.org/10.5194/gmd-11-3999-2018).
+
+<a id="ref-22"></a>
+
+[22] Weyn J A, Durran D R, Caruana R. Improving Data‐Driven Global Weather Prediction Using Deep Convolutional Neural Networks on a Cubed Sphere[J]. Journal of Advances in Modeling Earth Systems, 2020, 12(9): e2020MS002109. [DOI: 10.1029/2020ms002109](https://doi.org/10.1029/2020ms002109).
+
+<a id="ref-23"></a>
+
+[23] Keisler R. Forecasting Global Weather with Graph Neural Networks[EB/OL]. arXiv预印本, 2022. [DOI: 10.48550/arXiv.2202.07575](https://doi.org/10.48550/arXiv.2202.07575).
+
+<a id="ref-24"></a>
+
+[24] Chen K, Han T, Ling F, et al. The operational medium-range deterministic weather forecasting can be extended beyond a 10-day lead time[J]. Communications Earth &amp; Environment, 2025, 6(1): 518. [DOI: 10.1038/s43247-025-02502-y](https://doi.org/10.1038/s43247-025-02502-y).
+
+<a id="ref-25"></a>
+
+[25] Kochkov D, Yuval J, Langmore I, et al. Neural general circulation models for weather and climate[J]. Nature, 2024, 632(8027): 1060–1066. [DOI: 10.1038/s41586-024-07744-y](https://doi.org/10.1038/s41586-024-07744-y).
+
+<a id="ref-26"></a>
+
+[26] Bodnar C, Bruinsma W P, Lucic A, et al. A foundation model for the Earth system[J]. Nature, 2025, 641(8065): 1180–1187. [DOI: 10.1038/s41586-025-09005-y](https://doi.org/10.1038/s41586-025-09005-y).
+
+<a id="ref-27"></a>
+
+[27] Moldovan G, Pinnington E, Prieto Nemesio A, et al. AIFS Single 1.1.0: an update to ECMWF's machine-learned weather forecast model AIFS[J]. Geoscientific Model Development, 2026, 19(10): 4703–4724. [DOI: 10.5194/gmd-19-4703-2026](https://doi.org/10.5194/gmd-19-4703-2026).
+
+<a id="ref-28"></a>
+
+[28] Ben Bouallègue Z, Clare M C A, Magnusson L, et al. The Rise of Data-Driven Weather Forecasting: A First Statistical Assessment of Machine Learning–Based Weather Forecasts in an Operational-Like Context[J]. Bulletin of the American Meteorological Society, 2024, 105(6): E864–E883. [DOI: 10.1175/bams-d-23-0162.1](https://doi.org/10.1175/bams-d-23-0162.1).
+
+<a id="ref-29"></a>
+
+[29] Chan J C L. The physics of tropical cyclone motion[J]. Annual Review of Fluid Mechanics, 2005, 37(1): 99–128. [DOI: 10.1146/annurev.fluid.37.061903.175702](https://doi.org/10.1146/annurev.fluid.37.061903.175702).
+
+<a id="ref-30"></a>
+
+[30] Heming J T, Prates F, Bender M A, et al. Review of Recent Progress in Tropical Cyclone Track Forecasting and Expression of Uncertainties[J]. Tropical Cyclone Research and Review, 2019, 8(4): 181–218. [DOI: 10.1016/j.tcrr.2020.01.001](https://doi.org/10.1016/j.tcrr.2020.01.001).
+
+<a id="ref-31"></a>
+
+[31] Carr L E III, Elsberry R L. Dynamical Tropical Cyclone Track Forecast Errors. Part II: Midlatitude Circulation Influences[J]. Weather and Forecasting, 2000, 15(6): 662–681. [DOI: 10.1175/1520-0434(2000)015<0662:dtctfe>2.0.co;2](https://doi.org/10.1175/1520-0434%282000%29015%3C0662%3Adtctfe%3E2.0.co%3B2).
+
+<a id="ref-32"></a>
+
+[32] Galarneau T J Jr., Davis C A. Diagnosing Forecast Errors in Tropical Cyclone Motion[J]. Monthly Weather Review, 2013, 141(2): 405–430. [DOI: 10.1175/mwr-d-12-00071.1](https://doi.org/10.1175/mwr-d-12-00071.1).
+
+<a id="ref-33"></a>
+
+[33] Hodges K I. A General Method for Tracking Analysis and Its Application to Meteorological Data[J]. Monthly Weather Review, 1994, 122(11): 2573–2586. [DOI: 10.1175/1520-0493(1994)122<2573:agmfta>2.0.co;2](https://doi.org/10.1175/1520-0493%281994%29122%3C2573%3Aagmfta%3E2.0.co%3B2).
+
+<a id="ref-34"></a>
+
+[34] Knapp K R, Kruk M C, Levinson D H, et al. The International Best Track Archive for Climate Stewardship (IBTrACS)[J]. Bulletin of the American Meteorological Society, 2010, 91(3): 363–376. [DOI: 10.1175/2009bams2755.1](https://doi.org/10.1175/2009bams2755.1).
+
+<a id="ref-35"></a>
+
+[35] Leutbecher M, Palmer T N. Ensemble forecasting[J]. Journal of Computational Physics, 2008, 227(7): 3515–3539. [DOI: 10.1016/j.jcp.2007.02.014](https://doi.org/10.1016/j.jcp.2007.02.014).
+
+<a id="ref-36"></a>
+
+[36] Gneiting T, Raftery A E. Weather Forecasting with Ensemble Methods[J]. Science, 2005, 310(5746): 248–249. [DOI: 10.1126/science.1115255](https://doi.org/10.1126/science.1115255).
+
+<a id="ref-37"></a>
+
+[37] Hopson T M. Assessing the Ensemble Spread–Error Relationship[J]. Monthly Weather Review, 2014, 142(3): 1125–1142. [DOI: 10.1175/mwr-d-12-00111.1](https://doi.org/10.1175/mwr-d-12-00111.1).
+
+<a id="ref-38"></a>
+
+[38] Efron B. Bootstrap Methods: Another Look at the Jackknife[J]. The Annals of Statistics, 1979, 7(1): 1–26. [DOI: 10.1214/aos/1176344552](https://doi.org/10.1214/aos/1176344552).
+
+<a id="ref-39"></a>
+
+[39] Wilks D S. “The Stippling Shows Statistically Significant Grid Points”: How Research Results are Routinely Overstated and Overinterpreted, and What to Do about It[J]. Bulletin of the American Meteorological Society, 2016, 97(12): 2263–2273. [DOI: 10.1175/bams-d-15-00267.1](https://doi.org/10.1175/bams-d-15-00267.1).
+
+<a id="ref-40"></a>
+
+[40] Fawcett T. An introduction to ROC analysis[J]. Pattern Recognition Letters, 2006, 27(8): 861–874. [DOI: 10.1016/j.patrec.2005.10.010](https://doi.org/10.1016/j.patrec.2005.10.010).
 
 <a id="acknowledgements"></a>
 

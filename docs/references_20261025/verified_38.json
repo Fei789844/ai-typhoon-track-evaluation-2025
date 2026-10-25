@@ -1,0 +1,149 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        25
+      ]
+    ],
+    "date-time": "2026-10-25T01:14:12Z",
+    "timestamp": 1792890852822,
+    "version": "4.5.0"
+  },
+  "reference-count": 0,
+  "publisher": "Institute of Mathematical Statistics",
+  "issue": "1",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Ann. Statist."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1979,
+        1,
+        1
+      ]
+    ]
+  },
+  "abstract": "<jats:p>We discuss the following problem: given a random sample $\\mathbf{X} = (X_1, X_2, \\cdots, X_n)$ from an unknown probability distribution $F$, estimate the sampling distribution of some prespecified random variable $R(\\mathbf{X}, F)$, on the basis of the observed data $\\mathbf{x}$. (Standard jackknife theory gives an approximate mean and variance in the case $R(\\mathbf{X}, F) = \\theta(\\hat{F}) - \\theta(F), \\theta$ some parameter of interest.) A general method, called the \"bootstrap,\" is introduced, and shown to work satisfactorily on a variety of estimation problems. The jackknife is shown to be a linear approximation method for the bootstrap. The exposition proceeds by a series of examples: variance of the sample median, error rates in a linear discriminant analysis, ratio estimation, estimating regression parameters, etc.</jats:p>",
+  "DOI": "10.1214/aos/1176344552",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        12,
+        17
+      ]
+    ],
+    "date-time": "2007-12-17T15:20:07Z",
+    "timestamp": 1197904807000
+  },
+  "page": "1-26",
+  "source": "Crossref",
+  "is-referenced-by-count": 13140,
+  "title": [
+    "Bootstrap Methods: Another Look at the Jackknife"
+  ],
+  "prefix": "10.1214",
+  "volume": "7",
+  "author": [
+    {
+      "given": "B.",
+      "family": "Efron",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "108",
+  "container-title": [
+    "The Annals of Statistics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://projecteuclid.org/download/pdf_1/euclid.aos/1176344552",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        16
+      ]
+    ],
+    "date-time": "2026-10-16T19:13:27Z",
+    "timestamp": 1792178007000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-7/issue-1/Bootstrap-Methods-Another-Look-at-the-Jackknife/10.1214/aos/1176344552.full"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        1979,
+        1,
+        1
+      ]
+    ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          1979,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1214/aos/1176344552",
+  "relation": {},
+  "ISSN": [
+    "0090-5364",
+    "2168-8966"
+  ],
+  "issn-type": [
+    {
+      "value": "0090-5364",
+      "type": "print"
+    },
+    {
+      "value": "2168-8966",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        1979,
+        1,
+        1
+      ]
+    ]
+  }
+}

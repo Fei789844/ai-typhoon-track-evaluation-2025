@@ -1,0 +1,222 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 3929696,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              8
+            ]
+          ],
+          "date-time": "2024-09-08T06:22:03Z",
+          "timestamp": 1725776523633
+        },
+        "edition-number": "0",
+        "reference-count": 1,
+        "publisher": "Routledge",
+        "isbn-type": [
+          {
+            "type": "electronic",
+            "value": "9780203871027"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              10,
+              20
+            ]
+          ]
+        },
+        "DOI": "10.4324/9780203871027-13",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              11
+            ]
+          ],
+          "date-time": "2021-04-11T01:21:41Z",
+          "timestamp": 1618104101000
+        },
+        "page": "224-241",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Numerical models of the general circulation, climate and weather prediction"
+        ],
+        "prefix": "10.4324",
+        "member": "301",
+        "reference": [
+          {
+            "key": "ref8",
+            "unstructured": "READING"
+          }
+        ],
+        "container-title": [
+          "Atmosphere, Weather and Climate"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              11
+            ]
+          ],
+          "date-time": "2021-04-11T01:21:54Z",
+          "timestamp": 1618104114000
+        },
+        "score": 40.55443,
+        "resource": {
+          "primary": {
+            "URL": "https://www.taylorfrancis.com/books/9781135267490/chapters/10.4324/9780203871027-13"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2009,
+              10,
+              20
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780203871027"
+        ],
+        "references-count": 1,
+        "URL": "https://doi.org/10.4324/9780203871027-13",
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              10,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              8
+            ]
+          ],
+          "date-time": "2024-09-08T06:26:20Z",
+          "timestamp": 1725776780480
+        },
+        "edition-number": "0",
+        "reference-count": 0,
+        "publisher": "Routledge",
+        "isbn-type": [
+          {
+            "type": "electronic",
+            "value": "9780203428238"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              2,
+              24
+            ]
+          ]
+        },
+        "DOI": "10.4324/9780203428238-8",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2021-03-05T16:13:18Z",
+          "timestamp": 1614960798000
+        },
+        "page": "202-216",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Numerical models of the general circulation, climate and weather prediction"
+        ],
+        "prefix": "10.4324",
+        "member": "301",
+        "container-title": [
+          "Atmosphere, Weather and Climate"
+        ],
+        "language": "en",
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              5
+            ]
+          ],
+          "date-time": "2021-03-05T16:13:27Z",
+          "timestamp": 1614960807000
+        },
+        "score": 40.5284,
+        "resource": {
+          "primary": {
+            "URL": "https://www.taylorfrancis.com/books/9781134486540/chapters/10.4324/9780203428238-8"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2004,
+              2,
+              24
+            ]
+          ]
+        },
+        "ISBN": [
+          "9780203428238"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.4324/9780203428238-8",
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              2,
+              24
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 2,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

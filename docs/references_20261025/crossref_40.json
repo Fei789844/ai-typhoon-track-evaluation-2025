@@ -1,0 +1,654 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 7772329,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2026-10-25T03:07:04Z",
+          "timestamp": 1792897624678,
+          "version": "4.5.0"
+        },
+        "reference-count": 31,
+        "publisher": "Elsevier BV",
+        "issue": "8",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2006,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2006-06-01T00:00:00Z",
+              "timestamp": 1149120000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Pattern Recognition Letters"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.patrec.2005.10.010",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2005,
+              12,
+              22
+            ]
+          ],
+          "date-time": "2005-12-22T18:49:55Z",
+          "timestamp": 1135277395000
+        },
+        "page": "861-874",
+        "source": "Crossref",
+        "is-referenced-by-count": 18819,
+        "title": [
+          "An introduction to ROC analysis"
+        ],
+        "prefix": "10.1016",
+        "volume": "27",
+        "author": [
+          {
+            "given": "Tom",
+            "family": "Fawcett",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "7",
+            "key": "10.1016/j.patrec.2005.10.010_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "1145",
+            "DOI": "10.1016/S0031-3203(96)00142-2",
+            "article-title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+            "volume": "30",
+            "author": "Bradley",
+            "year": "1997",
+            "journal-title": "Pattern Recogn."
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib2",
+            "series-title": "Classification and Regression Trees",
+            "author": "Breiman",
+            "year": "1984"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "159",
+            "DOI": "10.1016/0010-4655(91)90014-C",
+            "article-title": "A rule-learning program in high energy physics event classification",
+            "volume": "67",
+            "author": "Clearwater",
+            "year": "1991",
+            "journal-title": "Comput. Phys. Commun."
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib4",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Domingos, P., 1999. MetaCost: A general method for making classifiers cost-sensitive. In: Proc. Fifth ACM SIGKDD Internat. Conf.on Knowledge Discovery and Data Mining, pp. 155–164.",
+            "DOI": "10.1145/312129.312220"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib5",
+            "article-title": "Signal detection theory and ROC analysis",
+            "author": "Egan",
+            "year": "1975"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib6",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Fawcett, T., 2001. Using rule sets to maximize ROC performance. In: Proc. IEEE Internat. Conf. on Data Mining (ICDM-2001), pp. 131–138.",
+            "DOI": "10.1109/ICDM.2001.989510"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib7",
+            "series-title": "Proc. Second Internat. Conf. on Knowledge Discovery and Data Mining",
+            "first-page": "8",
+            "article-title": "Combining data mining and machine learning for effective user profiling",
+            "author": "Fawcett",
+            "year": "1996"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.patrec.2005.10.010_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "291",
+            "DOI": "10.1023/A:1009700419189",
+            "article-title": "Adaptive fraud detection",
+            "volume": "1",
+            "author": "Fawcett",
+            "year": "1997",
+            "journal-title": "Data Mining and Knowledge Discovery"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib9",
+            "series-title": "Proc. 2003 UK Workshop on Computational Intelligence",
+            "first-page": "38",
+            "article-title": "Repairing concavities in ROC curves",
+            "author": "Flach",
+            "year": "2003"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib10",
+            "unstructured": "Forman, G., 2002. A method for discovering the insignificance of one’s best classifier and the unlearnability of a classification task. In: Lavrac, N., Motoda, H., Fawcett, T. (Eds.), Proc. First Internat. Workshop on Data Mining Lessons Learned (DMLL-2002). Available from: http://www.purl.org/NET/tfawcett/DMLL-2002/Forman.pdf."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.patrec.2005.10.010_bib11",
+            "doi-asserted-by": "crossref",
+            "first-page": "171",
+            "DOI": "10.1023/A:1010920819831",
+            "article-title": "A simple generalization of the area under the ROC curve to multiple class classification problems",
+            "volume": "45",
+            "author": "Hand",
+            "year": "2001",
+            "journal-title": "Mach. Learning"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "29",
+            "DOI": "10.1148/radiology.143.1.7063747",
+            "article-title": "The meaning and use of the area under a receiver operating characteristic (ROC) curve",
+            "volume": "143",
+            "author": "Hanley",
+            "year": "1982",
+            "journal-title": "Radiology"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib13",
+            "unstructured": "Holte, R., 2002. Personal communication."
+          },
+          {
+            "issue": "2–3",
+            "key": "10.1016/j.patrec.2005.10.010_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "195",
+            "DOI": "10.1023/A:1007452223027",
+            "article-title": "Machine learning for the detection of oil spills in satellite radar images",
+            "volume": "30",
+            "author": "Kubat",
+            "year": "1998",
+            "journal-title": "Machine Learning"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib15",
+            "unstructured": "Lane, T., 2000. Extensions of ROC analysis to multi-class domains. In: Dietterich, T., Margineantu, D., Provost, F., Turney, P. (Eds.), ICML-2000 Workshop on Cost-Sensitive Learning."
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib16",
+            "series-title": "Proc. Workshop on Speech and Natural Language",
+            "first-page": "288",
+            "article-title": "Representation quality in text classification: An introduction and experiment",
+            "author": "Lewis",
+            "year": "1990"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib17",
+            "series-title": "Proc. Speech and Natural Language Workshop",
+            "first-page": "312",
+            "article-title": "Evaluating text categorization",
+            "author": "Lewis",
+            "year": "1991"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib18",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Macskassy, S., Provost, F., 2004. Confidence bands for ROC curves: Methods and an empirical study. In: Proc. First Workshop on ROC Analysis in AI (ROCAI-04).",
+            "DOI": "10.21236/ADA453849"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib19",
+            "unstructured": "Provost, F., Domingos, P., 2001. Well-trained PETs: Improving probability estimation trees, CeDER Working Paper #IS-00-04, Stern School of Business, New York University, NY, NY 10012."
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib20",
+            "series-title": "Proc. Third Internat. Conf. on Knowledge Discovery and Data Mining (KDD-97)",
+            "first-page": "43",
+            "article-title": "Analysis and visualization of classifier performance: Comparison under imprecise class and cost distributions",
+            "author": "Provost",
+            "year": "1997"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib21",
+            "series-title": "Proc. AAAI-98",
+            "first-page": "706",
+            "article-title": "Robust classification systems for imprecise environments",
+            "author": "Provost",
+            "year": "1998"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.patrec.2005.10.010_bib22",
+            "doi-asserted-by": "crossref",
+            "first-page": "203",
+            "DOI": "10.1023/A:1007601015854",
+            "article-title": "Robust classification for imprecise environments",
+            "volume": "42",
+            "author": "Provost",
+            "year": "2001",
+            "journal-title": "Mach. Learning"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib23",
+            "series-title": "Proc. ICML-98",
+            "first-page": "445",
+            "article-title": "The case against accuracy estimation for comparing induction algorithms",
+            "author": "Provost",
+            "year": "1998"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib24",
+            "doi-asserted-by": "crossref",
+            "first-page": "133",
+            "DOI": "10.1023/A:1007448122119",
+            "article-title": "Learning in the “real world”",
+            "volume": "30",
+            "author": "Saitta",
+            "year": "1998",
+            "journal-title": "Mach. Learning"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib25",
+            "series-title": "Proc. Sixth Internat. Workshop on Machine Learning",
+            "first-page": "160",
+            "article-title": "Signal detection theory: Valuable tools for evaluating inductive learning",
+            "author": "Spackman",
+            "year": "1989"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib26",
+            "unstructured": "Srinivasan, A., 1999. Note on the location of optimal classifiers in n-dimensional ROC space. Technical Report PRG-TR-2-99, Oxford University Computing Laboratory, Oxford, England. Available from: <http://citeseer.nj.nec.com/srinivasan99note.html>."
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "1285",
+            "DOI": "10.1126/science.3287615",
+            "article-title": "Measuring the accuracy of diagnostic systems",
+            "volume": "240",
+            "author": "Swets",
+            "year": "1988",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "82",
+            "DOI": "10.1038/scientificamerican1000-82",
+            "article-title": "Better decisions through science",
+            "volume": "283",
+            "author": "Swets",
+            "year": "2000",
+            "journal-title": "Scientific American"
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib29",
+            "unstructured": "van der Putten, P., van Someren, M., 2000. CoIL challenge 2000: The insurance company case. Technical Report 2000–09, Leiden Institute of Advanced Computer Science, Universiteit van Leiden. Available from: <http://www.liacs.nl/putten/library/cc2000>."
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib30",
+            "unstructured": "Zadrozny, B., Elkan, C., 2001. Obtaining calibrated probability estimates from decision trees and naive Bayesian classiers. In: Proc. Eighteenth Internat. Conf. on Machine Learning, pp. 609–616."
+          },
+          {
+            "key": "10.1016/j.patrec.2005.10.010_bib31",
+            "unstructured": "Zou, K.H., 2002. Receiver operating characteristic (ROC) literature research. On-line bibliography available from: <http://splweb.bwh.harvard.edu:8000/pages/ppl/zou/roc.html>."
+          }
+        ],
+        "container-title": [
+          "Pattern Recognition Letters"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S016786550500303X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S016786550500303X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              11
+            ]
+          ],
+          "date-time": "2020-04-11T15:37:48Z",
+          "timestamp": 1586619468000
+        },
+        "score": 33.31804,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S016786550500303X"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2006,
+              6
+            ]
+          ]
+        },
+        "references-count": 31,
+        "journal-issue": {
+          "issue": "8",
+          "published-print": {
+            "date-parts": [
+              [
+                2006,
+                6
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S016786550500303X"
+        ],
+        "URL": "https://doi.org/10.1016/j.patrec.2005.10.010",
+        "ISSN": [
+          "0167-8655"
+        ],
+        "issn-type": [
+          {
+            "value": "0167-8655",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              3
+            ]
+          ],
+          "date-time": "2026-10-03T16:59:20Z",
+          "timestamp": 1791046760075,
+          "version": "4.1.0"
+        },
+        "reference-count": 21,
+        "publisher": "IEEE Comput. Soc",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "DOI": "10.1109/icdm.2001.989510",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              11,
+              14
+            ]
+          ],
+          "date-time": "2002-11-14T14:47:48Z",
+          "timestamp": 1037285268000
+        },
+        "page": "131-138",
+        "source": "Crossref",
+        "is-referenced-by-count": 76,
+        "title": [
+          "Using rule sets to maximize ROC performance"
+        ],
+        "prefix": "10.1109",
+        "author": [
+          {
+            "given": "T.",
+            "family": "Fawcett",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "263",
+        "reference": [
+          {
+            "key": "ref10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1023/A:1007601015854"
+          },
+          {
+            "key": "ref11",
+            "first-page": "445",
+            "article-title": "The case against accuracy estimation for comparing induction algorithms",
+            "author": "provost",
+            "year": "1998",
+            "journal-title": "Proceedings of the Fifteenth International Conference on Machine Learning"
+          },
+          {
+            "key": "ref12",
+            "author": "quinlan",
+            "year": "1993",
+            "journal-title": "C4 5 Programs for Machine Learning"
+          },
+          {
+            "key": "ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF00058680"
+          },
+          {
+            "key": "ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0893-6080(94)00059-U"
+          },
+          {
+            "key": "ref15",
+            "article-title": "Note on the location of optimal classifiers in n-dimensional ROC space",
+            "author": "srinivasan",
+            "year": "1999",
+            "journal-title": "Technical Report PRG-TR-2-99"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "crossref",
+            "first-page": "1285",
+            "DOI": "10.1126/science.3287615",
+            "article-title": "Measuring the accuracy of diagnostic systems",
+            "volume": "240",
+            "author": "swets",
+            "year": "1988",
+            "journal-title": "Science"
+          },
+          {
+            "key": "ref17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/scientificamerican1000-82"
+          },
+          {
+            "key": "ref18",
+            "doi-asserted-by": "crossref",
+            "first-page": "383",
+            "DOI": "10.1613/jair.227",
+            "article-title": "OPUS: An efficient admissible algorithm for unordered search",
+            "volume": "3",
+            "author": "webb",
+            "year": "1995",
+            "journal-title": "Journal of Artificial Intelligence Research"
+          },
+          {
+            "key": "ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0004-3702(94)90101-5"
+          },
+          {
+            "key": "ref4",
+            "author": "egan",
+            "year": "1975",
+            "journal-title": "Signal Detection Theory and ROC Analysis"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1109/TAI.1990.130305"
+          },
+          {
+            "key": "ref6",
+            "first-page": "65",
+            "article-title": "Understanding the crucial differences between classification and discovery of association rules - a position paper",
+            "volume": "2",
+            "author": "freitas",
+            "year": "2000",
+            "journal-title": "KDD Explorations"
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/312129.312195"
+          },
+          {
+            "key": "ref8",
+            "author": "provost",
+            "year": "2001",
+            "journal-title": "Well-trained PETs Improving probability estimation trees"
+          },
+          {
+            "key": "ref7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1148/radiology.143.1.7063747"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/S0031-3203(96)00142-2"
+          },
+          {
+            "key": "ref1",
+            "author": "blake",
+            "year": "1998",
+            "journal-title": "UCI repository of machine learning databases"
+          },
+          {
+            "key": "ref9",
+            "first-page": "43",
+            "article-title": "Analysis and visualization of classifier performance: Comparison under imprecise class and cost distributions",
+            "author": "provost",
+            "year": "1997",
+            "journal-title": "Proceedings of the Third International Conference on Knowledge Discovery and Data Mining (KDD-97)"
+          },
+          {
+            "key": "ref20",
+            "author": "witten",
+            "year": "2000",
+            "journal-title": "Data mining Practical machine learning tools and techniques with Java implemen-lations"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1145/502512.502540"
+          }
+        ],
+        "event": {
+          "name": "2001 IEEE International Conference on Data Mining",
+          "location": "San Jose, CA, USA",
+          "acronym": "ICDM-01"
+        },
+        "container-title": [
+          "Proceedings 2001 IEEE International Conference on Data Mining"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/7762/21329/00989510.pdf?arnumber=989510",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              14
+            ]
+          ],
+          "date-time": "2020-10-14T14:25:52Z",
+          "timestamp": 1602685552000
+        },
+        "score": 23.879873,
+        "resource": {
+          "primary": {
+            "URL": "https://ieeexplore.ieee.org/document/989510"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "references-count": 21,
+        "URL": "https://doi.org/10.1109/icdm.2001.989510"
+      }
+    ],
+    "items-per-page": 2,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}
