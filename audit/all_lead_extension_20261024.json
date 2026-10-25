@@ -1,0 +1,20 @@
+{
+  "inputs": {
+    "analysis_records": "29dd335fcb60a2b990c8ab1a1051b4e7379572b2accaf9863beb2458e16c4084",
+    "event_matched_lead_differences": "4fb5b5438fb541f7028285a4b6cf8ef983c7d39e0c52e0230c3c1b9854a2b98a",
+    "group_difference": "9e14326ddaced47edd37973f10d0ee5073ae2ea4b4d181ccd00d3b757d3e7798"
+  },
+  "matched_cells_per_model_metric": 24,
+  "loco_rows": 2520,
+  "group_baseline_reproduced": true,
+  "loco120_reproduced": true,
+  "band_summary": "storm first; descriptive; no significance tests",
+  "figure_contract": "Matched heatmaps show within-storm signs; group curves show all-lead contrasts and uncertainty; deletion envelope shows sensitivity, not a confidence interval.",
+  "record_counts": {
+    "before": 4440,
+    "after": 4416,
+    "excluded": 24,
+    "rule": "DPE, absATE and absCTE all finite; matches original group_analysis"
+  },
+  "layout": "Thesis screen-readable panels: 254 mm heatmap; 228.6 mm group grids. Not a journal submission layout."
+}

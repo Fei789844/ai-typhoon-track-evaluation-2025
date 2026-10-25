@@ -1,0 +1,12 @@
+[
+  {
+    "figure": "Figure_S13_1_common_DPE",
+    "source_table": "cohort_DPE_CI_common6_36.csv",
+    "image_generation": false
+  },
+  {
+    "figure": "Figure_S13_2_individual_36h",
+    "source_table": "short_pair_by_storm.csv",
+    "image_generation": false
+  }
+]

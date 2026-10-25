@@ -1,0 +1,69 @@
+{
+  "n_records": 4440,
+  "n_storms": 14,
+  "n_cases": 74,
+  "n_turn_storms": 5,
+  "distance_max_discrepancy_km": 0.004999366684756978,
+  "excluded_direction_rows": 24,
+  "classification_matches_archive": true,
+  "component_mean_max_discrepancy_from_archive_km": 2.842170943040401e-14,
+  "event_n_storms": 5,
+  "event_bootstrap_sequences": 3125,
+  "event_max_storms_at_one_lead": 2,
+  "event_matched_storm_lead_cells": 24,
+  "event_primary_records": 603,
+  "group120_matches_archive": true,
+  "status": "passed",
+  "seed": 20261018,
+  "B": 20000,
+  "seconds": 1.958033800125122,
+  "python": "3.13.5",
+  "numpy": "2.3.4",
+  "pandas": "2.2.3",
+  "script_sha256": "414315a73f4fea056b42e99487310a1460eb5805aab26614e31b520528b0eed3",
+  "protocol_sha256": "368b32cd5788799d2985ffeb8954129be12086a1b6262a9646a175ee3fce27c8",
+  "inference_families": [
+    {
+      "family": "overall_absATE_minus_absCTE_60",
+      "coordinates": 60,
+      "nonzero_SE": 60,
+      "B": 20000,
+      "q95": 3.0256222172315996
+    },
+    {
+      "family": "growth_24_to_120_9",
+      "coordinates": 9,
+      "nonzero_SE": 9,
+      "B": 20000,
+      "q95": 2.590006189209448
+    },
+    {
+      "family": "event_post_minus_pre_9",
+      "coordinates": 9,
+      "nonzero_SE": 9,
+      "B": 3125,
+      "q95": 2.128235754105156
+    },
+    {
+      "family": "path_group_difference_180",
+      "coordinates": 180,
+      "nonzero_SE": 180,
+      "B": 20000,
+      "q95": 2.998776475019278
+    },
+    {
+      "family": "within_group_model_pairs_360",
+      "coordinates": 360,
+      "nonzero_SE": 360,
+      "B": 20000,
+      "q95": 3.06568682067331
+    },
+    {
+      "family": "model_by_path_interaction_180",
+      "coordinates": 180,
+      "nonzero_SE": 180,
+      "B": 20000,
+      "q95": 3.028870869583139
+    }
+  ]
+}

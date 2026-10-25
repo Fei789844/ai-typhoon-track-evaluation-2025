@@ -1,0 +1,7 @@
+model,direction,cross_squared_fraction,n_cases
+fourcastnet,back12,0.3997332135051729,74
+fourcastnet,center12,0.4222953265154347,72
+graphcast,back12,0.2914584662766718,74
+graphcast,center12,0.2640509967483503,72
+pangu,back12,0.3824855124098419,74
+pangu,center12,0.3987203911315433,72

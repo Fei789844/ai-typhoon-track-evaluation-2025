@@ -1,0 +1,31 @@
+{
+  "jobs": 71,
+  "grib_files": 3936,
+  "grib_sha256_all_match": true,
+  "baseline_rows": 4896,
+  "historical_changed_rows": 59,
+  "historical_max_position_change_km": 1080.1865488411224,
+  "historical_max_DPE_change_km": 851.0598370308553,
+  "search_may_clip_rows": 78,
+  "wind_may_clip_rows": 15,
+  "variants": {
+    "baseline": {},
+    "radius500": {
+      "base_search_radius_km": 500.0
+    },
+    "radius900": {
+      "base_search_radius_km": 900.0
+    },
+    "motion0": {
+      "motion_extrapolation_factor": 0.0
+    },
+    "motion1": {
+      "motion_extrapolation_factor": 1.0
+    },
+    "wind0": {
+      "wind_weight": 0.0
+    }
+  },
+  "tie_rule": "ascending pressure, then ascending native flat grid index",
+  "seconds": 478.5773649215698
+}

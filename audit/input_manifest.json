@@ -1,0 +1,53 @@
+{
+  "archived_at": "2026-10-25T05:38:59.375933+00:00",
+  "files": [
+    {
+      "file": "case_catalog.csv",
+      "source": "inputs/case_catalog.csv",
+      "sha256": "e739e07706e6946fd95a3be327813a860ec0982b320f39bcfb3b720b6b8ddd91",
+      "bytes": 22686
+    },
+    {
+      "file": "jma_original_bst_all_20260723.zip",
+      "source": "inputs/jma_original_bst_all_20260723.zip",
+      "sha256": "5023951dd4c95f4c3e02b6f70e38c81f33dd21dd91799fe80d0e5a9b74bec42a",
+      "bytes": 742806
+    },
+    {
+      "file": "jma_source_metadata.json",
+      "source": "inputs/jma_source_metadata.json",
+      "sha256": "a5147de35cde4c8fe7e1d35c6271feadbae16755c3edc077cf8b3bf26998810b",
+      "bytes": 1944
+    },
+    {
+      "file": "jma_track_points.csv",
+      "source": "inputs/jma_track_points.csv",
+      "sha256": "6c50e6036255bb29c3c112b29b77c0f0054b88fb720ce336c0d401abb6d840ed",
+      "bytes": 107071
+    },
+    {
+      "file": "previous_classes.csv",
+      "source": "inputs/previous_classes.csv",
+      "sha256": "03a658436030316714332a4e696ef1ec62a51e2ffc698b84cbc5a137bf945ea1",
+      "bytes": 829
+    },
+    {
+      "file": "previous_components.csv",
+      "source": "inputs/previous_components.csv",
+      "sha256": "534e549326452361ba005240c506ef94000cfd89900fee8c9e09df1f0b77c4b0",
+      "bytes": 52422
+    },
+    {
+      "file": "previous_group_contrasts.csv",
+      "source": "inputs/previous_group_contrasts.csv",
+      "sha256": "852deb28af6b6f73fbe75ce05e4b4e8545cf04f3fb3bfcddf6d11f1c7a1f1daf",
+      "bytes": 4417
+    },
+    {
+      "file": "track_points.csv",
+      "source": "inputs/track_points.csv",
+      "sha256": "48607c69657773972e3656d6d970feb682fab60e73c9fb65c72b0e4047ed42d9",
+      "bytes": 1198903
+    }
+  ]
+}

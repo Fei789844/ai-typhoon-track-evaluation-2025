@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="183mm" height="99mm" viewBox="0 0 519 280" role="img" aria-labelledby="title description">
+  <title id="title">台风路径误差的沿轨与横轨分解</title>
+  <desc id="description">从12小时前的JMA中心指向当前JMA中心的方向定义为实际运动方向。当前JMA中心到预报中心的位置误差分解为沿轨误差ATE和横轨误差CTE。</desc>
+  <defs>
+    <marker id="arrow-dark" markerWidth="7" markerHeight="7" refX="7" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#263946"/>
+    </marker>
+    <marker id="arrow-teal" markerWidth="7" markerHeight="7" refX="7" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#007c83"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="7" markerHeight="7" refX="7" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#d76c20"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="7" markerHeight="7" refX="7" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#7b4b9a"/>
+    </marker>
+    <style>
+      .base { font-family: Arial, PingFang SC, Microsoft YaHei, sans-serif; fill: #263946; }
+      .label { font-size: 6.4px; }
+      .small { font-size: 5.8px; }
+      .title { font-size: 6.8px; font-weight: 700; }
+      .note { font-size: 5.6px; fill: #4c5d68; }
+      .callout { font-size: 6.2px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="519" height="280" fill="#ffffff"/>
+  <g id="heading" class="base">
+    <text x="24" y="24" class="title" font-size="6.8">台风路径误差的沿轨—横轨分解</text>
+    <text x="24" y="38" class="note" font-size="5.6">以当前JMA中心为原点，以实际运动方向为沿轨轴</text>
+  </g>
+
+  <g id="motion-reference">
+    <line x1="104" y1="200" x2="254" y2="108" stroke="#007c83" stroke-width="2.4" marker-end="url(#arrow-teal)"/>
+    <line x1="254" y1="108" x2="364.272321" y2="40.366310" stroke="#007c83" stroke-width="1.1" stroke-dasharray="5 4"/>
+    <text x="110" y="134" class="base label" font-size="6.4" fill="#007c83">实际运动方向</text>
+    <text x="110" y="144" class="base small" font-size="5.8" fill="#007c83">沿轨正方向</text>
+  </g>
+
+  <g id="jma-previous" class="base">
+    <circle cx="104" cy="200" r="5.8" fill="#ffffff" stroke="#263946" stroke-width="1.5"/>
+    <text x="68" y="220" class="label" font-size="6.4">12 h前JMA中心</text>
+  </g>
+
+  <g id="jma-current" class="base">
+    <circle cx="254" cy="108" r="6.2" fill="#ffffff" stroke="#263946" stroke-width="2"/>
+    <text x="218" y="91" class="callout" font-size="6.2">当前JMA中心</text>
+    <text x="218" y="101" class="small" font-size="5.8">误差分解原点</text>
+  </g>
+
+  <g id="prediction" class="base">
+    <circle cx="412" cy="166" r="6.2" fill="#f3eafa" stroke="#7b4b9a" stroke-width="2"/>
+    <text x="418" y="184" class="callout" font-size="6.2" fill="#7b4b9a">预报中心</text>
+  </g>
+
+  <g id="error-vector">
+    <line x1="254" y1="108" x2="412" y2="166" stroke="#7b4b9a" stroke-width="2.1" marker-end="url(#arrow-purple)"/>
+    <text x="327" y="119" class="base callout" font-size="6.2" fill="#7b4b9a">DPE</text>
+  </g>
+
+  <g id="along-track-component">
+    <line x1="254" y1="108" x2="342.961374" y2="53.437024" stroke="#d76c20" stroke-width="2.4" marker-end="url(#arrow-orange)"/>
+    <text x="300" y="48" class="base callout" font-size="6.2" fill="#d76c20">ATE</text>
+    <text x="300" y="58" class="base small" font-size="5.8" fill="#d76c20">沿轨误差</text>
+  </g>
+
+  <g id="cross-track-component">
+    <line x1="342.961374" y1="53.437024" x2="412" y2="166" stroke="#d76c20" stroke-width="2.4" stroke-dasharray="7 4" marker-end="url(#arrow-orange)"/>
+    <path id="right-angle" d="M335.289434 58.142481 L339.994891 65.814421 L347.666831 61.108964" fill="none" stroke="#687984" stroke-width="1.1"/>
+    <text x="395" y="93" class="base callout" font-size="6.2" fill="#d76c20">CTE</text>
+    <text x="395" y="103" class="base small" font-size="5.8" fill="#d76c20">横轨误差</text>
+  </g>
+
+  <g id="interpretation" class="base">
+    <rect x="30" y="241" width="459" height="25" rx="3" fill="#f3f7f8" stroke="#cbd9dc" stroke-width="0.8"/>
+    <text x="44" y="252" class="label" font-size="6.4">ATE：预报中心在实际移动方向上的前后偏离；正值为超前，负值为滞后。</text>
+    <text x="44" y="262" class="label" font-size="6.4">CTE：预报中心偏离实际运动方向两侧的距离；正值为右偏，负值为左偏。</text>
+    <text x="389" y="252" class="small" font-size="5.8">DPE² = ATE² + CTE²</text>
+  </g>
+</svg>

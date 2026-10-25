@@ -1,0 +1,102 @@
+{
+  "source": "inputs/jma_track_points.csv",
+  "source_sha256": "6c50e6036255bb29c3c112b29b77c0f0054b88fb720ce336c0d401abb6d840ed",
+  "raw_archive": "inputs/jma_original_bst_all_20260723.zip",
+  "raw_archive_sha256": "5023951dd4c95f4c3e02b6f70e38c81f33dd21dd91799fe80d0e5a9b74bec42a",
+  "all_882_source_lines_verified": true,
+  "complete_jma_tracks": {
+    "n_cyclones": 27,
+    "n_records": 882,
+    "longitude_min": 99.2,
+    "longitude_max": 185.5,
+    "crossings": [
+      {
+        "TC_ID": "2503",
+        "name": "MUN",
+        "from_utc": "2025-07-10 18:00 UTC",
+        "to_utc": "2025-07-11 00:00 UTC",
+        "from_lon": 177.1,
+        "to_lon": 183.3,
+        "from_grade": 6,
+        "to_grade": 6
+      },
+      {
+        "TC_ID": "2505",
+        "name": "NARI",
+        "from_utc": "2025-07-16 18:00 UTC",
+        "to_utc": "2025-07-17 00:00 UTC",
+        "from_lon": 179.8,
+        "to_lon": 183.7,
+        "from_grade": 6,
+        "to_grade": 6
+      },
+      {
+        "TC_ID": "2509",
+        "name": "KROSA",
+        "from_utc": "2025-08-05 00:00 UTC",
+        "to_utc": "2025-08-05 06:00 UTC",
+        "from_lon": 178.3,
+        "to_lon": 182.7,
+        "from_grade": 6,
+        "to_grade": 6
+      },
+      {
+        "TC_ID": "2510",
+        "name": "BAILU",
+        "from_utc": "2025-08-07 06:00 UTC",
+        "to_utc": "2025-08-07 12:00 UTC",
+        "from_lon": 172.7,
+        "to_lon": 180.1,
+        "from_grade": 6,
+        "to_grade": 6
+      },
+      {
+        "TC_ID": "2515",
+        "name": "PEIPAH",
+        "from_utc": "2025-09-10 00:00 UTC",
+        "to_utc": "2025-09-10 06:00 UTC",
+        "from_lon": 179.1,
+        "to_lon": 181.5,
+        "from_grade": 6,
+        "to_grade": 6
+      },
+      {
+        "TC_ID": "2519",
+        "name": "NEOGURI",
+        "from_utc": "2025-09-29 12:00 UTC",
+        "to_utc": "2025-09-29 18:00 UTC",
+        "from_lon": 178.3,
+        "to_lon": 181.2,
+        "from_grade": 6,
+        "to_grade": 6
+      },
+      {
+        "TC_ID": "2522",
+        "name": "HALONG",
+        "from_utc": "2025-10-11 06:00 UTC",
+        "to_utc": "2025-10-11 12:00 UTC",
+        "from_lon": 177.7,
+        "to_lon": 182.1,
+        "from_grade": 6,
+        "to_grade": 6
+      },
+      {
+        "TC_ID": "2523",
+        "name": "NAKRI",
+        "from_utc": "2025-10-16 00:00 UTC",
+        "to_utc": "2025-10-16 06:00 UTC",
+        "from_lon": 178.8,
+        "to_lon": 185.5,
+        "from_grade": 6,
+        "to_grade": 6
+      }
+    ]
+  },
+  "turning_input_grades_2_to_5": {
+    "n_cyclones": 27,
+    "n_records": 807,
+    "longitude_min": 99.2,
+    "longitude_max": 169.8,
+    "crossings": []
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "max_dpe_recalculation_difference_km": 0.0049993666845082885,
+  "forecast_rows": 4896,
+  "status_counts": {
+    "TRACKED": 4896
+  },
+  "input_sha256": {
+    "aliyun_2025_reproduction/config/case_catalog.csv": "e739e07706e6946fd95a3be327813a860ec0982b320f39bcfb3b720b6b8ddd91",
+    "results/tracks/by_job/init_20250611_1800_84h/track_points.csv": "df1043850f27550bc7269af34d1435c549fa285b197a718acaea44caab2abb81",
+    "results/tracks/by_job/init_20250623_0600_78h/track_points.csv": "f08108de85d3a5bd63c2062d370767ff48b511cd440e9f680c5f664c709a8193",
+    "results/tracks/by_job/init_20250702_0600_120h/track_points.csv": "5d85608bee16f52881ecf6abd778aff1e95eb305c24c7834fab620e21aea7ee6",
+    "results/tracks/by_job/init_20250702_1800_120h/track_points.csv": "e5e4b69bd1f0d74e930f2f0e6c53564f0b90cd731c98aa0ae11b59f2112cbf4c",
+    "results/tracks/by_job/init_20250704_1800_120h/track_points.csv": "292cccc8174467895d84f1f220da48c576d68f35e4fc5afa75c04de8ca737e43",
+    "results/tracks/by_job/init_20250705_0600_120h/track_points.csv": "8b9ce3ad8b48110e1468f97c86c8361fccc96af0bc466a0b7791bafa1fb621cb",
+    "results/tracks/by_job/init_20250705_1800_120h/track_points.csv": "90330e65cdef8a18fbfa0407e6f50f667f5f18822ef15d8b66a40af0f01f2fda",
+    "results/tracks/by_job/init_20250712_1800_48h/track_points.csv": "f99163ad1b1cc6b95c15c4741d7ba761706e3afd705189662307550cf3323483",
+    "results/tracks/by_job/init_20250718_0600_108h/track_points.csv": "684ddd9ec205e0e84e9dd15b983bda89b7933116c22dea860d987a89d7c8e11d",
+    "results/tracks/by_job/init_20250723_0600_78h/track_points.csv": "cf2c8aecb99013d053f8ceaacbb546819942367597769262ab03e5b54c1167d0",
+    "results/tracks/by_job/init_20250723_1800_120h/track_points.csv": "1baa6fa61497469f4051a81e03d55d97efbc4d2fb3e2a49d9671fe04ccbcff77",
+    "results/tracks/by_job/init_20250724_0600_120h/track_points.csv": "017b2a78ac9042d425908e4fe9b4a1881d0540615a48c1b38593ee154f2c7696",
+    "results/tracks/by_job/init_20250724_1800_120h/track_points.csv": "f1a16095984b8995202440b4888b4f14f92a7c38509f694d594d9669ba534b49",
+    "results/tracks/by_job/init_20250725_0600_120h/track_points.csv": "3c7fa2c9089a735c3f5be2f3d7d77a759deae5edc3b45de6e586a27c9d731710",
+    "results/tracks/by_job/init_20250725_1800_120h/track_points.csv": "a23bb42d30452e111221cbd02693aed22a6964fbfcd8fda46d8cd8d3eeeda762",
+    "results/tracks/by_job/init_20250726_0600_120h/track_points.csv": "d8e47387f80914ce111fd40f4a83cb8740002f1df634e0329329d327ff85aba7",
+    "results/tracks/by_job/init_20250726_1800_120h/track_points.csv": "daca266788c339bb2d8c0c04063d2cbd6f4c02ea4cb12bc16403c71d3f473eff",
+    "results/tracks/by_job/init_20250727_0600_120h/track_points.csv": "cb2a58d7620245ac9d71998e4f91dabe4520a1808d4b09b2748953f5156cd00f",
+    "results/tracks/by_job/init_20250727_1800_120h/track_points.csv": "9983c9b97696339d9d8a36bb8be2fc51b78e53ad2e3abe7548ade54fa9a7a30d",
+    "results/tracks/by_job/init_20250728_0600_120h/track_points.csv": "7419fc121d185b57a1179d414aa79826135c84eef94399cc7a87412a626785d0",
+    "results/tracks/by_job/init_20250728_1800_120h/track_points.csv": "0a400e204104b979dddaead633b4a99956b2951ffeeb76d2e80dafd8eca8a246",
+    "results/tracks/by_job/init_20250729_0600_120h/track_points.csv": "7996623b0d18a6d9fd893e6e92dbb0a11abe01c511fcf20e28fa4e128d2fa77a",
+    "results/tracks/by_job/init_20250729_1800_120h/track_points.csv": "a06c201c90c8996662b516d4c51122d878876281cd79f17c34404a488d34cfa0",
+    "results/tracks/by_job/init_20250802_1800_60h/track_points.csv": "e6e1cd317559a592ec34316eb612025b91b4d582835563a6cb64cc1c038d5e36",
+    "results/tracks/by_job/init_20250807_1800_120h/track_points.csv": "37f6f791284e7a87a222cbbd88c8f861944a98b4ff15d61670e2ca07a97f8267",
+    "results/tracks/by_job/init_20250808_0600_120h/track_points.csv": "cbd26973b179733acb7a95e44e2cdbc8ad2bbce1c16e3b9f52c69e8c8d190c6a",
+    "results/tracks/by_job/init_20250808_1800_120h/track_points.csv": "2a6f1bb1b52b5a144a91c3a23cfa9ddb93fbdfd8197201d7023210b9c629f134",
+    "results/tracks/by_job/init_20250809_0600_120h/track_points.csv": "373d1fec21a66a76afbc506c61dd377f037737837eb42331118b1439114f8d7b",
+    "results/tracks/by_job/init_20250809_1800_120h/track_points.csv": "3f8c95277557e2490ab5ded8566c37a46ce35c8a49dc13b4efac1b47018e1ce0",
+    "results/tracks/by_job/init_20250820_1800_54h/track_points.csv": "0ed365ce2578c3838d925cc78158bb81a21a40ad506e005e3ec05594ddff09ba",
+    "results/tracks/by_job/init_20250822_1800_96h/track_points.csv": "e1c77dd93cafd6aef7553803a5b64afb757401ac739a2c0fd93342114e9e5ea3",
+    "results/tracks/by_job/init_20250829_0600_36h/track_points.csv": "588a535f8242f68d41e211815547fdb744b7cc170561593b43e2b266c69f3cd9",
+    "results/tracks/by_job/init_20250903_1800_42h/track_points.csv": "062fb563956d7474e1dd3137437fb45ee079ebf6ea4966c17d61da2352efc943",
+    "results/tracks/by_job/init_20250906_1800_48h/track_points.csv": "42c76b4a1911c3fa7fc975886b5c17cd8a85fce727c434f54bceaca04fcef53a",
+    "results/tracks/by_job/init_20250916_1800_96h/track_points.csv": "0701a2e678fd8c012fba94a7076d626007427d184f95d675ea2fe080c5b405ca",
+    "results/tracks/by_job/init_20250918_0600_120h/track_points.csv": "5379e5294833ac4111931bd5c87fc6c73462d5473d6ce4b03c5fd097de285105",
+    "results/tracks/by_job/init_20250918_1800_120h/track_points.csv": "9b5f5e2bf611cca63b6074d2e8501048c07a29a16e4fe968f0734f105cf669e7",
+    "results/tracks/by_job/init_20250919_0600_120h/track_points.csv": "389f4a50897187f988b1fe5eba30daed5b1859f8d0bdfb3424bb50a8face851d",
+    "results/tracks/by_job/init_20250919_1800_120h/track_points.csv": "890a3d1a20b6d7d8aae7184b1550977f9c1890c5c36685c1a2c75a76585eb00d",
+    "results/tracks/by_job/init_20250920_0600_120h/track_points.csv": "3b9265b03ab4ee0989cd02ac32744b0b2d916be718d667be9e4896b9308e7c7e",
+    "results/tracks/by_job/init_20250920_1800_120h/track_points.csv": "5d8f4b14da26aef071bf03e58752005c020ce5233f790f169e6d9949237206a6",
+    "results/tracks/by_job/init_20250921_0600_120h/track_points.csv": "7928b9d958e55930dcdc6cefa728a174f53f71d23391e33956922b26b9870612",
+    "results/tracks/by_job/init_20250921_1800_120h/track_points.csv": "fc4354fac364a1048258f27933c873d9a0a7a0316760ab618c56ee2a60582284",
+    "results/tracks/by_job/init_20250922_0600_120h/track_points.csv": "4973a612264a8e00ccd4ad35fba2650dd93b263a5eff47a69261f598799d74c4",
+    "results/tracks/by_job/init_20250922_1800_120h/track_points.csv": "ffbe86a9ed80946df4280e85d5491ad12ede7b1803e959adf7b9fc136693a40c",
+    "results/tracks/by_job/init_20250923_0600_120h/track_points.csv": "bf7e6728b91a2e0c9c24910c83ba724121187ae6d643ea16a3702301258324e5",
+    "results/tracks/by_job/init_20250923_1800_120h/track_points.csv": "254b82de335e9edfe85ae8ebe74537951742b7f7b4a55aa733b3fa85ad03b8e7",
+    "results/tracks/by_job/init_20250924_0600_120h/track_points.csv": "588133808ed26d33b8f7c07c8f93bb682fb7329130bbc57927c8e8b878dd30f0",
+    "results/tracks/by_job/init_20250924_1800_120h/track_points.csv": "cc4639bf7bec42271f374f2941d85f38eaae03db128c2e97a29c34ab87e3981a",
+    "results/tracks/by_job/init_20251002_1800_84h/track_points.csv": "41e8f21e2516ae8a78afe6997ec88ec8a95f56ede58763b7fb545f745a2838df",
+    "results/tracks/by_job/init_20251004_0600_120h/track_points.csv": "a99c070ca5eefddcec88d1b6a80c3dac228a817fa6cbdd3979f9d1a910651f69",
+    "results/tracks/by_job/init_20251004_1800_120h/track_points.csv": "db88aced32d83ed83124e94b69211319e68540f90d1145153c3643c3e3fbef59",
+    "results/tracks/by_job/init_20251005_0600_120h/track_points.csv": "302402fdff6ed137aee940761bf756317f9c2ad507b4d41dddf4176d3b02861a",
+    "results/tracks/by_job/init_20251005_1800_120h/track_points.csv": "518deba2d91cd12eb7d6a5245d2dbff298a566004b4969c85ee32567beec87c4",
+    "results/tracks/by_job/init_20251008_0600_120h/track_points.csv": "aaa767218e3802288423a5a3bfd881fa7c9cff2abfadbea7db51226427803cba",
+    "results/tracks/by_job/init_20251008_1800_120h/track_points.csv": "c51dae81d3b4228e61cf5bcbc4486ed953ed8be2a25c60c72bb44a479512e221",
+    "results/tracks/by_job/init_20251009_0600_120h/track_points.csv": "f96bc646cbfc4085c11dff15c56a938fc809abbc33b28e2c342fb9ff7139ef5a",
+    "results/tracks/by_job/init_20251017_1800_120h/track_points.csv": "4ff72e2db76d59b8b2cd089a1d6d627541b51c43b88411145ae77d1e55e81c4d",
+    "results/tracks/by_job/init_20251101_1800_120h/track_points.csv": "e50b13e446b4018fcc308e3f30b8665a9b77c9eca7dcfcb661d4fc7f3d8eee93",
+    "results/tracks/by_job/init_20251102_0600_120h/track_points.csv": "acdb945e0a4a0362273425735b033a7611c8d3edc0fe5c5b42abf9058cc014b8",
+    "results/tracks/by_job/init_20251102_1800_120h/track_points.csv": "75cce50332ace351065747dfe23060f82eb634b83b13bda29e1d4dd928b850d1",
+    "results/tracks/by_job/init_20251106_0600_120h/track_points.csv": "dd9f0fbb8bb6768084e15b2c80536afda703428fb0b77c31a76b1c16b263030c",
+    "results/tracks/by_job/init_20251106_1800_120h/track_points.csv": "44ede540ffa07d416c3548dcec051f620d88e400198ce3abb774eac8b41f49a5",
+    "results/tracks/by_job/init_20251107_0600_120h/track_points.csv": "57c2b819a86c9843dbb5f0e8b861129f97c351345619b68487853a3cd71e2fc7",
+    "results/tracks/by_job/init_20251107_1800_120h/track_points.csv": "285c94846d579c5eb12cdb38c93577d7e80f58c269e8e6691c4617b342a9fe9e",
+    "results/tracks/by_job/init_20251125_1800_120h/track_points.csv": "9650197c58d13963a68dbe5ae6db1c92e3c313791d0ccec26d7ab6dfa93ed777",
+    "results/tracks/by_job/init_20251126_0600_120h/track_points.csv": "6480b24da5d6bd9969f6c81bf5f89f8e43bd14e82aeb142a37a89db65e10006d",
+    "results/tracks/by_job/init_20251126_1800_120h/track_points.csv": "087b4c3f3c4ac2c623aa941aa6828dc241c6502c53cf778a38ac27e01e6c8ba5",
+    "results/tracks/by_job/init_20251127_0600_120h/track_points.csv": "897ddbf2c5bc22baf9a51e284d9b7745c270719fea37f9e7ca304d21615a73e3",
+    "results/tracks/by_job/init_20251127_1800_120h/track_points.csv": "8f7ffc87876e4bb366e41b0fe569bc3094d581bb3be90daf74ab6bf5bb7df537",
+    "results/tracks/by_job/init_20251128_0600_120h/track_points.csv": "601e937c476639a5360da3f44c727e173bee2901b6026931d56a060c8576b453",
+    "\u5b9e\u9a8c\u7ed3\u679c/\u7814\u7a76\u4e09\u81f3\u516d_20261010/data/verified_track_points.csv": "48607c69657773972e3656d6d970feb682fab60e73c9fb65c72b0e4047ed42d9"
+  },
+  "experiment2_repeats": 100000,
+  "experiment2_seed": 20261003,
+  "simultaneous_family": "3 pairs x 20 leads, primary only",
+  "method": "centered pairs bootstrap max absolute deviation / original standard error",
+  "summary": {
+    "simultaneous_critical_value": 2.936001967708138,
+    "primary_full120": {
+      "GraphCast - Pangu-Weather": {
+        "negative_point_CI_leads": [
+          42,
+          48
+        ],
+        "positive_point_CI_leads": [
+          102,
+          114,
+          120
+        ],
+        "negative_sim_band_leads": [],
+        "positive_sim_band_leads": []
+      },
+      "GraphCast - FourCastNet": {
+        "negative_point_CI_leads": [
+          30,
+          42,
+          48,
+          54,
+          60,
+          66,
+          72,
+          78,
+          84,
+          90,
+          96,
+          102,
+          108,
+          114,
+          120
+        ],
+        "positive_point_CI_leads": [],
+        "negative_sim_band_leads": [
+          54,
+          60,
+          66,
+          72,
+          78,
+          84,
+          90,
+          96,
+          102,
+          108,
+          114
+        ],
+        "positive_sim_band_leads": []
+      },
+      "Pangu-Weather - FourCastNet": {
+        "negative_point_CI_leads": [
+          54,
+          60,
+          66,
+          72,
+          78,
+          84,
+          90,
+          96,
+          102,
+          108,
+          114,
+          120
+        ],
+        "positive_point_CI_leads": [],
+        "negative_sim_band_leads": [
+          54,
+          60,
+          66,
+          72,
+          78,
+          84,
+          90,
+          96,
+          102,
+          108,
+          114,
+          120
+        ],
+        "positive_sim_band_leads": []
+      }
+    },
+    "supplement_all_available": {
+      "GraphCast - Pangu-Weather": {
+        "negative_point_CI_leads": [
+          12,
+          18,
+          24,
+          30,
+          36,
+          42,
+          48
+        ],
+        "positive_point_CI_leads": [
+          102,
+          114,
+          120
+        ],
+        "negative_sim_band_leads": [],
+        "positive_sim_band_leads": []
+      },
+      "GraphCast - FourCastNet": {
+        "negative_point_CI_leads": [
+          6,
+          12,
+          18,
+          24,
+          30,
+          36,
+          42,
+          60,
+          66,
+          84,
+          90,
+          96,
+          102,
+          108,
+          114,
+          120
+        ],
+        "positive_point_CI_leads": [],
+        "negative_sim_band_leads": [],
+        "positive_sim_band_leads": []
+      },
+      "Pangu-Weather - FourCastNet": {
+        "negative_point_CI_leads": [
+          84,
+          90,
+          96,
+          102,
+          108,
+          114,
+          120
+        ],
+        "positive_point_CI_leads": [],
+        "negative_sim_band_leads": [],
+        "positive_sim_band_leads": []
+      }
+    },
+    "loco_crossing": [
+      {
+        "omitted": "2503",
+        "first_sustained_positive_lead": 78
+      },
+      {
+        "omitted": "2504",
+        "first_sustained_positive_lead": 72
+      },
+      {
+        "omitted": "2508",
+        "first_sustained_positive_lead": 66
+      },
+      {
+        "omitted": "2509",
+        "first_sustained_positive_lead": 72
+      },
+      {
+        "omitted": "2511",
+        "first_sustained_positive_lead": 72
+      },
+      {
+        "omitted": "2518",
+        "first_sustained_positive_lead": 72
+      },
+      {
+        "omitted": "2519",
+        "first_sustained_positive_lead": 72
+      },
+      {
+        "omitted": "2520",
+        "first_sustained_positive_lead": 66
+      },
+      {
+        "omitted": "2522",
+        "first_sustained_positive_lead": 72
+      },
+      {
+        "omitted": "2523",
+        "first_sustained_positive_lead": 72
+      },
+      {
+        "omitted": "2524",
+        "first_sustained_positive_lead": 66
+      },
+      {
+        "omitted": "2525",
+        "first_sustained_positive_lead": 72
+      },
+      {
+        "omitted": "2526",
+        "first_sustained_positive_lead": 72
+      },
+      {
+        "omitted": "2527",
+        "first_sustained_positive_lead": 72
+      }
+    ],
+    "loco120_range": [
+      119.10844871794872,
+      161.4120384615385
+    ]
+  }
+}

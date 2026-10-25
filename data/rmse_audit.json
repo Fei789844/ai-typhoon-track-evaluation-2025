@@ -1,0 +1,19 @@
+{
+  "seed": 20261018,
+  "repeats": 10000,
+  "numpy": "2.3.4",
+  "pandas": "2.2.3",
+  "python": "3.13.5",
+  "n_records": 4440,
+  "n_storms": 14,
+  "n_cases": 74,
+  "maximum_mean_DPE_difference_from_archive_km": 5.684341886080802e-14,
+  "input_sha256": {
+    "error_components_cases.csv": "3ae33c8b06b61386ee6aa4c60af322b8e1bd96cac0a8afefe37145f71fd4df29",
+    "overall_by_lead.csv": "305292f521735921ea974e894b5d14023fc2c7aac4216c88b3febcaa1aa382cc"
+  },
+  "script_sha256": "fe273de5db2f965f49e2be501869079fb502500f0f7dbd11b6345a0aee47d29c",
+  "output_sha256": "7289fe248085a9e255aa28e17019e32f24454545255362e027e6a136d08627d4",
+  "method": "sqrt(mean_across_storms(mean_within_storm(DPE**2)))",
+  "interval": "pointwise percentile cluster bootstrap; 14 storm draws; fixed shared indices"
+}

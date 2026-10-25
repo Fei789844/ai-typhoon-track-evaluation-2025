@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "n_short_storms": 13,
+  "n_short_cases": 13,
+  "n_records": 456,
+  "n_turn_storms": 2,
+  "common_leads": [
+    6,
+    12,
+    18,
+    24,
+    30,
+    36
+  ],
+  "direction_valid_common_rows": 234,
+  "dpe_max_recalculation_discrepancy_km": 0.0049956078832344986,
+  "seed": 20261018,
+  "B": 20000,
+  "numpy": "2.3.4",
+  "pandas": "2.2.3",
+  "python": "3.13.5",
+  "protocol_sha256": "6f3794d1945718c860b45a51e0691bff3c0395833313944dd87728beb66cc9ee",
+  "code_sha256": "57f1de881a35b981939e4e18259093c4f25eb4ea6fa418ba7598d2ce503fdcd0",
+  "n_common_short_storms": 13,
+  "n_turn_storms_init_before_turn": 1,
+  "n_same_lead_event_pairs": 0
+}

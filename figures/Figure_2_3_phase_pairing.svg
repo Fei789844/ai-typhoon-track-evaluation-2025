@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="183mm" height="100mm" viewBox="0 0 519 283" role="img" aria-labelledby="title desc">
+<title id="title">转向前后阶段的同一台风同一预报时效配对</title>
+<desc id="desc">以JMA转向时刻为零点，将验证记录分成转向前、转向附近和转向后三个阶段；在相同台风、模型和预报时效下，用不同起报案例的前后记录计算后减前的误差变化。</desc>
+<defs>
+<marker id="arrow-dark" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#596c78"/></marker>
+<marker id="arrow-blue" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#2878a8"/></marker>
+<marker id="arrow-orange" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#d76c20"/></marker>
+</defs>
+<rect width="519" height="283" fill="white"/>
+<g font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" fill="#263946">
+<text x="20" y="19" font-size="6.8" font-weight="700">转向前后怎样配对误差？</text>
+<text x="20" y="32" font-size="6.2" >同一台风、同一模型、同一预报时效 τ，比较转向前后的验证记录。</text>
+
+<g id="phase-bands">
+<rect x="62" y="51" width="122" height="30" fill="#e9f3f8"/>
+<rect x="214" y="51" width="62" height="30" fill="#f1f3f4"/>
+<rect x="306" y="51" width="122" height="30" fill="#fff1e7"/>
+<text x="100" y="68" font-size="6.1" text-anchor="middle">转向前 [−24,−12] h</text>
+<text x="245" y="68" font-size="6.1" text-anchor="middle">附近 [−6,6] h</text>
+<text x="367" y="68" font-size="6.1" text-anchor="middle">转向后 [12,24] h</text>
+</g>
+<g id="time-axis">
+<line x1="62" y1="92" x2="428" y2="92" stroke="#596c78" stroke-width="1.1" marker-end="url(#arrow-dark)"/>
+<line x1="62" y1="87" x2="62" y2="97" stroke="#596c78" /><line x1="123" y1="87" x2="123" y2="97" stroke="#596c78" /><line x1="184" y1="87" x2="184" y2="97" stroke="#596c78" /><line x1="214" y1="87" x2="214" y2="97" stroke="#596c78" /><line x1="276" y1="87" x2="276" y2="97" stroke="#596c78" /><line x1="306" y1="87" x2="306" y2="97" stroke="#596c78" /><line x1="367" y1="87" x2="367" y2="97" stroke="#596c78" /><line x1="428" y1="87" x2="428" y2="97" stroke="#596c78" />
+<text x="62" y="107" font-size="5.8" text-anchor="middle">r−24</text><text x="184" y="107" font-size="5.8" text-anchor="middle">r−12</text><text x="245" y="107" font-size="5.8" text-anchor="middle">r</text><text x="306" y="107" font-size="5.8" text-anchor="middle">r+12</text><text x="428" y="107" font-size="5.8" text-anchor="middle">r+24</text>
+<line x1="245" y1="46" x2="245" y2="113" stroke="#263946" stroke-width="1.1" stroke-dasharray="3 3"/><text x="248" y="45" font-size="5.9" >JMA转向时刻 r</text>
+</g>
+<g id="paired-records">
+<text x="24" y="143" font-size="6.4" font-weight="700">案例A</text><text x="24" y="153" font-size="5.8" >同一台风、同一模型</text>
+<line x1="84" y1="137" x2="145" y2="137" stroke="#2878a8" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<text x="89" y="130" font-size="5.8" fill="#2878a8">预报时效 τ</text><text x="151" y="141" font-size="5.9" fill="#2878a8">前阶段误差</text>
+<circle cx="84" cy="137" r="3" fill="white" stroke="#2878a8" stroke-width="1.3"/><circle cx="145" cy="137" r="4" fill="#2878a8"/>
+<text x="24" y="191" font-size="6.4" font-weight="700">案例B</text><text x="24" y="201" font-size="5.8" >同一台风、同一模型</text>
+<line x1="300" y1="185" x2="361" y2="185" stroke="#d76c20" stroke-width="2" marker-end="url(#arrow-orange)"/>
+<text x="305" y="178" font-size="5.8" fill="#d76c20">预报时效 τ</text><text x="367" y="189" font-size="5.9" fill="#d76c20">后阶段误差</text>
+<circle cx="300" cy="185" r="3" fill="white" stroke="#d76c20" stroke-width="1.3"/><circle cx="361" cy="185" r="4" fill="#d76c20"/>
+</g>
+<g id="calculation">
+<rect x="62" y="221" width="366" height="38" rx="3" fill="#f3f7f8" stroke="#cbd9dc" stroke-width="0.8"/>
+<text x="78" y="237" font-size="6.2" font-weight="700">同一台风、同一模型、同一预报时效：</text>
+<text x="78" y="251" font-size="6.4" fill="#263946">阶段差值 = 后阶段误差 − 前阶段误差</text>
+<text x="316" y="251" font-size="5.9" fill="#d76c20">正值：转向后误差增大</text>
+</g>
+<text x="20" y="274" font-size="5.8" fill="#596c78">不同起报案例提供前、后两个验证记录；配对后再对时效和台风取平均。</text>
+</g></svg>

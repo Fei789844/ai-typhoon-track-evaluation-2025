@@ -1,0 +1,84 @@
+[
+  {
+    "figure": "Figure_4_1_direction",
+    "sources": [
+      "overall_by_lead.csv"
+    ],
+    "caption": "14 storms; 73–74 valid cases per lead; storm-equal mean and pointwise 95% cluster bootstrap CI (20,000 draws).",
+    "size_inches": [
+      7.2,
+      5.2
+    ],
+    "backend": "matplotlib",
+    "image_generation": false
+  },
+  {
+    "figure": "Figure_4_2a_turn_tracks",
+    "sources": [
+      "turn_classification.csv",
+      "inputs/jma_track_points.csv"
+    ],
+    "caption": "Full tropical-stage paths faint; +/-24 h paths emphasized; dots mark diagnosed turns. Longitude/latitude display is not a distance projection.",
+    "size_inches": [
+      3.6,
+      3.3
+    ],
+    "backend": "matplotlib",
+    "image_generation": false
+  },
+  {
+    "figure": "Figure_4_2b_event_support",
+    "sources": [
+      "turn_classification.csv",
+      "event_support.csv"
+    ],
+    "caption": "Blue cells show storm-lead combinations with matched pre-turn and post-turn records; at most 2 storms per lead, with no common lead across all 5 storms.",
+    "size_inches": [
+      3.6,
+      2.4
+    ],
+    "backend": "matplotlib",
+    "image_generation": false
+  },
+  {
+    "figure": "Figure_4_3a_event",
+    "sources": [
+      "event_three_phase_means.csv",
+      "event_storm_effects.csv",
+      "event_primary_inference.csv"
+    ],
+    "caption": "Top: common storm/lead support across all 3 phases; storm-equal means with empirical percentile intervals (all 3,125 draws). Bottom: individual matched changes; IDs 2509/2519/2522/2523/2526 denote KROSA/NEOGURI/HALONG/NAKRI/FUNG-WONG. Dotted lines are 5-storm means, not confidence bounds. 5 independent sampling units, not 24 independent lead cells.",
+    "size_inches": [
+      7.2,
+      5.5
+    ],
+    "backend": "matplotlib",
+    "image_generation": false
+  },
+  {
+    "figure": "Figure_4_4a_groups",
+    "sources": [
+      "group_means.csv"
+    ],
+    "caption": "5 recurving vs 9 other storms; same direction-valid cases across DPE and components; pointwise 95% bootstrap intervals, 20,000 stratified draws. Type classification does not mean all cases include a turn.",
+    "size_inches": [
+      7.2,
+      5.0
+    ],
+    "backend": "matplotlib",
+    "image_generation": false
+  },
+  {
+    "figure": "Figure_4_5_interactions",
+    "sources": [
+      "group_interactions.csv"
+    ],
+    "caption": "Difference of paired-model differences between groups. Bands adjusted across 3 pairs x 3 metrics x 20 leads = 180 coordinates; figure displays the DPE subset.",
+    "size_inches": [
+      7.2,
+      2.85
+    ],
+    "backend": "matplotlib",
+    "image_generation": false
+  }
+]

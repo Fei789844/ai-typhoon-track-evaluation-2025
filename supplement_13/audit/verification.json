@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "n_short_records": 456,
+  "n_common_records": 234,
+  "n_turn_storms": 2,
+  "same_lead_pre_post_pairs": 0,
+  "checks": [
+    "source DPE",
+    "direction identity",
+    "cohort means",
+    "paired contrasts",
+    "turn support"
+  ],
+  "script_sha256": "3a48527033c56f1384775f14eb6d849d11ad671b35a2c4be31a78673b31ccc41"
+}

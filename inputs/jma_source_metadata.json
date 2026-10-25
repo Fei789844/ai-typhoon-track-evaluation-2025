@@ -1,0 +1,52 @@
+{
+  "generated_at_utc": "2026-08-05 05:48 UTC",
+  "source_file": "inputs/jma_original_bst_all_20260723.zip",
+  "source_url": "https://www.jma.go.jp/jma/jma-eng/jma-center/rsmc-hp-pub-eg/Besttracks/bst_all.zip",
+  "source_sha256": "5023951dd4c95f4c3e02b6f70e38c81f33dd21dd91799fe80d0e5a9b74bec42a",
+  "source_member": {
+    "member_name": "bst_all.txt",
+    "member_size_bytes": "6000596",
+    "member_modified": "2026-07-23 09:21:54"
+  },
+  "protocol_version": "2.0",
+  "protocol": {
+    "storm_scope": "JMA international IDs 2501--2527",
+    "first_ts_definition": "first JMA grade in {3,4,5}",
+    "first_init_definition": "first 06/18 UTC cycle not earlier than first TS",
+    "full_case_interval_hours": 12,
+    "full_forecast_hours": 120,
+    "short_case_rule": "one case only for a storm with zero full cases; longest continuous 6-hour tropical sequence from first eligible initialization",
+    "truth_interval_hours": 6,
+    "accepted_tropical_grades": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "global_job_deduplication": "same initialization runs once at maximum lead"
+  },
+  "counts": {
+    "storms": 27,
+    "full_120h_cases": 74,
+    "short_cases": 13,
+    "total_cases": 87,
+    "unique_global_forecast_jobs": 71,
+    "full_120h_unique_global_forecast_jobs": 58,
+    "short_unique_global_forecast_jobs": 13,
+    "truth_rows": 1719,
+    "track_rows": 882
+  },
+  "outputs": {
+    "storm_summary": "storm_summary.csv",
+    "case_catalog": "case_catalog.csv",
+    "case_truth_6h": "case_truth_6h.csv",
+    "jma_track_points": "jma_2025_track_points.csv",
+    "forecast_jobs": "forecast_jobs.csv",
+    "full_120h_case_catalog": "case_catalog_full_120h.csv",
+    "full_120h_truth": "case_truth_full_120h_6h.csv",
+    "full_120h_forecast_jobs": "forecast_jobs_full_120h.csv",
+    "short_case_catalog": "case_catalog_short.csv",
+    "short_truth": "case_truth_short_6h.csv",
+    "short_forecast_jobs": "forecast_jobs_short.csv"
+  }
+}

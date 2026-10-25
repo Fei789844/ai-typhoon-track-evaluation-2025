@@ -1,0 +1,10 @@
+model,metric,positive_cells,negative_cells,n_cells
+fourcastnet,DPE,18,6,24
+fourcastnet,absATE,17,7,24
+fourcastnet,absCTE,12,12,24
+graphcast,DPE,17,7,24
+graphcast,absATE,19,5,24
+graphcast,absCTE,10,14,24
+pangu,DPE,19,5,24
+pangu,absATE,20,4,24
+pangu,absCTE,9,15,24

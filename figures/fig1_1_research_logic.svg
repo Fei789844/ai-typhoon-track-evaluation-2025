@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="112.94mm" viewBox="0 0 510 320">
+<title>研究问题、分析方法与主要发现</title>
+<desc>三条研究主线为总体性能、路径变化和风险提示。结论来自主分析样本。</desc>
+<rect width="510" height="320" fill="white"/>
+<text x="18" y="23" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="600" fill="#263a47" text-anchor="start">三模型台风路径预报：从误差比较到风险提示</text>
+<g id="common-sample"><rect x="18" y="36" width="474" height="31" rx="4" fill="#edf4f5"/>
+<text x="255" y="49" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.5" font-weight="400" fill="#263a47" text-anchor="middle">共同条件：ERA5初始化 · JMA验证 · 统一中心追踪</text>
+<text x="255" y="61" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.5" font-weight="400" fill="#263a47" text-anchor="middle">主分析：14个台风、74个完整案例 · 6–120 h · 台风等权</text>
+</g>
+<text x="18" y="86" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#087e83" text-anchor="start">研究问题</text>
+<text x="145" y="86" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#087e83" text-anchor="start">分析方法</text>
+<text x="300" y="86" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="10" font-weight="600" fill="#087e83" text-anchor="start">主要发现</text>
+<g id="row1-question"><rect x="18" y="96" width="110" height="60" rx="4" fill="#f5f7f9" stroke="#cbd7dc" stroke-width="0.7"/>
+<text x="26" y="113" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">01  总体性能</text>
+<text x="26" y="128" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">哪个模型误差更小？</text>
+<text x="26" y="143" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">排序随时效怎样变化？</text>
+</g>
+<g id="row1-analysis"><rect x="145" y="96" width="137" height="60" rx="4" fill="#ffffff" stroke="#cbd7dc" stroke-width="0.7"/>
+<text x="153" y="113" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">逐时效比较平均误差</text>
+<text x="153" y="128" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">计算模型间配对差值</text>
+<text x="153" y="143" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">用同时置信带判断差异</text>
+</g>
+<g id="row1-finding"><rect x="300" y="96" width="192" height="60" rx="4" fill="#edf7f5" stroke="#cbd7dc" stroke-width="0.7"/>
+<text x="308" y="113" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">样本平均误差最低的模型：</text>
+<text x="308" y="128" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">6–66 h：GraphCast</text>
+<text x="308" y="143" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">72–120 h：Pangu-Weather</text>
+</g>
+<g id="row1-arrow130"><path d="M130 126 H139" stroke="#78949d" stroke-width="1"/><path d="M137 123 L142 126 L137 129" fill="none" stroke="#78949d" stroke-width="1"/></g>
+<g id="row1-arrow284"><path d="M284 126 H294" stroke="#78949d" stroke-width="1"/><path d="M292 123 L297 126 L292 129" fill="none" stroke="#78949d" stroke-width="1"/></g>
+<g id="row2-question"><rect x="18" y="167" width="110" height="60" rx="4" fill="#f5f7f9" stroke="#cbd7dc" stroke-width="0.7"/>
+<text x="26" y="184" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">02  路径变化</text>
+<text x="26" y="199" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">误差偏向哪里？</text>
+<text x="26" y="214" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">转向前后怎样变化？</text>
+</g>
+<g id="row2-analysis"><rect x="145" y="167" width="137" height="60" rx="4" fill="#ffffff" stroke="#cbd7dc" stroke-width="0.7"/>
+<text x="153" y="184" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">沿轨与横轨误差分解</text>
+<text x="153" y="199" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">同台风、同时效比较转向前后</text>
+<text x="153" y="214" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">比较转向组与未检出转向组</text>
+</g>
+<g id="row2-finding"><rect x="300" y="167" width="192" height="60" rx="4" fill="#edf7f5" stroke="#cbd7dc" stroke-width="0.7"/>
+<text x="308" y="184" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">120 h平均绝对沿轨误差较大</text>
+<text x="308" y="199" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">转向后样本平均DPE升高</text>
+<text x="308" y="214" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">不同台风的变化方向存在差异</text>
+</g>
+<g id="row2-arrow130"><path d="M130 197 H139" stroke="#78949d" stroke-width="1"/><path d="M137 194 L142 197 L137 200" fill="none" stroke="#78949d" stroke-width="1"/></g>
+<g id="row2-arrow284"><path d="M284 197 H294" stroke="#78949d" stroke-width="1"/><path d="M292 194 L297 197 L292 200" fill="none" stroke="#78949d" stroke-width="1"/></g>
+<g id="row3-question"><rect x="18" y="238" width="110" height="60" rx="4" fill="#f5f7f9" stroke="#cbd7dc" stroke-width="0.7"/>
+<text x="26" y="255" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">03  风险提示</text>
+<text x="26" y="270" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">模型分歧能否提示</text>
+<text x="26" y="285" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">较大的路径误差？</text>
+</g>
+<g id="row3-analysis"><rect x="145" y="238" width="137" height="60" rx="4" fill="#ffffff" stroke="#cbd7dc" stroke-width="0.7"/>
+<text x="153" y="255" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">固定时效分析分歧与误差</text>
+<text x="153" y="270" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">留出台风检验高分歧预警</text>
+<text x="153" y="285" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">统计命中与虚警情况</text>
+</g>
+<g id="row3-finding"><rect x="300" y="238" width="192" height="60" rx="4" fill="#edf7f5" stroke="#cbd7dc" stroke-width="0.7"/>
+<text x="308" y="255" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">24、48 h分歧与误差正相关</text>
+<text x="308" y="270" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">120 h预警命中率28.6%</text>
+<text x="308" y="285" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8.3" font-weight="400" fill="#263a47" text-anchor="start">虚警比例68.5%（台风加权）</text>
+</g>
+<g id="row3-arrow130"><path d="M130 268 H139" stroke="#78949d" stroke-width="1"/><path d="M137 265 L142 268 L137 271" fill="none" stroke="#78949d" stroke-width="1"/></g>
+<g id="row3-arrow284"><path d="M284 268 H294" stroke="#78949d" stroke-width="1"/><path d="M292 265 L297 268 L292 271" fill="none" stroke="#78949d" stroke-width="1"/></g>
+<text x="18" y="313" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="8" font-weight="400" fill="#556c79" text-anchor="start">样本平均现象与区间推断分别报告；完整统计结果见第三至第五章。</text>
+</svg>

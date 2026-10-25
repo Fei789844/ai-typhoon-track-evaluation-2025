@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "SHA-256: 8 input files match",
+    "JMA source ZIP: SHA-256 and 882 parsed positions match",
+    "Paired data: 14 storms, 74 cases, 20 leads, 4,440 forecast records",
+    "Geometry: DPE discrepancy <= 0.004999 km; 24 direction records excluded",
+    "Turn detection: exact archived class agreement across 27 storms; 5/14 in main analysis",
+    "Stage cells recomputed independently from record-level times and errors",
+    "Matched post-minus-pre: 24 storm×lead cells, equal-lead pairing and storm effects agree",
+    "All 9 stage means, SEs and exact 3,125-resample percentile intervals agree",
+    "All 360 lead×model×group×metric means agree with record-level recalculation"
+  ],
+  "maximum_distance_discrepancy_km": 0.004999366684764084,
+  "verifier_sha256": "da9d21c633bbec46afbcbaa0aafcc4dc2c00288c66cca24b28a1a7c8ea5fbf50"
+}
