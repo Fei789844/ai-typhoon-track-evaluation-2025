@@ -650,9 +650,9 @@ $$
 
 ![三模型6–120 h沿轨和横轨误差](../figures/Figure_4_1_direction.png)
 
-**图4-1 沿轨和横轨误差随预报时效的变化。** 上排是平均绝对偏离，下排是有符号平均偏差；阴影为台风重采样的逐时效95%区间。图表由[统计表](../tables/overall_by_lead.csv)和[绘图程序](../code/plot_chapter4.py)生成。各时效分量只在可定义方向的记录上计算。
+**图4-1 沿轨和横轨误差随预报时效的变化。** 上排是平均绝对偏离，下排是有符号平均偏差；阴影为台风重采样的逐时效95%区间。图表所用统计表与绘图程序见[附录C.2](#appendix-c2)。各时效分量只在可定义方向的记录上计算。
 
-**表4-1 120 h的沿轨与横轨误差分量，单位km。** 数值来自[逐时效统计表](../tables/overall_by_lead.csv)。
+**表4-1 120 h的沿轨与横轨误差分量，单位km。** 数值来自逐时效统计表（见[附录C.2](#appendix-c2)）。
 
 | 模型 | 平均绝对ATE | 平均绝对CTE | 平均ATE | 平均CTE |
 |---|---:|---:|---:|---:|
@@ -666,11 +666,11 @@ $$
 
 ### 4.2 台风转向的识别与样本划分
 
-转向只根据JMA最佳路径判定，不根据模型误差选择案例。本文沿用第二章预设的规则：候选时刻前24 h至少向西移动1°经度，后24 h至少向东移动1°经度，两个窗口均向北移动；前后各两个12 h子窗口还须分别维持相应经度方向。只在连续、等级符合条件的最佳路径上搜索；多个候选点取最靠西、再取最早者。**主分析14个台风中，KROSA（2509）、NEOGURI（2519）、HALONG（2522）、NAKRI（2523）及FUNG-WONG（2526）被归入转向组，共35个完整案例；其余9个台风、39个案例归入未转向组**。[逐台风判定表](../tables/turn_classification.csv)和[候选时刻表](../tables/turn_candidates.csv)保存了判定依据。
+转向只根据JMA最佳路径判定，不根据模型误差选择案例。本文沿用第二章预设的规则：候选时刻前24 h至少向西移动1°经度，后24 h至少向东移动1°经度，两个窗口均向北移动；前后各两个12 h子窗口还须分别维持相应经度方向。只在连续、等级符合条件的最佳路径上搜索；多个候选点取最靠西、再取最早者。**主分析14个台风中，KROSA（2509）、NEOGURI（2519）、HALONG（2522）、NAKRI（2523）及FUNG-WONG（2526）被归入转向组，共35个完整案例；其余9个台风、39个案例归入未转向组**。判定依据见[附录C.2](#appendix-c2)所列的逐台风判定表和候选时刻表。
 
 ![五个转向台风的最佳路径与转向位置](../figures/Figure_4_2a_turn_tracks.png)
 
-**图4-2a 五个转向台风的JMA路径与转向位置。** 圆点表示按固定规则识别的转向时刻，加粗线段表示转向时刻前后24 h的路径。来源：[JMA位置归档](../inputs/jma_track_points.csv)。
+**图4-2a 五个转向台风的JMA路径与转向位置。** 圆点表示按固定规则识别的转向时刻，加粗线段表示转向时刻前后24 h的路径。程序与数据见[附录C.2](#appendix-c2)。
 
 ### 4.3 转向前后的误差变化
 
@@ -678,9 +678,9 @@ $$
 
 ![转向前后可配对的预报时效](../figures/Figure_4_2b_event_support.png)
 
-**图4-2b 转向前后可配对的预报时效。** 蓝格表示该台风在同一预报时效下同时具有转向前和转向后记录，可以计算该时效的前后误差差值。来源：[匹配支持表](../tables/event_support.csv)。
+**图4-2b 转向前后可配对的预报时效。** 蓝格表示该台风在同一预报时效下同时具有转向前和转向后记录，可以计算该时效的前后误差差值。程序与数据见[附录C.2](#appendix-c2)。
 
-**表4-2 转向前后比较的实际支持度。** “可匹配时效数”是同一台风在该预报时效下同时有前后阶段记录的时效数。来源：[案例目录](../tables/storm_catalog.csv)、[逐时效匹配表](../tables/event_support.csv)。
+**表4-2 转向前后比较的实际支持度。** “可匹配时效数”是同一台风在该预报时效下同时有前后阶段记录的时效数。程序与数据见[附录C.2](#appendix-c2)。
 
 | 台风 | 完整案例数 | 可匹配时效数 | 可匹配时效范围 |
 |---|---:|---:|---:|
@@ -696,9 +696,9 @@ $$
 
 ![转向前后及逐台风误差变化](../figures/Figure_4_3a_event.png)
 
-**图4-3a 转向前、附近、后的样本均值与逐台风变化。** 上排在三阶段都有数据的共同支持单元上绘制平均误差及逐项95%区间；下排各点是一个台风在可匹配时效中的“后−前”均值，虚线为五台风均值，横线0表示没有平均变化。横轴编号2509、2519、2522、2523、2526分别对应KROSA、NEOGURI、HALONG、NAKRI、FUNG-WONG。来源：[三阶段均值](../tables/event_three_phase_means.csv)、[逐台风差值](../tables/event_storm_effects.csv)。
+**图4-3a 转向前、附近、后的样本均值与逐台风变化。** 上排在三阶段都有数据的共同支持单元上绘制平均误差及逐项95%区间；下排各点是一个台风在可匹配时效中的“后−前”均值，虚线为五台风均值，横线0表示没有平均变化。横轴编号2509、2519、2522、2523、2526分别对应KROSA、NEOGURI、HALONG、NAKRI、FUNG-WONG。程序与数据见[附录C.2](#appendix-c2)。
 
-**表4-3 同台风、相同时效的转向后减转向前误差，单位km。** 方括号依次为逐项95%百分位区间和9项同时置信带。正数表示转向后平均误差较大。原始结果见[阶段推断表](../tables/event_primary_inference.csv)。
+**表4-3 同台风、相同时效的转向后减转向前误差，单位km。** 方括号依次为逐项95%百分位区间和9项同时置信带。正数表示转向后平均误差较大。阶段推断结果及文件位置见[附录C.2](#appendix-c2)。
 
 | 模型 | 指标 | 平均后−前 | 逐项95%区间 | 9项同时区间 | 正差台风数 |
 |---|---|---:|---:|---:|---:|
@@ -712,7 +712,7 @@ $$
 | FourCastNet | 绝对ATE | +201.3 | [−25.0, 471.7] | [−106.3, 509.0] | 4/5 |
 | FourCastNet | 绝对CTE | −83.2 | [−345.8, 113.2] | [−364.2, 197.8] | 2/5 |
 
-**转向后的平均DPE更大。** 三个模型转向后的平均DPE均高于转向前，GraphCast、Pangu-Weather和FourCastNet分别增加93.3、58.8和117.8 km，其中，GraphCast和FourCastNet各有4个台风的平均DPE增大，Pangu-Weather有3个。GraphCast和FourCastNet在KROSA上的增幅最大，分别为+314.6和+595.8 km；Pangu-Weather在HALONG上的增幅最大，为+280.1 km。反向个例包括NAKRI（GraphCast −68.7 km，Pangu-Weather −125.0 km）和HALONG（FourCastNet −530.0 km）。逐一删除任一台风后，GraphCast和Pangu-Weather的平均DPE增幅仍为正；FourCastNet删除KROSA后为−1.7 km。[逐台风表](../tables/event_storm_effects.csv)与[删除检验表](../tables/event_loco.csv)保留全部结果。转向附近阶段，Pangu-Weather和FourCastNet的平均DPE低于转向前，而转向后12–24 h的平均DPE高于转向前（图4-3a上排）。
+**转向后的平均DPE更大。** 三个模型转向后的平均DPE均高于转向前，GraphCast、Pangu-Weather和FourCastNet分别增加93.3、58.8和117.8 km，其中，GraphCast和FourCastNet各有4个台风的平均DPE增大，Pangu-Weather有3个。GraphCast和FourCastNet在KROSA上的增幅最大，分别为+314.6和+595.8 km；Pangu-Weather在HALONG上的增幅最大，为+280.1 km。反向个例包括NAKRI（GraphCast −68.7 km，Pangu-Weather −125.0 km）和HALONG（FourCastNet −530.0 km）。逐一删除任一台风后，GraphCast和Pangu-Weather的平均DPE增幅仍为正；FourCastNet删除KROSA后为−1.7 km。逐台风表（见[附录C.2](#appendix-c2)）与删除检验表（见[附录C.2](#appendix-c2)）保留全部结果。转向附近阶段，Pangu-Weather和FourCastNet的平均DPE低于转向前，而转向后12–24 h的平均DPE高于转向前（图4-3a上排）。
 
 **增大集中在沿轨方向。** 平均绝对ATE的后−前差值在三个模型中均为正（+108.5、+96.6和+201.3 km），每个模型都有4个台风增大；平均绝对CTE的变化方向不一（+7.2、−7.6和−83.2 km），三个模型分别有3、2、2个台风增大。统计3个模型×5个台风共15个组合，绝对ATE增大的有12个，DPE增大的有11个，绝对CTE增大的有7个。按逐时刻运动方向分解，转向后预测中心与实际中心的错位更多表现为沿运动方向的前后偏离，横向偏离没有一致增大。
 
@@ -720,17 +720,17 @@ $$
 
 ![逐台风逐时效的转向前后误差差值](../figures/Figure_4_3b_event_leads.png)
 
-**图4-3b 逐台风、逐配对时效的转向后减转向前误差。** 三行分别为GraphCast、Pangu-Weather和FourCastNet，三列分别为DPE、平均绝对ATE和平均绝对CTE。每个色格对应一个台风在一个预报时效下的阶段平均差值，红色表示转向后较大，蓝色表示较小，浅灰色表示该时效无法配对；各面板使用相同色标。台风编号2509、2519、2522、2523和2526依次对应KROSA、NEOGURI、HALONG、NAKRI和FUNG-WONG。来源：[逐时效差值](../tables/event_matched_lead_differences.csv)、[正负差值计数](../tables/event_cell_sign_counts.csv)。
+**图4-3b 逐台风、逐配对时效的转向后减转向前误差。** 三行分别为GraphCast、Pangu-Weather和FourCastNet，三列分别为DPE、平均绝对ATE和平均绝对CTE。每个色格对应一个台风在一个预报时效下的阶段平均差值，红色表示转向后较大，蓝色表示较小，浅灰色表示该时效无法配对；各面板使用相同色标。台风编号2509、2519、2522、2523和2526依次对应KROSA、NEOGURI、HALONG、NAKRI和FUNG-WONG。程序与数据见[附录C.2](#appendix-c2)。
 
 **前后变化还具有清楚的台风差异。** KROSA在较长时效的DPE和沿轨误差增幅较大；HALONG在60–72 h的DPE变化则呈模型差异，GraphCast和Pangu-Weather为正，FourCastNet为负。图中按台风分行，保留每个台风的变化过程；各台风的时效差值先在台风内平均，再进入前述等权汇总。
 
-**两种分解都显示转向后平均沿轨误差增大。** 转向过程中台风的运动方向发生改变，主分析按各验证时刻的运动方向分解误差，分解轴随之转动。把转向时刻的运动方向沿球面平行移动到各验证点、固定分解方向后，三个模型的平均绝对ATE后−前差值由+108.5、+96.6和+201.3 km降为+59.3、+14.4和+84.6 km，增量分别减少约45%、85%和58%。两种方向定义下，三个模型的平均绝对ATE均呈转向后增大，DPE保持不变。结果见[设定敏感性表](../tables/event_sensitivity.csv)。
+**两种分解都显示转向后平均沿轨误差增大。** 转向过程中台风的运动方向发生改变，主分析按各验证时刻的运动方向分解误差，分解轴随之转动。把转向时刻的运动方向沿球面平行移动到各验证点、固定分解方向后，三个模型的平均绝对ATE后−前差值由+108.5、+96.6和+201.3 km降为+59.3、+14.4和+84.6 km，增量分别减少约45%、85%和58%。两种方向定义下，三个模型的平均绝对ATE均呈转向后增大，DPE保持不变。结果见设定敏感性表（见[附录C.2](#appendix-c2)）。
 
 **参考方向改变的是误差分量，两个中心之间的距离保持不变。** 图4-3c将两种分解放在同一个位置误差上比较。主分析以验证时刻的运动方向为沿轨轴；对照分析将转向时刻的参考方向沿球面平行移动到当前JMA中心，再作为沿轨轴。两者都以当前JMA中心为原点，横轨轴均与沿轨轴垂直。实际中心和预测中心没有改变，因此DPE相同；参考方向改变后，同一误差在两个轴上的投影随之改变。
 
 ![同一位置误差在两种参考方向下的分解](../figures/Figure_4_3c_basis_schematic.png)
 
-**图4-3c 两种运动参考方向下的误差分解示意。** 上图按当前运动方向定轴，下图将转向时刻的参考方向移到实际中心后定轴。两图中的实际中心、预测中心及其距离相同；绿色线段表示沿轨分量，紫色线段表示横轨分量。百分比表示分量的绝对长度与DPE之比：上图约为98%和22%，下图约为70%和72%。图中两种参考方向相差约120°，用于解释投影关系，非实测结果；实际计算采用球面平行移动。[绘图源程序](../code/draw_basis_reference.py)。
+**图4-3c 两种运动参考方向下的误差分解示意。** 上图按当前运动方向定轴，下图将转向时刻的参考方向移到实际中心后定轴。两图中的实际中心、预测中心及其距离相同；绿色线段表示沿轨分量，紫色线段表示横轨分量。百分比表示分量的绝对长度与DPE之比：上图约为98%和22%，下图约为70%和72%。图中两种参考方向相差约120°，用于解释投影关系，非实测结果；实际计算采用球面平行移动。绘图源程序（见[附录C.2](#appendix-c2)）。
 
 **本节小结：**
 
@@ -745,15 +745,15 @@ $$
 
 ![两类台风的各时效DPE与方向分量](../figures/Figure_4_4a_groups.png)
 
-**图4-4a 转向组与未转向组的逐时效平均误差。** 上排为转向组5个台风，下排为未转向组9个台风；三列依次为DPE、平均绝对ATE和平均绝对CTE。曲线为台风等权平均，阴影为逐项95%区间。来源：[分组均值表](../tables/group_means.csv)。
+**图4-4a 转向组与未转向组的逐时效平均误差。** 上排为转向组5个台风，下排为未转向组9个台风；三列依次为DPE、平均绝对ATE和平均绝对CTE。曲线为台风等权平均，阴影为逐项95%区间。程序与数据见[附录C.2](#appendix-c2)。
 
 ![全时效的转向组减未转向组误差](../figures/Figure_4_4b_group_differences.png)
 
-**图4-4b 6–120 h的组间误差差值。** 三行分别为GraphCast、Pangu-Weather和FourCastNet；蓝线为“转向组−未转向组”的平均差，浅蓝阴影为逐项95%区间，橙色虚线为覆盖全部180项比较的近似95%同时置信带。正值表示转向组较大，负值表示未转向组较大。来源：[组间差表](../tables/group_difference.csv)。 180项同时置信区间均包含零，曲线用于描述组间平均差随时效的变化。
+**图4-4b 6–120 h的组间误差差值。** 三行分别为GraphCast、Pangu-Weather和FourCastNet；蓝线为“转向组−未转向组”的平均差，浅蓝阴影为逐项95%区间，橙色虚线为覆盖全部180项比较的近似95%同时置信带。正值表示转向组较大，负值表示未转向组较大。程序与数据见[附录C.2](#appendix-c2)。 180项同时置信区间均包含零，曲线用于描述组间平均差随时效的变化。
 
 **转向组较高的平均DPE主要出现在较长时效，末段差距最大。** 将全时效统一划分为6–48 h、54–96 h和102–120 h三个时段，先在每个台风内对时效取平均，再计算两组等权平均差（表4-4a）。6–48 h内，GraphCast的组间差接近零，Pangu-Weather和FourCastNet为负；54–96 h内，三个模型均转为正；102–120 h内，组间差分别扩大到178.7、116.8和175.8 km。这三个时段用于概括曲线的平均变化。
 
-**表4-4a 分时段平均DPE及组间差，单位km。** 删除HALONG后，转向组由5个台风变为4个，未转向组保持9个。来源：[时段汇总表](../tables/group_time_band_summary.csv)。
+**表4-4a 分时段平均DPE及组间差，单位km。** 删除HALONG后，转向组由5个台风变为4个，未转向组保持9个。程序与数据见[附录C.2](#appendix-c2)。
 
 | 时段 | 模型 | 转向组 | 未转向组 | 组间差 | 删除HALONG后的组间差 |
 |---|---|---:|---:|---:|---:|
@@ -769,7 +769,7 @@ $$
 
 **较长时效的组间差主要表现为沿轨偏离增大，横轨差异随时效变化。** 102–120 h内，三模型的平均绝对ATE组间差分别为196.6、139.2和189.5 km；平均绝对CTE组间差分别为+0.8、−32.2和−12.7 km。到120 h，三个模型的转向组绝对ATE均较大，绝对CTE均较小（表4-4b）。因此，末段较大的路径误差主要伴随沿运动方向的前后偏离；横轨差异在此前时效有正有负，到120 h三模型均为转向组较小。
 
-**表4-4b 120 h两组平均误差及组间差，单位km。** 方括号为覆盖180项比较的近似95%同时置信区间。来源：[分组均值表](../tables/group_means.csv)、[组间差表](../tables/group_difference.csv)。
+**表4-4b 120 h两组平均误差及组间差，单位km。** 方括号为覆盖180项比较的近似95%同时置信区间。程序与数据见[附录C.2](#appendix-c2)。
 
 | 模型 | 指标 | 转向组 | 未转向组 | 组间差及同时区间 |
 |---|---|---:|---:|---:|
@@ -787,7 +787,7 @@ $$
 
 ![全时效组间差的逐一删除台风检验](../figures/Figure_4_4c_group_loco.png)
 
-**图4-4c 组间差对单个台风的敏感性。** 蓝线为完整样本结果，灰色带为逐一删除14个台风所得组间差的最小值至最大值，橙色虚线为删除HALONG的结果。灰色带表示删除检验的结果范围；置信区间见图4-4b。灰色带整体位于零线上方，表示删除任意一个台风后转向组平均误差仍较高。来源：[全时效逐一删除表](../tables/group_loco_all_leads.csv)、[删除范围表](../tables/group_loco_envelope.csv)。
+**图4-4c 组间差对单个台风的敏感性。** 蓝线为完整样本结果，灰色带为逐一删除14个台风所得组间差的最小值至最大值，橙色虚线为删除HALONG的结果。灰色带表示删除检验的结果范围；置信区间见图4-4b。灰色带整体位于零线上方，表示删除任意一个台风后转向组平均误差仍较高。程序与数据见[附录C.2](#appendix-c2)。
 
 **HALONG抬高了三个模型的末段组间差，但只有Pangu-Weather在删除后发生平均差方向反转。** 102–120 h内，删除HALONG后，GraphCast的平均DPE组间差由178.7 km降至83.6 km，减少约53%；FourCastNet由175.8 km降至115.7 km，减少约34%；Pangu-Weather由116.8 km变为−22.2 km。HALONG对三个模型均有明显影响，GraphCast和FourCastNet删除后的转向组平均DPE仍较高，Pangu-Weather则转为较低。逐时效看，Pangu-Weather原来为正的78–120 h组间差，删除HALONG后除84 h外均变为负值；其102–120 h平均绝对ATE组间差也由+139.2 km变为−9.9 km。HALONG因此既解释了三模型末段差距的部分增幅，也解释了Pangu-Weather组间差方向对台风组成的依赖。
 
@@ -795,7 +795,7 @@ $$
 
 ![模型相对差距的路径类型交互](../figures/Figure_4_5_interactions.png)
 
-**图4-5 三组模型配对差的组间交互。** 零线表示两种路径类型中的模型平均差相同；蓝色为逐项区间，橙色虚线为覆盖3组模型配对×3指标×20时效共180项比较的近似95%同时置信带。来源：[交互统计表](../tables/group_interactions.csv)。 全部180项交互的同时置信区间均包含零，所报交互值描述样本平均差距的变化。
+**图4-5 三组模型配对差的组间交互。** 零线表示两种路径类型中的模型平均差相同；蓝色为逐项区间，橙色虚线为覆盖3组模型配对×3指标×20时效共180项比较的近似95%同时置信带。程序与数据见[附录C.2](#appendix-c2)。 全部180项交互的同时置信区间均包含零，所报交互值描述样本平均差距的变化。
 
 **本节小结：**
 
@@ -831,7 +831,7 @@ $$
 
 ![模型分歧与共识误差的全时效相关](../figures/Figure_5_1_correlations_all_leads.png)
 
-**图5-1 模型分歧与共识DPE的逐时效相关。** 曲线为台风等权的加权Spearman相关系数，阴影为台风重采样得到的逐项95%置信区间，横线为零相关。每个点比较该时效下74个案例的分歧与误差；区间分别针对各时效。来源：[相关统计表](../data/IMD_correlations.csv)。
+**图5-1 模型分歧与共识DPE的逐时效相关。** 曲线为台风等权的加权Spearman相关系数，阴影为台风重采样得到的逐项95%置信区间，横线为零相关。每个点比较该时效下74个案例的分歧与误差；区间分别针对各时效。程序与数据见[附录C.2](#appendix-c2)。
 
 **短至中期可以根据模型分歧划分核查优先级。** 在6 h及24–54 h，三条AI预测路径接近时，可将该案例判断为相对低风险并按常规流程核查；三条路径明显分开时，则应提高核查优先级，重点检查中心识别、后续移动方向和环境引导气流，并与业务数值模式及最新观测进行交叉比较。模型分歧由此形成一套双向风险信号：一致对应较低的相对风险，分歧对应较高的相对风险。
 
@@ -845,7 +845,7 @@ $$
 
 ![高分歧对大误差的筛选效果](../figures/Figure_5_2_screening.png)
 
-**图5-2 高分歧对大误差的逐时效筛选效果。** a，提升倍数，虚线1表示高分歧案例与总体的大误差比例相同；b，命中率POD与虚警比例FAR。各时效均采用第75百分位阈值，结果为14次留出台风检验汇总后的台风等权点估计。全时效数值及AUC等辅助指标见[附录A.4](#appendix-a4)。来源：[风险识别统计表](../data/IMD_LOCO_metrics.csv)。
+**图5-2 高分歧对大误差的逐时效筛选效果。** a，提升倍数，虚线1表示高分歧案例与总体的大误差比例相同；b，命中率POD与虚警比例FAR。各时效均采用第75百分位阈值，结果为14次留出台风检验汇总后的台风等权点估计。全时效数值及AUC等辅助指标见[附录A.4](#appendix-a4)。程序与数据见[附录C.2](#appendix-c2)。
 
 **三模型可以组成面向核查决策的轻量级多模型系统。** 短至中期先根据分歧大小划分相对风险，再对高分歧案例调入业务数值模式、最新观测、台风环境和中心追踪结果进行重点核查；较长时效则直接采用多来源综合判断。传统热带气旋共识研究也表明，在模型离散度之外加入气旋强度等信息，能够进一步提高共识误差的预测能力。[[19]](#ref-19)
 
@@ -896,13 +896,13 @@ $$
 
 #### A.1.2 13个截短台风的独立分组比较
 
-补充样本包含另外13个台风，每个台风保留一个36–108 h的起报案例。比较窗口取两批样本共同覆盖的6–36 h：完整样本先在台风内平均多个案例，截短样本使用每台风唯一案例，再分别按台风等权。另取14个完整台风各自首个完整案例，检查起报次数对排序的影响；42–78 h按时效报告有效台风数。完整时效覆盖数、程序及原始统计表见[补充分析方案](../supplement_13/分析方案.md)和[复现说明](../supplement_13/README.md)。
+补充样本包含另外13个台风，每个台风保留一个36–108 h的起报案例。比较窗口取两批样本共同覆盖的6–36 h：完整样本先在台风内平均多个案例，截短样本使用每台风唯一案例，再分别按台风等权。另取14个完整台风各自首个完整案例，检查起报次数对排序的影响；42–78 h按时效报告有效台风数。完整时效覆盖数、程序及原始统计表见[补充分析方案：supplement_13/分析方案.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/%E5%88%86%E6%9E%90%E6%96%B9%E6%A1%88.md)和[复现说明：supplement_13/README.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/README.md)。
 
 ![14个完整台风与13个截短台风的共同6–36 h平均DPE](../supplement_13/figures/Figure_S13_1_common_DPE.png)
 
-**图A-1b 两批台风在共同6–36 h的平均DPE。** 每幅图内保持台风等权，阴影为逐时效台风bootstrap 95%区间，左右两图使用相同纵轴。右图只包含13个台风各自唯一的截短起报；因此比较的是不同台风集合，不是原14台风增加起报次数。来源：[分组均值及区间](../supplement_13/tables/cohort_DPE_CI_common6_36.csv)。
+**图A-1b 两批台风在共同6–36 h的平均DPE。** 每幅图内保持台风等权，阴影为逐时效台风bootstrap 95%区间，左右两图使用相同纵轴。右图只包含13个台风各自唯一的截短起报；因此比较的是不同台风集合，不是原14台风增加起报次数。来源：[分组均值及区间：supplement_13/tables/cohort_DPE_CI_common6_36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/cohort_DPE_CI_common6_36.csv)。
 
-**表A-1a 共同短时效的平均DPE及6–36 h端点净变化，单位km。** 表中“完整14个”为台风内先平均所有完整案例；“截短13个”为每台风一个案例。截短样本的端点变化是先在每个台风求36 h减6 h，再对台风等权。来源：[共同短时效均值](../supplement_13/tables/cohort_means_common6_36.csv)、[端点变化区间](../supplement_13/tables/growth6_to36.csv)。
+**表A-1a 共同短时效的平均DPE及6–36 h端点净变化，单位km。** 表中“完整14个”为台风内先平均所有完整案例；“截短13个”为每台风一个案例。截短样本的端点变化是先在每个台风求36 h减6 h，再对台风等权。来源：[共同短时效均值：supplement_13/tables/cohort_means_common6_36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/cohort_means_common6_36.csv)、[端点变化区间：supplement_13/tables/growth6_to36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/growth6_to36.csv)。
 
 | 模型 | 完整14个：36 h DPE | 截短13个：6 h DPE | 截短13个：36 h DPE | 截短13个：6→36 h变化 |
 |---|---:|---:|---:|---:|
@@ -910,19 +910,19 @@ $$
 | Pangu-Weather | 96.3 | 83.5 | 244.9 | +161.4 |
 | FourCastNet | 115.9 | 81.6 | 244.7 | +163.1 |
 
-**两批样本在共同6–36 h均呈现GraphCast平均DPE最小。** 在6、12、18、24、30、36 h六个共同采样时效，GraphCast都是13个截短台风中平均DPE最小的模型；这与14个完整台风按全部案例台风等权所得的这六个时效排序一致。36 h的配对比较为：36 h的GraphCast−Pangu-Weather平均差为−163.9 km，覆盖三组模型配对×六时效的同时区间为[−369.8, 42.0] km；GraphCast−FourCastNet差为−163.7 km，同时区间为[−341.8, 14.4] km，两项同时区间均包含零。36 h逐一删除任一截短台风后，这两组平均差仍为负，样本平均方向不由单个台风决定。[配对差值](../supplement_13/tables/paired_DPE_common6_36.csv)、[逐一删除表](../supplement_13/tables/short_pair_LOCO.csv)给出全部结果。作为起报次数敏感性检查，只取14个完整台风各自首个案例时，36 h的Pangu-Weather均值88.2 km、GraphCast 95.6 km，样本排序会反过来；说明起报案例的选取会改变模型的平均排序。
+**两批样本在共同6–36 h均呈现GraphCast平均DPE最小。** 在6、12、18、24、30、36 h六个共同采样时效，GraphCast都是13个截短台风中平均DPE最小的模型；这与14个完整台风按全部案例台风等权所得的这六个时效排序一致。36 h的配对比较为：36 h的GraphCast−Pangu-Weather平均差为−163.9 km，覆盖三组模型配对×六时效的同时区间为[−369.8, 42.0] km；GraphCast−FourCastNet差为−163.7 km，同时区间为[−341.8, 14.4] km，两项同时区间均包含零。36 h逐一删除任一截短台风后，这两组平均差仍为负，样本平均方向不由单个台风决定。[配对差值：supplement_13/tables/paired_DPE_common6_36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/paired_DPE_common6_36.csv)、[逐一删除表：supplement_13/tables/short_pair_LOCO.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_pair_LOCO.csv)给出全部结果。作为起报次数敏感性检查，只取14个完整台风各自首个案例时，36 h的Pangu-Weather均值88.2 km、GraphCast 95.6 km，样本排序会反过来；说明起报案例的选取会改变模型的平均排序。
 
-**误差增长形态并不一致。** 截短样本在6–36 h的平均DPE端点增量为GraphCast +16.6 km、Pangu-Weather +161.4 km、FourCastNet +163.1 km；完整样本相应为+27.6、+33.6、+49.5 km。直接比较模型配对差值的端点变化，截短样本中GraphCast−FourCastNet从6 h到36 h再下降146.5 km，其三组模型配对联合区间为[−285.3, −7.7] km；GraphCast−Pangu-Weather下降144.8 km，联合区间[−310.3, 20.6] km仍包含零。前一结果提示在**这批截短台风的6–36 h窗口内**，GraphCast相对FourCastNet的平均差距扩大；该端点比较作为首轮结果后的补充诊断，GraphCast−Pangu-Weather的对应区间包含零。[增长配对检验](../supplement_13/tables/pair_gap_change6_to36.csv)保存三个模型配对的直接比较。
+**误差增长形态并不一致。** 截短样本在6–36 h的平均DPE端点增量为GraphCast +16.6 km、Pangu-Weather +161.4 km、FourCastNet +163.1 km；完整样本相应为+27.6、+33.6、+49.5 km。直接比较模型配对差值的端点变化，截短样本中GraphCast−FourCastNet从6 h到36 h再下降146.5 km，其三组模型配对联合区间为[−285.3, −7.7] km；GraphCast−Pangu-Weather下降144.8 km，联合区间[−310.3, 20.6] km仍包含零。前一结果提示在**这批截短台风的6–36 h窗口内**，GraphCast相对FourCastNet的平均差距扩大；该端点比较作为首轮结果后的补充诊断，GraphCast−Pangu-Weather的对应区间包含零。[增长配对检验：supplement_13/tables/pair_gap_change6_to36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/pair_gap_change6_to36.csv)保存三个模型配对的直接比较。
 
-**共同短时效的误差方向因模型而异。**截短样本36 h的平均绝对ATE与绝对CTE分别为GraphCast 49.2和48.3 km、Pangu-Weather 190.4和120.0 km、FourCastNet 195.7和120.7 km。GraphCast两分量几乎相等；另外两模型的样本沿轨绝对均值较大，但覆盖三模型×六时效的18项同时区间在36 h都包含零。此处结果对应6–36 h共同窗口。[分量差值表](../supplement_13/tables/short_direction_contrast.csv)保留每个时效的直接检验。
+**共同短时效的误差方向因模型而异。**截短样本36 h的平均绝对ATE与绝对CTE分别为GraphCast 49.2和48.3 km、Pangu-Weather 190.4和120.0 km、FourCastNet 195.7和120.7 km。GraphCast两分量几乎相等；另外两模型的样本沿轨绝对均值较大，但覆盖三模型×六时效的18项同时区间在36 h都包含零。此处结果对应6–36 h共同窗口。[分量差值表：supplement_13/tables/short_direction_contrast.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_direction_contrast.csv)保留每个时效的直接检验。
 
 ![13个截短台风在36 h的模型配对差值](../supplement_13/figures/Figure_S13_2_individual_36h.png)
 
-**图A-1c 截短样本逐台风的36 h模型配对DPE差值。** 负值表示GraphCast误差较小，虚线是13台风均值；星号是按整段JMA路径识别的转向台风。GraphCast相对Pangu-Weather在9个台风误差较小、3个较大、1个相同；相对FourCastNet在11个较小、2个较大。较大的个例差值会放大均值，故同时列出逐台风结果。来源：[逐台风配对差](../supplement_13/tables/short_pair_by_storm.csv)。
+**图A-1c 截短样本逐台风的36 h模型配对DPE差值。** 负值表示GraphCast误差较小，虚线是13台风均值；星号是按整段JMA路径识别的转向台风。GraphCast相对Pangu-Weather在9个台风误差较小、3个较大、1个相同；相对FourCastNet在11个较小、2个较大。较大的个例差值会放大均值，故同时列出逐台风结果。来源：[逐台风配对差：supplement_13/tables/short_pair_by_storm.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_pair_by_storm.csv)。
 
-**截短样本的转向组均值主要受PEIPAH影响。** 13个截短台风中，WUTIP（2501）和PEIPAH（2515）被相同规则识别为转向。36 h验证时刻，WUTIP处于转向时刻，PEIPAH处于转向后36 h；两者的GraphCast/Pangu-Weather/FourCastNet DPE分别为143.8/84.2/122.4 km和175.5/783.6/608.8 km，Pangu-Weather与FourCastNet的较大组均值主要来自PEIPAH。每个台风只有一个起报案例，无法在同一预报时效形成转向前后配对，因此本项用于描述路径分组与个例差异。起报、转向时刻及逐台风数值见[阶段支持表](../supplement_13/tables/short_turn_case_support.csv)和[个体误差表](../supplement_13/tables/short_turn_individual_common6_36.csv)。
+**截短样本的转向组均值主要受PEIPAH影响。** 13个截短台风中，WUTIP（2501）和PEIPAH（2515）被相同规则识别为转向。36 h验证时刻，WUTIP处于转向时刻，PEIPAH处于转向后36 h；两者的GraphCast/Pangu-Weather/FourCastNet DPE分别为143.8/84.2/122.4 km和175.5/783.6/608.8 km，Pangu-Weather与FourCastNet的较大组均值主要来自PEIPAH。每个台风只有一个起报案例，无法在同一预报时效形成转向前后配对，因此本项用于描述路径分组与个例差异。起报、转向时刻及逐台风数值见[阶段支持表：supplement_13/tables/short_turn_case_support.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_turn_case_support.csv)和[个体误差表：supplement_13/tables/short_turn_individual_common6_36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_turn_individual_common6_36.csv)。
 
-**时效延长后，剩余样本的组成与模型排序同时变化。** 72 h可验证的截短台风为7个，GraphCast、Pangu-Weather和FourCastNet的平均DPE依次为245.2、346.2和243.6 km，其中SEPAT和MITAG的大误差明显影响均值。该七台风子集的排序与完整样本不同，需结合有效台风名单解释。截短案例均不足120 h，120 h结果仍对应主分析的14个完整台风。[逐时效支持度](../supplement_13/tables/short_support_by_lead.csv)和[42–78 h描述均值](../supplement_13/tables/secondary_DPE_42_to78.csv)列出对应样本及统计量。
+**时效延长后，剩余样本的组成与模型排序同时变化。** 72 h可验证的截短台风为7个，GraphCast、Pangu-Weather和FourCastNet的平均DPE依次为245.2、346.2和243.6 km，其中SEPAT和MITAG的大误差明显影响均值。该七台风子集的排序与完整样本不同，需结合有效台风名单解释。截短案例均不足120 h，120 h结果仍对应主分析的14个完整台风。[逐时效支持度：supplement_13/tables/short_support_by_lead.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_support_by_lead.csv)和[42–78 h描述均值：supplement_13/tables/secondary_DPE_42_to78.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/secondary_DPE_42_to78.csv)列出对应样本及统计量。
 
 **补充分析显示，短时效模型排序可在两批样本中重现，误差增长及方向结构则随样本和起报设置改变。** GraphCast在两批样本的共同6–36 h均具有最小样本平均DPE；Pangu-Weather和FourCastNet在截短样本中的误差增长更大。13个单次起报案例提供短时效的样本对照，完整样本承担120 h及同台风转向前后配对分析。
 
@@ -955,7 +955,7 @@ C_{\mathrm{DPE},H}=\frac{\overline E_H/14}{\overline E}
 \approx\frac{1086.3}{14\times341.0}=22.8\%.
 $$
 
-以上比例用正文展示数值近似计算。直接从逐台风统计值删除HALONG后，对剩余13个台风等权平均，Pangu-Weather、GraphCast和FourCastNet的120 h平均DPE分别为283.6、439.3和677.5 km，排序保持不变。结果经[研究三至六逐台风统计](../data/storm_level.csv)与[第四章逐台风统计](../tables/group_storm_lead_means.csv)交叉核对。
+以上比例用正文展示数值近似计算。直接从逐台风统计值删除HALONG后，对剩余13个台风等权平均，Pangu-Weather、GraphCast和FourCastNet的120 h平均DPE分别为283.6、439.3和677.5 km，排序保持不变。结果经[研究三至六逐台风统计：data/storm_level.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/storm_level.csv)与[第四章逐台风统计：tables/group_storm_lead_means.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/group_storm_lead_means.csv)交叉核对。
 
 ### A.3 方向定义、转向规则与追踪参数
 
@@ -986,7 +986,7 @@ $$
 
 本节保留第五章的20个时效统计值，并补充风险排序和预警精确率图，供逐项核对。
 
-**表A-4 全时效相关关系与留出台风风险识别结果。** 相关系数后的方括号为逐项95%置信区间；POD和FAR以百分数表示，按台风等权计算。提升倍数为预警精确率除以总体大误差发生率，风险识别采用第75百分位阈值。来源：[相关统计表](../data/IMD_correlations.csv)、[风险识别统计表](../data/IMD_LOCO_metrics.csv)。
+**表A-4 全时效相关关系与留出台风风险识别结果。** 相关系数后的方括号为逐项95%置信区间；POD和FAR以百分数表示，按台风等权计算。提升倍数为预警精确率除以总体大误差发生率，风险识别采用第75百分位阈值。来源：[相关统计表：data/IMD_correlations.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/IMD_correlations.csv)、[风险识别统计表：data/IMD_LOCO_metrics.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/IMD_LOCO_metrics.csv)。
 
 | 时效/h | 相关系数及95%区间 | AUC | POD/% | FAR/% | 提升倍数 |
 |---:|---:|---:|---:|---:|---:|
@@ -1013,7 +1013,7 @@ $$
 
 ![模型分歧风险识别的辅助指标](../figures/Figure_A_4_risk_auxiliary.png)
 
-**图A-4 风险排序与大误差集中程度。** a，AUC，虚线0.5为随机排序的参考水平；b，高分歧预警的精确率与总体大误差发生率，两者之比为正文图5-2的提升倍数。曲线为各时效留出台风检验的台风等权点估计。来源：[风险识别统计表](../data/IMD_LOCO_metrics.csv)。
+**图A-4 风险排序与大误差集中程度。** a，AUC，虚线0.5为随机排序的参考水平；b，高分歧预警的精确率与总体大误差发生率，两者之比为正文图5-2的提升倍数。曲线为各时效留出台风检验的台风等权点估计。来源：[风险识别统计表：data/IMD_LOCO_metrics.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/IMD_LOCO_metrics.csv)。
 
 <a id="appendix-b"></a>
 
@@ -1079,18 +1079,94 @@ $$
 
 本次归档基线的临界值为2.9360；联合重采样100000次，随机种子20261003。标准误在重采样过程中固定为原样本值，故这是中心化bootstrap的近似同时置信带。14个台风条件下的覆盖性能仍有有限样本不确定性。
 
-### C.2 程序与结果的对应关系
+<a id="appendix-c2"></a>
 
-第三章与第五章图件来自此前归档绘图输出；第四章图4-1至图4-7由本次保存的统计表及绘图程序重新生成。表3-2的距离RMSE也是按相同案例新增计算。两次新增计算均保存输入、程序、运行记录和SHA-256校验；第四章的复现范围从归档中心坐标开始，未重新运行全球AI模型。
+### C.2 程序、数据与GitHub文件索引
 
-| 分析 | 程序或结果入口 |
-|---|---|
-| 本次距离RMSE计算 | [derive_rmse.py](../code/derive_rmse.py)；[逐时效结果](../data/rmse_by_lead.csv)；[运行记录](../data/rmse_audit.json) |
-| 平均DPE及配对结果 | [overall_by_lead.csv](../data/overall_by_lead.csv)；[paired_by_lead.csv](../data/paired_by_lead.csv) |
-| 路径方向、转向阶段与分组新增实验 | [固定方案](../docs/第四章分析方案.md)；[分析程序](../code/analyze_chapter4.py)；[独立核对程序](../code/verify_chapter4.py)；[输入哈希](../audit/input_manifest.json)；[全部统计表](../tables/analysis_records.csv) |
-| 13个截短台风补充检验 | [分析方案](../supplement_13/分析方案.md)；[统计程序](../supplement_13/code/analyze_short.py)；[独立核对](../supplement_13/code/verify_short.py)；[共同短时效均值](../supplement_13/tables/cohort_means_common6_36.csv) |
-| 模型分歧与风险检验 | [IMD_correlations.csv](../data/IMD_correlations.csv)；[IMD_LOCO_metrics.csv](../data/IMD_LOCO_metrics.csv) |
-| 原有分析程序归档 | [程序索引与复现范围](../docs/上游程序说明.md) |
+论文配套程序、输入、统计表和图件保存于[GitHub项目仓库](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025)。以下链接固定到归档提交 `13a8a9487c1fe18b8cc24485fe0e4db4f94464e9`，便于按论文版本核对；仓库目前为私有，查阅者需具有访问权限。文件夹均以仓库根目录为起点。
+
+**程序索引。** 统计复现从归档的预报中心坐标开始。`code/upstream/`保存上游追踪与统计程序；从气象场重新提取中心需准备相应GRIB文件。运行步骤及依赖见[README.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/README.md)与[REPRODUCIBILITY.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/docs/REPRODUCIBILITY.md)。
+
+| 对应分析或用途 | 文件夹 | 程序或说明文件（GitHub） |
+|---|---|---|
+| 项目复现入口 | `scripts` | [reproduce.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/scripts/reproduce.py) |
+| 仓库文件与样本核验 | `scripts` | [verify_repository.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/scripts/verify_repository.py) |
+| 复现范围与输入要求 | `docs` | [REPRODUCIBILITY.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/docs/REPRODUCIBILITY.md) |
+| 字段及计算口径 | `docs` | [DATA_DICTIONARY.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/docs/DATA_DICTIONARY.md) |
+| 样本目录构建 | `code` | [build_2025_jma_case_catalog.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/build_2025_jma_case_catalog.py) |
+| 中心追踪 | `code/upstream` | [tracker_deterministic.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/upstream/tracker_deterministic.py) |
+| 追踪参数对照 | `code/upstream` | [retrack_verified.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/upstream/retrack_verified.py) |
+| 第三章平均DPE | `code/upstream` | [experiment1.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/upstream/experiment1.py) |
+| 第三章模型配对与同时置信带 | `code/upstream` | [experiment2.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/upstream/experiment2.py) |
+| 第三章RMSE | `code` | [derive_rmse.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/derive_rmse.py) |
+| 第四章方向、转向及分组分析 | `code` | [analyze_chapter4.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/analyze_chapter4.py) |
+| 第四章逐时效及删除检验 | `code` | [extend_lead_analysis.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/extend_lead_analysis.py) |
+| 第四章绘图 | `code` | [plot_chapter4.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/plot_chapter4.py) |
+| 第四章独立核验 | `code` | [verify_chapter4.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/verify_chapter4.py) |
+| 第五章分歧相关与留出台风风险检验 | `code/upstream` | [experiments3to6.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/upstream/experiments3to6.py) |
+| 第五章绘图 | `code` | [plot_chapter5_focused.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/plot_chapter5_focused.py) |
+| 补充台风统计 | `supplement_13/code` | [analyze_short.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/code/analyze_short.py) |
+| 补充台风绘图 | `supplement_13/code` | [plot_short.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/code/plot_short.py) |
+| 补充台风独立核验 | `supplement_13/code` | [verify_short.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/code/verify_short.py) |
+
+**论文所引数据与配套文件。** `data/overall_by_lead.csv`用于第三章平均DPE，`tables/overall_by_lead.csv`用于第四章误差方向分解，两者按文件夹区分。下表逐项对应正文及附录中引用的文件。
+
+| 内容 | 文件夹 | 文件（GitHub） |
+|---|---|---|
+| 输入哈希 | `audit` | [input_manifest.json](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/audit/input_manifest.json) |
+| 分析程序 | `code` | [analyze_chapter4.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/analyze_chapter4.py) |
+| derive_rmse.py | `code` | [derive_rmse.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/derive_rmse.py) |
+| 绘图源程序 | `code` | [draw_basis_reference.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/draw_basis_reference.py) |
+| 绘图程序 | `code` | [plot_chapter4.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/plot_chapter4.py) |
+| 独立核对程序 | `code` | [verify_chapter4.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/code/verify_chapter4.py) |
+| IMD_LOCO_metrics.csv | `data` | [IMD_LOCO_metrics.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/IMD_LOCO_metrics.csv) |
+| IMD_correlations.csv | `data` | [IMD_correlations.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/IMD_correlations.csv) |
+| overall_by_lead.csv | `data` | [overall_by_lead.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/overall_by_lead.csv) |
+| paired_by_lead.csv | `data` | [paired_by_lead.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/paired_by_lead.csv) |
+| 运行记录 | `data` | [rmse_audit.json](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/rmse_audit.json) |
+| 逐时效结果 | `data` | [rmse_by_lead.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/rmse_by_lead.csv) |
+| 研究三至六逐台风统计 | `data` | [storm_level.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/data/storm_level.csv) |
+| 程序索引与复现范围 | `docs` | [上游程序说明.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/docs/%E4%B8%8A%E6%B8%B8%E7%A8%8B%E5%BA%8F%E8%AF%B4%E6%98%8E.md) |
+| 固定方案 | `docs` | [第四章分析方案.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/docs/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%88%86%E6%9E%90%E6%96%B9%E6%A1%88.md) |
+| JMA位置归档 | `inputs` | [jma_track_points.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/inputs/jma_track_points.csv) |
+| 复现说明 | `supplement_13` | [README.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/README.md) |
+| 统计程序 | `supplement_13/code` | [analyze_short.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/code/analyze_short.py) |
+| 独立核对 | `supplement_13/code` | [verify_short.py](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/code/verify_short.py) |
+| 分组均值及区间 | `supplement_13/tables` | [cohort_DPE_CI_common6_36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/cohort_DPE_CI_common6_36.csv) |
+| 共同短时效均值 | `supplement_13/tables` | [cohort_means_common6_36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/cohort_means_common6_36.csv) |
+| 端点变化区间 | `supplement_13/tables` | [growth6_to36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/growth6_to36.csv) |
+| 增长配对检验 | `supplement_13/tables` | [pair_gap_change6_to36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/pair_gap_change6_to36.csv) |
+| 配对差值 | `supplement_13/tables` | [paired_DPE_common6_36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/paired_DPE_common6_36.csv) |
+| 42–78 h描述均值 | `supplement_13/tables` | [secondary_DPE_42_to78.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/secondary_DPE_42_to78.csv) |
+| 分量差值表 | `supplement_13/tables` | [short_direction_contrast.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_direction_contrast.csv) |
+| 逐一删除表 | `supplement_13/tables` | [short_pair_LOCO.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_pair_LOCO.csv) |
+| 逐台风配对差 | `supplement_13/tables` | [short_pair_by_storm.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_pair_by_storm.csv) |
+| 逐时效支持度 | `supplement_13/tables` | [short_support_by_lead.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_support_by_lead.csv) |
+| 阶段支持表 | `supplement_13/tables` | [short_turn_case_support.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_turn_case_support.csv) |
+| 个体误差表 | `supplement_13/tables` | [short_turn_individual_common6_36.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/tables/short_turn_individual_common6_36.csv) |
+| 分析方案 | `supplement_13` | [分析方案.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/supplement_13/%E5%88%86%E6%9E%90%E6%96%B9%E6%A1%88.md) |
+| 记录级分析表 | `tables` | [analysis_records.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/analysis_records.csv) |
+| 正负差值计数 | `tables` | [event_cell_sign_counts.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/event_cell_sign_counts.csv) |
+| 删除检验表 | `tables` | [event_loco.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/event_loco.csv) |
+| 逐时效差值 | `tables` | [event_matched_lead_differences.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/event_matched_lead_differences.csv) |
+| 阶段推断表 | `tables` | [event_primary_inference.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/event_primary_inference.csv) |
+| 设定敏感性表 | `tables` | [event_sensitivity.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/event_sensitivity.csv) |
+| 逐台风表 | `tables` | [event_storm_effects.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/event_storm_effects.csv) |
+| 逐时效匹配表 | `tables` | [event_support.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/event_support.csv) |
+| 三阶段均值 | `tables` | [event_three_phase_means.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/event_three_phase_means.csv) |
+| 组间差表 | `tables` | [group_difference.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/group_difference.csv) |
+| 交互统计表 | `tables` | [group_interactions.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/group_interactions.csv) |
+| 全时效逐一删除表 | `tables` | [group_loco_all_leads.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/group_loco_all_leads.csv) |
+| 删除范围表 | `tables` | [group_loco_envelope.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/group_loco_envelope.csv) |
+| 分组均值表 | `tables` | [group_means.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/group_means.csv) |
+| 第四章逐台风统计 | `tables` | [group_storm_lead_means.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/group_storm_lead_means.csv) |
+| 时段汇总表 | `tables` | [group_time_band_summary.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/group_time_band_summary.csv) |
+| 逐时效统计表 | `tables` | [overall_by_lead.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/overall_by_lead.csv) |
+| 案例目录 | `tables` | [storm_catalog.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/storm_catalog.csv) |
+| 候选时刻表 | `tables` | [turn_candidates.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/turn_candidates.csv) |
+| 逐台风判定表 | `tables` | [turn_classification.csv](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/tables/turn_classification.csv) |
+
+输入校验值及运行记录见[input_manifest.json](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/audit/input_manifest.json)、[analysis_audit.json](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/audit/analysis_audit.json)和[verification.json](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/audit/verification.json)。
 
 本次新增RMSE的核心计算为：
 
