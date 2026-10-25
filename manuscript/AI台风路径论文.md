@@ -1083,7 +1083,7 @@ $$
 
 ### C.2 程序、数据与GitHub文件索引
 
-论文配套程序、输入、统计表和图件保存于[GitHub项目仓库](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025)。以下链接固定到归档提交 `13a8a9487c1fe18b8cc24485fe0e4db4f94464e9`，便于按论文版本核对；仓库目前为私有，查阅者需具有访问权限。文件夹均以仓库根目录为起点。
+论文配套程序、输入、统计表和图件保存于[GitHub项目仓库](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025)。以下链接固定到归档提交 `13a8a9487c1fe18b8cc24485fe0e4db4f94464e9`，便于按论文版本核对；仓库公开开放，可直接查阅和下载。文件夹均以仓库根目录为起点。
 
 **程序索引。** 统计复现从归档的预报中心坐标开始。`code/upstream/`保存上游追踪与统计程序；从气象场重新提取中心需准备相应GRIB文件。运行步骤及依赖见[README.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/README.md)与[REPRODUCIBILITY.md](https://github.com/Fei789844/ai-typhoon-track-evaluation-2025/blob/13a8a9487c1fe18b8cc24485fe0e4db4f94464e9/docs/REPRODUCIBILITY.md)。
 
